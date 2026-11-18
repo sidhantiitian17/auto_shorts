@@ -373,15 +373,6 @@ def produce_clip(target, output_short_path):
         "-shortest",
         output_short_path
     ]
-        "-map", "[v]",
-        "-map", "[a]",
-        "-c:v", "libx264",
-        "-preset", "veryfast",
-        "-c:a", "aac",
-        "-b:a", "192k",
-        "-shortest",
-        output_short_path
-    ]
     subprocess.run(render_short_cmd, check=True)
     print(f"Render complete: {output_short_path}")
     return output_short_path
