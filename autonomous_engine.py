@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AUTONOMOUS VIRAL SHORTS ENGINE (v4.2 - GTA Evolution & Comparison Series):
+AUTONOMOUS VIRAL SHORTS ENGINE (v4.3 - Dynamic Rotating Viral BGM & GTA Evolution Series):
 1. 5 Curated Rotating GTA Vice City (2002) / GTA 5 vs GTA 6 (2025) Comparisons
 2. Split-Screen Dual-Clip FFmpeg Rendering:
    - Top Half: GTA Vice City (2002) with retro neon header badge
@@ -8,11 +8,16 @@ AUTONOMOUS VIRAL SHORTS ENGINE (v4.2 - GTA Evolution & Comparison Series):
    - Bottom Half: GTA 6 (2025) with next-gen gold header badge
 3. English Pronunciation: Strictly enforces "GTA Six" across TTS and subtitles
 4. Cloned Prashast Voice (Cartesia @ 1.45x volume), In-Game Audio 0% (Muted)
-5. Viral Lyrical "Baila Lento" Vocal Chorus BGM (*27-57) at 0.13x background volume
+5. Dynamic Rotating Viral BGM Roster (No Monotony):
+   - Topic 1: 'Baila Lento' - sma$her & MC DA$ILVA (Lyrical Chorus: *27-57)
+   - Topic 2: 'Close Eyes' - DVRST (Drift Phonk Hook: *25-55)
+   - Topic 3: 'Royalty' - Egzod & Neoni (NCS Vocal Anthem Drop: *35-65)
+   - Topic 4: 'Montagem Mysterious Game' - LXNGVX (Club Vocal Phonk: *18-48)
+   - Topic 5: 'Automotivo Bibi Fogosa' - Bibi Babydoll & DJ Brunin XM (Global #1 Vocal Phonk: *20-50)
+   - Mixed at 0.13x subtle background volume underneath commanding 1.45x voiceover
 6. Line-by-Line ASS Subtitle Cards with smooth 120ms fade in safe zone (MarginV: 290)
-7. Full SEO Package: Dynamic High-CTR Titles, Timestamps, Fair Use & Monetization Notice, Tags array
+7. Full SEO Package: Dynamic High-CTR Titles, Timestamps, Fair Use & Specific Music Credits per track
 8. Direct Public Upload to YouTube Channel Gaming World (@gamingworldswaggers)
-9. Robust Failsafes: Env cookies (YOUTUBE_COOKIES), Deno/Node JS runtime, and synthetic fallback generators
 """
 
 import os
@@ -73,6 +78,19 @@ STREAM_TARGETS = [
             "start": "00:00:18",
             "duration": "24"
         },
+        "bgm": {
+            "id": "baila_lento",
+            "title": "Baila Lento",
+            "artist": "sma$her & MC DA$ILVA",
+            "genre": "Official Vocal Chorus / Brazilian Phonk",
+            "credit": "Track: Baila Lento - sma$her & MC DA$ILVA (Official Vocal Chorus / Brazilian Phonk)",
+            "section": "*27-57",
+            "urls": [
+                "https://www.youtube.com/watch?v=ST4HEdYs0Tg",
+                "https://www.youtube.com/watch?v=mD2PjV9D3Yc",
+                "https://www.youtube.com/watch?v=712_P7iQf40"
+            ]
+        },
         "seo": {
             "summary": "Comparing the iconic Ocean Drive neon strip from GTA Vice City (2002) to next-gen Vice City in GTA 6! Witness how 22+ years of graphics evolution transformed Rockstar's open world.",
             "timestamps": "0:00 - 2002 GTA Vice City Ocean Drive\n0:12 - GTA 6 Next-Gen Ocean Beach\n0:22 - Which version wins?",
@@ -113,6 +131,18 @@ STREAM_TARGETS = [
             "query": "GTA 6 Trailer 1 club interior dancing crowd",
             "start": "00:00:27",
             "duration": "24"
+        },
+        "bgm": {
+            "id": "close_eyes",
+            "title": "Close Eyes",
+            "artist": "DVRST",
+            "genre": "Official Viral Drift Phonk",
+            "credit": "Track: Close Eyes - DVRST (Official Viral Drift Phonk)",
+            "section": "*25-55",
+            "urls": [
+                "https://www.youtube.com/watch?v=1-xGerv5FOk",
+                "https://www.youtube.com/watch?v=ao4nRkWCS6c"
+            ]
         },
         "seo": {
             "summary": "Malibu Club in GTA Vice City vs the crazy dynamic nightclub crowd physics in GTA 6! See the massive leap in NPC AI and crowd mechanics over two decades.",
@@ -155,6 +185,18 @@ STREAM_TARGETS = [
             "start": "00:00:34",
             "duration": "24"
         },
+        "bgm": {
+            "id": "royalty",
+            "title": "Royalty",
+            "artist": "Egzod & Neoni",
+            "genre": "NCS Official Vocal Anthem",
+            "credit": "Track: Royalty - Egzod & Neoni (NCS Official Vocal Anthem)",
+            "section": "*35-65",
+            "urls": [
+                "https://www.youtube.com/watch?v=C5Bm4p1_f1w",
+                "https://www.youtube.com/watch?v=ZmeHj2Hau9A"
+            ]
+        },
         "seo": {
             "summary": "Tommy Vercetti's iconic Estate on Starfish Island vs the ultra-realistic billionaire mansions in GTA 6! Will Rockstar bring back Vercetti Mansion as an Easter egg?",
             "timestamps": "0:00 - Vercetti Estate in GTA Vice City (2002)\n0:12 - GTA 6 Venetian Islands Luxury Mansions\n0:22 - Tommy Vercetti Easter Egg Theory",
@@ -196,6 +238,18 @@ STREAM_TARGETS = [
             "start": "00:00:28",
             "duration": "24"
         },
+        "bgm": {
+            "id": "montagem_mysterious",
+            "title": "Montagem Mysterious Game",
+            "artist": "LXNGVX",
+            "genre": "Official Brazilian Phonk",
+            "credit": "Track: Montagem Mysterious Game - LXNGVX (Official Brazilian Phonk)",
+            "section": "*18-48",
+            "urls": [
+                "https://www.youtube.com/watch?v=8mG_7g6v-p8",
+                "https://www.youtube.com/watch?v=F0pD2L2C0jI"
+            ]
+        },
         "seo": {
             "summary": "Comparing interior physics, lighting, and detail between GTA 5's Vanilla Unicorn and GTA 6's next-gen club interiors! Notice the ray tracing and NPC AI upgrades.",
             "timestamps": "0:00 - GTA 5 Club Interior Mechanics\n0:12 - GTA 6 Next-Gen Interior Ray Tracing\n0:22 - Full Breakdown & Details",
@@ -236,6 +290,18 @@ STREAM_TARGETS = [
             "query": "GTA 6 Trailer 1 highway Grotti driving lowrider bounce",
             "start": "00:00:15",
             "duration": "24"
+        },
+        "bgm": {
+            "id": "automotivo_bibi_fogosa",
+            "title": "Automotivo Bibi Fogosa",
+            "artist": "Bibi Babydoll & DJ Brunin XM",
+            "genre": "Official Viral Vocal Phonk",
+            "credit": "Track: Automotivo Bibi Fogosa - Bibi Babydoll & DJ Brunin XM (Official Viral Vocal Phonk)",
+            "section": "*20-50",
+            "urls": [
+                "https://www.youtube.com/watch?v=2H5u8v7qWlg",
+                "https://www.youtube.com/watch?v=vVj441Wp2O8"
+            ]
         },
         "seo": {
             "summary": "From 2002 arcade crash physics in GTA Vice City to hyper-realistic vehicle deformation and suspension mechanics in GTA 6! Watch the 20+ year evolution of GTA car physics.",
@@ -499,31 +565,21 @@ def download_section_clip(spec, output_path, cookies_path, duration_needed=24):
     return True
 
 
-def fetch_baila_lento_bgm(bgm_path, cookies_path):
+def fetch_viral_bgm(bgm_spec, bgm_path, cookies_path):
     """
-    Fetches the official viral 'Baila Lento' track (sma$her & MC DA$ILVA) directly from YouTube.
-    Bakes authentic trending Brazilian phonk with the catchy, iconic vocal chorus into every Short.
-    Extracts the viral lyrical vocal section (*27-57) for maximum viewer retention.
+    Fetches a specific viral BGM track with catchy vocal/lyrical hooks from YouTube.
+    Bakes authentic trending phonk/anthems into each Short for maximum retention.
     Never crashes — gracefully falls back to cached tracks or synthetic rhythm BGM.
     """
     if os.path.exists(bgm_path) and os.path.getsize(bgm_path) > 30000:
-        print(f"Using cached vocal BGM ({os.path.getsize(bgm_path)} bytes)")
+        print(f"Using cached viral BGM '{bgm_spec.get('title', 'BGM')}' ({os.path.getsize(bgm_path)} bytes)")
         return bgm_path
 
-    print("Fetching official lyrical 'Baila Lento' vocal chorus BGM from YouTube...")
-    vocal_bgm_candidates = [
-        # Baila Lento (sma$her & MC DA$ILVA) - Iconic Vocal Chorus Hook ("Baila lento...")
-        {"url": "https://www.youtube.com/watch?v=ST4HEdYs0Tg", "section": "*27-57", "name": "Baila Lento (Viral Vocal Chorus)"},
-        {"url": "https://www.youtube.com/watch?v=mD2PjV9D3Yc", "section": "*27-57", "name": "Baila Lento (Vocal Hook Alternative)"},
-        {"url": "https://www.youtube.com/watch?v=712_P7iQf40", "section": "*26-56", "name": "Baila Lento (Phonk Vocal Hook)"},
-        {"url": "https://www.youtube.com/watch?v=TW9d8vYrVFQ", "section": "*25-55", "name": "Brazilian Phonk Viral Vocal Drop"},
-        {"url": "https://www.youtube.com/watch?v=0kxa21q9m7U", "section": "*30-60", "name": "NCS Viral Vocal Drop Track"}
-    ]
+    print(f"Fetching viral BGM '{bgm_spec.get('title')}' by {bgm_spec.get('artist')} from YouTube...")
+    section = bgm_spec.get("section", "*25-55")
+    urls = list(bgm_spec.get("urls", []))
 
-    for item in vocal_bgm_candidates:
-        b_url = item["url"]
-        section = item["section"]
-        name = item["name"]
+    for b_url in urls:
         for client in ["web_safari,web", "tv_embedded,web", "android,web"]:
             cmd = [
                 "yt-dlp",
@@ -545,25 +601,32 @@ def fetch_baila_lento_bgm(bgm_path, cookies_path):
             try:
                 res = subprocess.run(cmd, timeout=45, capture_output=True, text=True)
                 if res.returncode == 0 and os.path.exists(bgm_path) and os.path.getsize(bgm_path) > 20000:
-                    print(f"SUCCESS: Extracted lyrical vocal BGM '{name}' ({os.path.getsize(bgm_path)} bytes)!")
+                    print(f"SUCCESS: Extracted viral BGM '{bgm_spec.get('title')}' ({os.path.getsize(bgm_path)} bytes)!")
                     return bgm_path
             except Exception as e:
-                print(f"Lyrical BGM attempt error ({name}, {client}): {e}")
+                print(f"BGM download notice ({b_url}, {client}): {e}")
 
-    # Failsafe: check existing audio files or create synthetic rhythm BGM
+    # Fallback to local audio cache
     local_audio_fallbacks = [
+        os.path.join(WORK_DIR, "baila_lento_vocal.mp3"),
         os.path.join(SCRIPT_DIR, "baila_lento.mp3"),
         os.path.join(WORK_DIR, "baila_lento.mp3"),
         os.path.join(SCRIPT_DIR, "hindi_voiceover.mp3")
     ]
     for af in local_audio_fallbacks:
         if os.path.exists(af) and os.path.getsize(af) > 20000:
-            print(f"Notice: Using local BGM fallback: {af}")
+            print(f"Notice: Using local audio fallback: {af}")
             shutil.copy2(af, bgm_path)
             return bgm_path
 
-    print("Generating synthetic rhythm BGM failsafe in FFmpeg...")
+    print("Notice: Generating synthetic rhythm BGM failsafe in FFmpeg...")
     return create_synthetic_bgm(bgm_path, duration=60)
+
+
+def fetch_baila_lento_bgm(bgm_path, cookies_path):
+    """Backward-compatible wrapper for fetch_viral_bgm."""
+    default_bgm = STREAM_TARGETS[0]["bgm"]
+    return fetch_viral_bgm(default_bgm, bgm_path, cookies_path)
 
 
 def produce_comparative_short(target, output_short_path):
@@ -572,7 +635,7 @@ def produce_comparative_short(target, output_short_path):
     - Synthesizes Prashast Cloned Voice with Cartesia (Pronounces 'GTA Six')
     - Extracts classic gameplay (Top) and GTA 6 footage (Bottom)
     - Renders split-screen 1080x1920 layout with 8px accent divider
-    - Mixes Commanding Voice (1.45x), ZERO Game Audio, Lyrical Vocal BGM (0.13x)
+    - Mixes Commanding Voice (1.45x), ZERO Game Audio, Dynamic Viral BGM (0.13x)
     - Overlays line-by-line ASS subtitles and comparison headers
     """
     print(f"\n==========================================")
@@ -632,9 +695,10 @@ def produce_comparative_short(target, output_short_path):
     print(f"Step 2B: Fetching Next-Gen Footage ({nextgen_spec.get('label', 'GTA 6')})...")
     download_section_clip(nextgen_spec, nextgen_clip, cookies_path, duration_needed=voice_dur)
 
-    # 3. Fetch Viral Lyrical BGM ("Baila Lento" Vocal Chorus)
-    bgm_path = os.path.join(WORK_DIR, "baila_lento_vocal.mp3")
-    fetch_baila_lento_bgm(bgm_path, cookies_path)
+    # 3. Fetch Specific Rotating Viral BGM for this topic
+    bgm_spec = target.get("bgm", STREAM_TARGETS[0]["bgm"])
+    bgm_path = os.path.join(WORK_DIR, f"bgm_{bgm_spec.get('id', 'track')}.mp3")
+    fetch_viral_bgm(bgm_spec, bgm_path, cookies_path)
 
     # 4. Generate Line-by-Line ASS Subtitles & Badges
     ass_path = os.path.join(WORK_DIR, "subtitles.ass")
@@ -687,7 +751,7 @@ def produce_comparative_short(target, output_short_path):
 
 
 def build_rich_seo_description(target: dict, script_text: str) -> str:
-    """Builds comprehensive, compliant, and keyword-rich YouTube description."""
+    """Builds comprehensive, compliant, and keyword-rich YouTube description with track-specific credits."""
     seo = target.get("seo", {})
     timestamps = seo.get("timestamps", "")
     summary = seo.get("summary", "")
@@ -696,6 +760,9 @@ def build_rich_seo_description(target: dict, script_text: str) -> str:
         "critique, and technical analysis under Section 107 of the Copyright Act 1976."
     ))
     hashtags = seo.get("hashtags", "#Shorts #GTA6 #GTAViceCity #Gaming")
+
+    bgm_spec = target.get("bgm", {})
+    bgm_credit = bgm_spec.get("credit", "Track: Baila Lento - sma$her & MC DA$ILVA (Official Vocal Chorus / Brazilian Phonk)")
 
     desc_sections = [
         script_text,
@@ -713,7 +780,7 @@ def build_rich_seo_description(target: dict, script_text: str) -> str:
         fair_use,
         "",
         "🎵 MUSIC IN THIS SHORT:",
-        "Track: Baila Lento - sma$her & MC DA$ILVA (Official Vocal Chorus / Brazilian Phonk)",
+        bgm_credit,
         "Attribution: Used under creator fair-use and promotional gaming showcase guidelines.",
         "",
         hashtags
