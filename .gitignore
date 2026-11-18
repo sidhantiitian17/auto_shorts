@@ -1,0 +1,18 @@
+# Python & Virtual Env
+.venv/
+__pycache__/
+*.pyc
+
+# Local Credentials (Passed securely via GitHub Actions Secrets)
+token.json
+client_secrets.json
+cookies.txt
+*.key
+
+# Temporary media & processing
+work/
+*.mp4
+*.wav
+*.mp3
+*.png
+*.jpg
