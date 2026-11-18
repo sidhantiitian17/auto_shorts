@@ -66,7 +66,7 @@ def get_authenticated_service():
     return build("youtube", "v3", credentials=creds)
 
 
-def upload_short(file_path, title, description="", tags=None, privacy="private"):
+def upload_short(file_path, title, description="", tags=None, privacy="public"):
     if not os.path.exists(file_path):
         print(f"File not found: {file_path}")
         return None
