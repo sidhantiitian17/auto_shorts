@@ -69,32 +69,37 @@ def produce_clip(target, output_short_path):
     
     # 2. Extract Moving Gameplay Section
     raw_video = os.path.join(WORK_DIR, "source_clip.mp4")
-    print("Step 2: Clipping stream section...")
+    print("Step 2: Clipping stream section with yt-dlp...")
     
-    # Attempt stream download or fallback to high-quality local render
+    # Handle Cookies for YouTube bot verification bypass
+    cookies_path = os.path.join(WORK_DIR, "cookies.txt")
+    if os.environ.get("YOUTUBE_COOKIES"):
+        with open(cookies_path, "w", encoding="utf-8") as f:
+            f.write(os.environ["YOUTUBE_COOKIES"])
+    elif os.path.exists("/home/prashast/.gemini/antigravity/brain/079b3d64-62c0-42b0-8a19-c7d51bab8700/.user_uploaded/media_1794949647574_75209237.txt"):
+        import shutil
+        shutil.copy2("/home/prashast/.gemini/antigravity/brain/079b3d64-62c0-42b0-8a19-c7d51bab8700/.user_uploaded/media_1794949647574_75209237.txt", cookies_path)
+
     dl_cmd = [
         "yt-dlp",
         "--download-sections", f"*{target['start']}-+{target['duration']}",
         "-f", "bestvideo[height<=1080]+bestaudio/best[height<=1080]",
         "--merge-output-format", "mp4",
         "-o", raw_video,
-        target["url"],
         "--force-overwrites"
     ]
-    try:
-        subprocess.run(dl_cmd, timeout=90, check=True)
-    except Exception as e:
-        print(f"Stream direct download notice ({e}). Generating high-motion game showcase render...")
-        # Render moving animated motion background if stream download times out
-        render_cmd = [
-            "ffmpeg", "-y",
-            "-f", "lavfi",
-            "-i", f"color=c=0x140a28:s=1080x1920:d={target['duration']}",
-            "-c:v", "libx264",
-            "-t", target["duration"],
-            raw_video
-        ]
-        subprocess.run(render_cmd, check=True)
+    if os.path.exists(cookies_path) and os.path.getsize(cookies_path) > 10:
+        dl_cmd.extend(["--cookies", cookies_path])
+    
+    dl_cmd.extend([
+        "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        target["url"]
+    ])
+    
+    print(f"Executing: {' '.join(dl_cmd[:6])} ...")
+    subprocess.run(dl_cmd, timeout=120, check=True)
+    if not os.path.exists(raw_video) or os.path.getsize(raw_video) < 50000:
+        raise RuntimeError("Real gameplay video download failed or output file is empty!")
 
     # 3. Render 9:16 Vertical Short with Audio Mix & Highlight Hook
     print("Step 3: Burning 9:16 layout, captions, and mixing audio...")

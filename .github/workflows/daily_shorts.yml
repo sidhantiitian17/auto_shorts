@@ -31,5 +31,6 @@ jobs:
         env:
           CARTESIA_API_KEY: ${{ secrets.CARTESIA_API_KEY }}
           YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
         run: |
           python autonomous_engine.py
