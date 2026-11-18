@@ -1,23 +1,20 @@
 #!/usr/bin/env python3
 """
-AUTONOMOUS VIRAL SHORTS ENGINE (v4.3 - Dynamic Rotating Viral BGM & GTA Evolution Series):
-1. 5 Curated Rotating GTA Vice City (2002) / GTA 5 vs GTA 6 (2025) Comparisons
-2. Split-Screen Dual-Clip FFmpeg Rendering:
-   - Top Half: GTA Vice City (2002) with retro neon header badge
-   - Divider: 8px cyan/gold accent line at y=956
-   - Bottom Half: GTA 6 (2025) with next-gen gold header badge
-3. English Pronunciation: Strictly enforces "GTA Six" across TTS and subtitles
-4. Cloned Prashast Voice (Cartesia @ 1.70x volume), In-Game Audio 0% (Muted)
-5. Dynamic Rotating Viral BGM Roster (No Monotony):
-   - Topic 1: 'Baila Lento' - sma$her & MC DA$ILVA (Lyrical Chorus: *27-57)
-   - Topic 2: 'Close Eyes' - DVRST (Drift Phonk Hook: *25-55)
-   - Topic 3: 'Royalty' - Egzod & Neoni (NCS Vocal Anthem Drop: *35-65)
-   - Topic 4: 'Montagem Mysterious Game' - LXNGVX (Club Vocal Phonk: *18-48)
-   - Topic 5: 'Automotivo Bibi Fogosa' - Bibi Babydoll & DJ Brunin XM (Global #1 Vocal Phonk: *20-50)
-   - Mixed at 0.07x subtle ambient background groove underneath commanding 1.70x voiceover
-6. Line-by-Line ASS Subtitle Cards with smooth 120ms fade in safe zone (MarginV: 290)
-7. Full SEO Package: Dynamic High-CTR Titles, Timestamps, Fair Use & Specific Music Credits per track
-8. Direct Public Upload to YouTube Channel Gaming World (@gamingworldswaggers)
+AUTONOMOUS VIRAL SHORTS ENGINE (v4.5 - 100% Advertiser-Friendly & Green Dollar Sign Compliant):
+1. 5 Curated Family-Friendly GTA Vice City (2002) vs GTA 6 (2025) Technical & Architectural Comparisons:
+   - Topic 1: Ocean Drive Neon Strip & Art Deco Architecture
+   - Topic 2: Malibu Club Dance Crowd & NPC Physics
+   - Topic 3: Tommy Vercetti Mansion vs GTA 6 Luxury Mansions
+   - Topic 4: Dynamic Weather & Volumetric Rain Storm Physics (High-CPM Tech Topic)
+   - Topic 5: Supercar Aerodynamics & Suspension Physics (Clean handling, NO crashes/violence)
+2. Strict Advertiser-Friendly Standards: Zero violence, zero weapons, zero blood, zero adult themes
+3. Split-Screen Dual-Clip FFmpeg Rendering (1080x960 Top & Bottom + 8px accent line)
+4. English Pronunciation: Strictly enforces "GTA Six" across TTS and subtitles
+5. Cloned Prashast Voice (Cartesia @ 1.70x volume), In-Game Audio 0% (Muted)
+6. Dynamic Rotating Viral BGM Roster at 0.07x subtle ambient background groove
+7. Line-by-Line ASS Subtitle Cards with smooth 120ms fade in safe zone (MarginV: 290)
+8. Full SEO Package: Dynamic High-CTR Titles, Timestamps, Fair Use & Specific Music Credits per track
+9. Direct Public Upload to YouTube Channel Gaming World (@gamingworldswaggers)
 """
 
 import os
@@ -158,7 +155,7 @@ STREAM_TARGETS = [
         "title": "Tommy Vercetti Mansion vs GTA 6 Mansions! 🏰 #Shorts",
         "hook": "VERCETTI ESTATE VS GTA SIX MANSIONS!",
         "lines": [
-            "Tommy Vercetti ne Starfish Island ka Vercetti Estate jab capture kiya tha,",
+            "2002 me jab hum Tommy Vercetti ke sath Starfish Island par Vercetti Estate enter karte the,",
             "wo red carpet aur rooftop helipad dekh kar lagta tha hum real mafia boss hain!",
             "Par GTA Six me Venetian Islands ke modern mansions dekho!",
             "Dynamic ray-traced water pools, interior reflections aur ultra-rich NPC lifestyle!",
@@ -200,32 +197,32 @@ STREAM_TARGETS = [
         "seo": {
             "summary": "Tommy Vercetti's iconic Estate on Starfish Island vs the ultra-realistic billionaire mansions in GTA 6! Will Rockstar bring back Vercetti Mansion as an Easter egg?",
             "timestamps": "0:00 - Vercetti Estate in GTA Vice City (2002)\n0:12 - GTA 6 Venetian Islands Luxury Mansions\n0:22 - Tommy Vercetti Easter Egg Theory",
-            "fair_use": "Fair Use Notice: Transformative video game critique and comparative historical analysis under fair use doctrine (17 U.S. Code § 107).",
+            "fair_use": "Fair Use Notice: Transformative video game critique and comparative architectural analysis under fair use doctrine (17 U.S. Code § 107).",
             "hashtags": "#Shorts #GTA6 #TommyVercetti #VercettiEstate #GTAViceCity #GTAComparison #RockstarGames #Gaming",
             "tags": ["GTA6", "TommyVercetti", "VercettiEstate", "GTAViceCity", "GTAComparison", "GTA6Trailer", "StarfishIsland", "RockstarGames", "GTAEasterEggs", "ViceCity2002", "GTA6Map", "GamingDetails", "GrandTheftAuto", "GamingShorts", "Shorts"]
         }
     },
     {
-        "id": "interior_stripclub_comparison",
-        "topic": "GTA 5 Vanilla Unicorn vs GTA 6 Club Interiors",
-        "title": "GTA 5 vs GTA 6 Strip Club & Interiors! 🤯 #Shorts",
-        "hook": "VANILLA UNICORN VS GTA SIX INTERIORS!",
+        "id": "weather_storm_physics",
+        "topic": "GTA Vice City vs GTA 6 Dynamic Weather & Rain",
+        "title": "GTA Vice City vs GTA 6 Dynamic Weather & Rain! 🌧️⚡ #Shorts",
+        "hook": "WEATHER EVOLUTION: 2002 VS 2025!",
         "lines": [
-            "GTA Five me Trevor ka favorite Vanilla Unicorn club to hum sabne dekha hai,",
-            "jahan static lighting aur limited NPC animations the!",
-            "Par GTA Six ne interior rendering ko next level par pahuncha diya hai!",
-            "Real-time ray-traced mirror reflections aur dynamic cloth physics!",
-            "Seamless indoor-outdoor transitions honge bina kisi loading screen ke!",
-            "Gaming World ko abhi subscribe karo daily GTA Six breakdown ke liye!"
+            "2002 ke Vice City me barish bas ek flat 2D screen overlay texture lagti thi,",
+            "jahan roads par koi real water interaction nahi hota tha!",
+            "Lekin GTA Six me volumetric dynamic storm physics dekho!",
+            "Hurricane winds se bending palm trees, realistic thunderstorm lightning,",
+            "aur wet roads par real-time ray-traced water puddle reflections!",
+            "Gaming World ko abhi subscribe karo daily GTA Six graphics secrets ke liye!"
         ],
         "classic": {
-            "label": "GTA 5 (2013)",
+            "label": "GTA VICE CITY (2002)",
             "urls": [
-                "https://www.youtube.com/watch?v=F3RzY6e7oE0",
-                "https://www.youtube.com/watch?v=H7U4y8QoM5w"
+                "https://www.youtube.com/watch?v=RjZhpjVEIks",
+                "https://www.youtube.com/watch?v=vszFURwcoaU"
             ],
-            "query": "GTA 5 Vanilla Unicorn interior walkaround Trevor gameplay 4K",
-            "start": "00:00:20",
+            "query": "GTA Vice City heavy rain thunderstorm weather gameplay",
+            "start": "00:01:10",
             "duration": "24"
         },
         "nextgen": {
@@ -234,8 +231,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 club interior lighting dancer animations",
-            "start": "00:00:28",
+            "query": "GTA 6 Trailer 1 storm weather rain hurricane wind",
+            "start": "00:00:10",
             "duration": "24"
         },
         "bgm": {
@@ -251,24 +248,24 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing interior physics, lighting, and detail between GTA 5's Vanilla Unicorn and GTA 6's next-gen club interiors! Notice the ray tracing and NPC AI upgrades.",
-            "timestamps": "0:00 - GTA 5 Club Interior Mechanics\n0:12 - GTA 6 Next-Gen Interior Ray Tracing\n0:22 - Full Breakdown & Details",
-            "fair_use": "Fair Use Notice: Gameplay footage included for the purposes of comparative technical critique, education, and analytical commentary in accordance with Fair Use guidelines.",
-            "hashtags": "#Shorts #GTA6 #GTA5 #VanillaUnicorn #GTAComparison #RockstarGames #GamingDetails #RayTracing",
-            "tags": ["GTA6", "GTA5", "VanillaUnicorn", "GTAComparison", "RockstarGames", "GamingDetails", "RayTracing", "GTA6Leaks", "GTA6Trailer", "TrevorPhilips", "GrandTheftAuto6", "PS5Pro", "GamingGraphics", "GTAOnline", "Shorts"]
+            "summary": "Comparing the 2002 flat rain textures from GTA Vice City to next-gen volumetric storm physics, hurricane winds, and ray-traced puddle reflections in GTA 6!",
+            "timestamps": "0:00 - 2002 Vice City Rain Weather\n0:12 - GTA 6 Dynamic Storm & Rain Physics\n0:22 - Next-Gen Weather Verdict",
+            "fair_use": "Fair Use Notice: Transformative educational comparison and technical analysis of video game weather rendering engines under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTAViceCity #WeatherPhysics #GamingEvolution #RockstarGames #Gaming",
+            "tags": ["GTA6", "GTAViceCity", "WeatherPhysics", "RainGraphics", "RockstarGames", "GTA6Trailer", "GamingComparison", "ViceCity", "RayTracing", "PS5Pro", "GrandTheftAuto6", "NextGenGaming", "GTAShorts", "Gaming", "Shorts"]
         }
     },
     {
-        "id": "vehicle_physics_comparison",
-        "topic": "GTA Vice City vs GTA 6 Car Crash & Handling Physics",
-        "title": "GTA Vice City vs GTA 6 Car Crash Physics! 🚗💥 #Shorts",
-        "hook": "CAR CRASH: 2002 VS 2025!",
+        "id": "supercar_physics_comparison",
+        "topic": "GTA Vice City vs GTA 6 Supercar Physics & Handling",
+        "title": "GTA Vice City vs GTA 6 Supercar Physics! 🚗✨ #Shorts",
+        "hook": "SUPERCAR EVOLUTION: 2002 VS 2025!",
         "lines": [
-            "Vice City me jab Cheetah ya Infernus ko 200 ki speed me thoko,",
-            "to bas thoda hood dent hota tha ya engine smoke ke baad car blast hoti thi!",
-            "Lekin GTA Six me vehicle deformation aur supercar handling dekho!",
-            "Real suspension mechanics, tire deformation aur accurate metal crumple physics!",
-            "2002 ke arcade physics se lekar 2025 ke simulator realism tak!",
+            "2002 ke Vice City me jab Cheetah ya Infernus ko high speed me turn karte the,",
+            "to rigid arcade handling aur basic suspension dekhne ko milti thi!",
+            "Lekin ab GTA Six me supercars ka handling aur weight transfer dekho!",
+            "Active aerodynamics, tire grip physics, dynamic body roll aur realistic suspension bounce!",
+            "2002 ke arcade physics se lekar 2025 ke simulator precision tak!",
             "Subscribe Gaming World for daily GTA Six viral secrets!"
         ],
         "classic": {
@@ -277,7 +274,7 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=J8nK6e2wO4c",
                 "https://www.youtube.com/watch?v=K1pL7z5qR3M"
             ],
-            "query": "GTA Vice City car crash high speed damage explosion test gameplay",
+            "query": "GTA Vice City Infernus Cheetah high speed driving gameplay",
             "start": "00:00:30",
             "duration": "24"
         },
@@ -287,7 +284,7 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 highway Grotti driving lowrider bounce",
+            "query": "GTA 6 Trailer 1 highway Grotti Cheetah driving supercar speed",
             "start": "00:00:15",
             "duration": "24"
         },
@@ -304,11 +301,11 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "From 2002 arcade crash physics in GTA Vice City to hyper-realistic vehicle deformation and suspension mechanics in GTA 6! Watch the 20+ year evolution of GTA car physics.",
-            "timestamps": "0:00 - GTA Vice City Car Crash & Damage\n0:12 - GTA 6 Supercar Suspension & Deformation\n0:22 - Final Verdict",
+            "summary": "From 2002 arcade driving in GTA Vice City to hyper-realistic supercar suspension and handling mechanics in GTA 6! Watch the 20+ year evolution of GTA vehicle physics.",
+            "timestamps": "0:00 - GTA Vice City Supercar Handling (2002)\n0:12 - GTA 6 Dynamic Suspension & Aerodynamics (2025)\n0:22 - Final Verdict",
             "fair_use": "Fair Use Notice: This video features transformative educational and analytical commentary comparing game engine physics under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #CarCrashPhysics #GTAEvolution #GamingPhysics #RockstarGames #Gaming",
-            "tags": ["GTA6", "GTAViceCity", "CarCrashPhysics", "GTAEvolution", "GamingPhysics", "RockstarGames", "GTA6Cars", "Infernus", "GTA6Trailer", "GTA5Physics", "GrandTheftAuto", "GamingShorts", "Supercars", "BeamNGvsGTA", "Shorts"]
+            "hashtags": "#Shorts #GTA6 #GTAViceCity #Supercars #GTAEvolution #GamingPhysics #RockstarGames #Gaming",
+            "tags": ["GTA6", "GTAViceCity", "SupercarPhysics", "GTAEvolution", "GamingPhysics", "RockstarGames", "GTA6Cars", "Infernus", "GTA6Trailer", "CarHandling", "GrandTheftAuto", "GamingShorts", "Supercars", "PS5Pro", "Shorts"]
         }
     }
 ]
