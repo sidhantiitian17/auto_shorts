@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-AUTONOMOUS VIRAL SHORTS ENGINE (v4.1 - GTA Evolution & Comparison Series):
+AUTONOMOUS VIRAL SHORTS ENGINE (v4.2 - GTA Evolution & Comparison Series):
 1. 5 Curated Rotating GTA Vice City (2002) / GTA 5 vs GTA 6 (2025) Comparisons
 2. Split-Screen Dual-Clip FFmpeg Rendering:
    - Top Half: GTA Vice City (2002) with retro neon header badge
    - Divider: 8px cyan/gold accent line at y=956
    - Bottom Half: GTA 6 (2025) with next-gen gold header badge
 3. English Pronunciation: Strictly enforces "GTA Six" across TTS and subtitles
-4. Cloned Prashast Voice (Cartesia @ 1.25x volume), In-Game Audio 0% (Muted)
-5. Viral "Baila Lento" BGM from YouTube at 0.20x audible volume
+4. Cloned Prashast Voice (Cartesia @ 1.45x volume), In-Game Audio 0% (Muted)
+5. Viral Lyrical "Baila Lento" Vocal Chorus BGM (*27-57) at 0.13x background volume
 6. Line-by-Line ASS Subtitle Cards with smooth 120ms fade in safe zone (MarginV: 290)
 7. Full SEO Package: Dynamic High-CTR Titles, Timestamps, Fair Use & Monetization Notice, Tags array
 8. Direct Public Upload to YouTube Channel Gaming World (@gamingworldswaggers)
@@ -502,27 +502,33 @@ def download_section_clip(spec, output_path, cookies_path, duration_needed=24):
 def fetch_baila_lento_bgm(bgm_path, cookies_path):
     """
     Fetches the official viral 'Baila Lento' track (sma$her & MC DA$ILVA) directly from YouTube.
-    Bakes authentic trending Brazilian phonk into every Short for maximum retention.
+    Bakes authentic trending Brazilian phonk with the catchy, iconic vocal chorus into every Short.
+    Extracts the viral lyrical vocal section (*27-57) for maximum viewer retention.
     Never crashes — gracefully falls back to cached tracks or synthetic rhythm BGM.
     """
     if os.path.exists(bgm_path) and os.path.getsize(bgm_path) > 30000:
-        print(f"Using cached 'Baila Lento' BGM ({os.path.getsize(bgm_path)} bytes)")
+        print(f"Using cached vocal BGM ({os.path.getsize(bgm_path)} bytes)")
         return bgm_path
 
-    print("Fetching official 'Baila Lento' viral BGM from YouTube...")
-    baila_urls = [
-        "https://www.youtube.com/watch?v=ST4HEdYs0Tg",
-        "https://www.youtube.com/watch?v=mD2PjV9D3Yc",
-        "https://www.youtube.com/watch?v=712_P7iQf40",
-        "https://www.youtube.com/watch?v=TW9d8vYrVFQ"
+    print("Fetching official lyrical 'Baila Lento' vocal chorus BGM from YouTube...")
+    vocal_bgm_candidates = [
+        # Baila Lento (sma$her & MC DA$ILVA) - Iconic Vocal Chorus Hook ("Baila lento...")
+        {"url": "https://www.youtube.com/watch?v=ST4HEdYs0Tg", "section": "*27-57", "name": "Baila Lento (Viral Vocal Chorus)"},
+        {"url": "https://www.youtube.com/watch?v=mD2PjV9D3Yc", "section": "*27-57", "name": "Baila Lento (Vocal Hook Alternative)"},
+        {"url": "https://www.youtube.com/watch?v=712_P7iQf40", "section": "*26-56", "name": "Baila Lento (Phonk Vocal Hook)"},
+        {"url": "https://www.youtube.com/watch?v=TW9d8vYrVFQ", "section": "*25-55", "name": "Brazilian Phonk Viral Vocal Drop"},
+        {"url": "https://www.youtube.com/watch?v=0kxa21q9m7U", "section": "*30-60", "name": "NCS Viral Vocal Drop Track"}
     ]
 
-    for b_url in baila_urls:
+    for item in vocal_bgm_candidates:
+        b_url = item["url"]
+        section = item["section"]
+        name = item["name"]
         for client in ["web_safari,web", "tv_embedded,web", "android,web"]:
             cmd = [
                 "yt-dlp",
                 "--js-runtimes", "deno,node",
-                "--download-sections", "*15-55",
+                "--download-sections", section,
                 "-f", "bestaudio/best",
                 "-x",
                 "--audio-format", "mp3",
@@ -539,36 +545,10 @@ def fetch_baila_lento_bgm(bgm_path, cookies_path):
             try:
                 res = subprocess.run(cmd, timeout=45, capture_output=True, text=True)
                 if res.returncode == 0 and os.path.exists(bgm_path) and os.path.getsize(bgm_path) > 20000:
-                    print(f"SUCCESS: Extracted official 'Baila Lento' BGM ({os.path.getsize(bgm_path)} bytes)!")
+                    print(f"SUCCESS: Extracted lyrical vocal BGM '{name}' ({os.path.getsize(bgm_path)} bytes)!")
                     return bgm_path
             except Exception as e:
-                print(f"Baila Lento attempt error: {e}")
-
-    # Fallback to high-tempo NCS gaming track
-    backup_urls = [
-        "https://www.youtube.com/watch?v=TW9d8vYrVFQ",
-        "https://www.youtube.com/watch?v=0kxa21q9m7U"
-    ]
-    for bk_url in backup_urls:
-        bk_cmd = [
-            "yt-dlp",
-            "--js-runtimes", "deno,node",
-            "--download-sections", "*15-55",
-            "-f", "bestaudio/best",
-            "-x",
-            "--audio-format", "mp3",
-            "--extractor-args", "youtube:player_client=web_safari,web",
-            "-o", bgm_path,
-            "--force-overwrites",
-            bk_url
-        ]
-        try:
-            res = subprocess.run(bk_cmd, timeout=45, capture_output=True, text=True)
-            if res.returncode == 0 and os.path.exists(bgm_path) and os.path.getsize(bgm_path) > 20000:
-                print(f"SUCCESS: Downloaded backup viral BGM ({os.path.getsize(bgm_path)} bytes)!")
-                return bgm_path
-        except Exception:
-            pass
+                print(f"Lyrical BGM attempt error ({name}, {client}): {e}")
 
     # Failsafe: check existing audio files or create synthetic rhythm BGM
     local_audio_fallbacks = [
@@ -592,7 +572,7 @@ def produce_comparative_short(target, output_short_path):
     - Synthesizes Prashast Cloned Voice with Cartesia (Pronounces 'GTA Six')
     - Extracts classic gameplay (Top) and GTA 6 footage (Bottom)
     - Renders split-screen 1080x1920 layout with 8px accent divider
-    - Mixes Cloned Voice (1.25x), ZERO Game Audio, Baila Lento BGM (0.20x)
+    - Mixes Commanding Voice (1.45x), ZERO Game Audio, Lyrical Vocal BGM (0.13x)
     - Overlays line-by-line ASS subtitles and comparison headers
     """
     print(f"\n==========================================")
@@ -652,8 +632,8 @@ def produce_comparative_short(target, output_short_path):
     print(f"Step 2B: Fetching Next-Gen Footage ({nextgen_spec.get('label', 'GTA 6')})...")
     download_section_clip(nextgen_spec, nextgen_clip, cookies_path, duration_needed=voice_dur)
 
-    # 3. Fetch Viral BGM ("Baila Lento")
-    bgm_path = os.path.join(WORK_DIR, "baila_lento.mp3")
+    # 3. Fetch Viral Lyrical BGM ("Baila Lento" Vocal Chorus)
+    bgm_path = os.path.join(WORK_DIR, "baila_lento_vocal.mp3")
     fetch_baila_lento_bgm(bgm_path, cookies_path)
 
     # 4. Generate Line-by-Line ASS Subtitles & Badges
@@ -662,8 +642,8 @@ def produce_comparative_short(target, output_short_path):
     bot_label = nextgen_spec.get("label", "GTA SIX (2025)")
     generate_line_by_line_ass(ass_path, target["lines"], voice_dur, target.get("hook", ""), top_label, bot_label)
 
-    # 5. Render Split-Screen Comparative Short in FFmpeg
-    print("Step 5: Rendering 9:16 Split-Screen, Accent Divider, Subtitles, Loud Voice (1.25x), Zero Game Audio, BGM (0.20x)...")
+    # 5. Render Split-Screen Comparative Short in FFmpeg: Loud Voice (1.45x), Zero Game Audio, Grooving BGM (0.13x)
+    print("Step 5: Rendering 9:16 Split-Screen, Accent Divider, Subtitles, Loud Voice (1.45x), Zero Game Audio, BGM (0.13x)...")
 
     # If both distinct clips are present, render split screen
     if os.path.exists(classic_clip) and os.path.exists(nextgen_clip):
@@ -671,8 +651,8 @@ def produce_comparative_short(target, output_short_path):
             f"[0:v]scale=1080:960:force_original_aspect_ratio=increase,crop=1080:960,setsar=1[top];"
             f"[1:v]scale=1080:960:force_original_aspect_ratio=increase,crop=1080:960,setsar=1[bot];"
             f"[top][bot]vstack=inputs=2,drawbox=x=0:y=956:w=1080:h=8:color=0x00E5FF@0.9:t=fill,ass={ass_path}[v];"
-            f"[2:a]volume=1.25[voice];"
-            f"[3:a]volume=0.20,aloop=loop=-1:size=2e+09[bgm];"
+            f"[2:a]volume=1.45[voice];"
+            f"[3:a]volume=0.13,aloop=loop=-1:size=2e+09[bgm];"
             f"[voice][bgm]amix=inputs=2:duration=first:dropout_transition=2[a]"
         )
         input_args = ["-i", classic_clip, "-i", nextgen_clip, "-i", audio_path, "-i", bgm_path]
@@ -681,8 +661,8 @@ def produce_comparative_short(target, output_short_path):
         single_clip = classic_clip if os.path.exists(classic_clip) else nextgen_clip
         filter_str = (
             f"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,ass={ass_path}[v];"
-            f"[1:a]volume=1.25[voice];"
-            f"[2:a]volume=0.20,aloop=loop=-1:size=2e+09[bgm];"
+            f"[1:a]volume=1.45[voice];"
+            f"[2:a]volume=0.13,aloop=loop=-1:size=2e+09[bgm];"
             f"[voice][bgm]amix=inputs=2:duration=first:dropout_transition=2[a]"
         )
         input_args = ["-i", single_clip, "-i", audio_path, "-i", bgm_path]
@@ -733,7 +713,7 @@ def build_rich_seo_description(target: dict, script_text: str) -> str:
         fair_use,
         "",
         "🎵 MUSIC IN THIS SHORT:",
-        "Track: Baila Lento - sma$her & MC DA$ILVA (Tribal Trap / Brazilian Phonk)",
+        "Track: Baila Lento - sma$her & MC DA$ILVA (Official Vocal Chorus / Brazilian Phonk)",
         "Attribution: Used under creator fair-use and promotional gaming showcase guidelines.",
         "",
         hashtags
