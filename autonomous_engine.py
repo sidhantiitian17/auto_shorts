@@ -80,9 +80,24 @@ def produce_clip(target, output_short_path):
         import shutil
         shutil.copy2("/home/prashast/.gemini/antigravity/brain/079b3d64-62c0-42b0-8a19-c7d51bab8700/.user_uploaded/media_1794949647574_75209237.txt", cookies_path)
 
+    def parse_time_to_seconds(t_str):
+        if isinstance(t_str, (int, float)):
+            return int(t_str)
+        parts = list(map(int, str(t_str).strip().split(':')))
+        if len(parts) == 3:
+            return parts[0] * 3600 + parts[1] * 60 + parts[2]
+        if len(parts) == 2:
+            return parts[0] * 60 + parts[1]
+        return int(parts[0])
+
+    start_sec = parse_time_to_seconds(target["start"])
+    end_sec = start_sec + int(target["duration"])
+    section_arg = f"*{start_sec}-{end_sec}"
+
     dl_cmd = [
         "yt-dlp",
-        "--download-sections", f"*{target['start']}-+{target['duration']}",
+        "--download-sections", section_arg,
+        "--force-keyframes-at-cuts",
         "-f", "bestvideo[height<=1080]+bestaudio/best[height<=1080]",
         "--merge-output-format", "mp4",
         "-o", raw_video,
@@ -96,8 +111,12 @@ def produce_clip(target, output_short_path):
         target["url"]
     ])
     
-    print(f"Executing: {' '.join(dl_cmd[:6])} ...")
-    subprocess.run(dl_cmd, timeout=120, check=True)
+    print(f"Executing: {' '.join(dl_cmd[:7])} ...")
+    res = subprocess.run(dl_cmd, timeout=180, capture_output=True, text=True)
+    if res.returncode != 0:
+        print(f"yt-dlp stdout:\n{res.stdout}")
+        print(f"yt-dlp stderr:\n{res.stderr}")
+        raise RuntimeError(f"yt-dlp failed with return code {res.returncode}")
     if not os.path.exists(raw_video) or os.path.getsize(raw_video) < 50000:
         raise RuntimeError("Real gameplay video download failed or output file is empty!")
 
