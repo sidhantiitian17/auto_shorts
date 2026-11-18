@@ -106,22 +106,39 @@ def produce_clip(target, output_short_path):
     for cand_url in candidate_urls:
         if download_success:
             break
-        for player_client in ["web_safari,web", "tv_embedded,web", "android,web"]:
+    strategies = [
+        {"client": "web_safari,web", "use_cookies": True},
+        {"client": "tv_embedded,web", "use_cookies": True},
+        {"client": "default", "use_cookies": True},
+        {"client": "android,web", "use_cookies": False},
+        {"client": "ios,web", "use_cookies": False},
+        {"client": "tv", "use_cookies": False}
+    ]
+
+    for cand_url in candidate_urls:
+        if download_success:
+            break
+        for strat in strategies:
             if os.path.exists(raw_video):
                 try: os.remove(raw_video)
                 except: pass
 
+            client_arg = strat["client"]
+            use_cookies = strat["use_cookies"]
+
             dl_cmd = [
                 "yt-dlp",
+                "--js-runtimes", "deno,node",
                 "--download-sections", section_arg,
                 "--force-keyframes-at-cuts",
-                "-f", "bestvideo[height<=1080]+bestaudio/best[height<=1080]",
+                "-f", "bestvideo[height<=1080]+bestaudio/best[height<=1080]/bestvideo+bestaudio/best",
                 "--merge-output-format", "mp4",
-                "--extractor-args", f"youtube:player_client={player_client}",
                 "-o", raw_video,
                 "--force-overwrites"
             ]
-            if os.path.exists(cookies_path) and os.path.getsize(cookies_path) > 10:
+            if client_arg != "default":
+                dl_cmd.extend(["--extractor-args", f"youtube:player_client={client_arg}"])
+            if use_cookies and os.path.exists(cookies_path) and os.path.getsize(cookies_path) > 10:
                 dl_cmd.extend(["--cookies", cookies_path])
             
             dl_cmd.extend([
@@ -129,7 +146,7 @@ def produce_clip(target, output_short_path):
                 cand_url
             ])
 
-            print(f"Attempting download: {cand_url} (client: {player_client})...")
+            print(f"Attempting download: {cand_url} (client: {client_arg}, cookies: {use_cookies})...")
             res = subprocess.run(dl_cmd, timeout=180, capture_output=True, text=True)
             if res.returncode == 0 and os.path.exists(raw_video) and os.path.getsize(raw_video) > 50000:
                 print(f"SUCCESS: Downloaded real clip from {cand_url} ({os.path.getsize(raw_video)} bytes)")
@@ -137,7 +154,7 @@ def produce_clip(target, output_short_path):
                 break
             else:
                 last_error = res.stderr or res.stdout
-                print(f"Candidate {cand_url} ({player_client}) attempt notice: {res.stderr[:200] if res.stderr else 'no output'}")
+                print(f"Candidate attempt notice: {res.stderr[:200] if res.stderr else 'no output'}")
 
     if not download_success:
         print(f"All download attempts failed! Last error:\n{last_error}")
