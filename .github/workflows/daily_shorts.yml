@@ -2,8 +2,9 @@ name: Autonomous 5x Daily Shorts Pipeline
 
 on:
   schedule:
-    # 5 times daily at 9:00 AM, 12:00 PM, 3:00 PM, 6:00 PM, 9:00 PM IST (UTC 3:30, 6:30, 9:30, 12:30, 15:30)
-    - cron: '30 3,6,9,12,15 * * *'
+    # 5 times daily at 9:05 AM, 12:05 PM, 3:05 PM, 6:05 PM, 9:05 PM IST (UTC 3:35, 6:35, 9:35, 12:35, 15:35)
+    # Using minute 35 avoids GitHub Actions peak-hour queue delays that occur at :00 and :30
+    - cron: '35 3,6,9,12,15 * * *'
   workflow_dispatch: # Allows 1-click trigger from your phone via GitHub mobile app
 
 jobs:
@@ -23,10 +24,12 @@ jobs:
         with:
           deno-version: v2.x
 
-      - name: Install System Dependencies (FFmpeg & Node)
+      - name: Verify System Dependencies (FFmpeg & Node)
         run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg nodejs
+          which ffmpeg || sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
+          which node || sudo apt-get install -y --no-install-recommends nodejs
+          ffmpeg -version | head -n 1
+          node -v
 
       - name: Install Python Libraries
         run: |
