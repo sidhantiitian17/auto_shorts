@@ -7,14 +7,14 @@ AUTONOMOUS VIRAL SHORTS ENGINE (v4.3 - Dynamic Rotating Viral BGM & GTA Evolutio
    - Divider: 8px cyan/gold accent line at y=956
    - Bottom Half: GTA 6 (2025) with next-gen gold header badge
 3. English Pronunciation: Strictly enforces "GTA Six" across TTS and subtitles
-4. Cloned Prashast Voice (Cartesia @ 1.45x volume), In-Game Audio 0% (Muted)
+4. Cloned Prashast Voice (Cartesia @ 1.70x volume), In-Game Audio 0% (Muted)
 5. Dynamic Rotating Viral BGM Roster (No Monotony):
    - Topic 1: 'Baila Lento' - sma$her & MC DA$ILVA (Lyrical Chorus: *27-57)
    - Topic 2: 'Close Eyes' - DVRST (Drift Phonk Hook: *25-55)
    - Topic 3: 'Royalty' - Egzod & Neoni (NCS Vocal Anthem Drop: *35-65)
    - Topic 4: 'Montagem Mysterious Game' - LXNGVX (Club Vocal Phonk: *18-48)
    - Topic 5: 'Automotivo Bibi Fogosa' - Bibi Babydoll & DJ Brunin XM (Global #1 Vocal Phonk: *20-50)
-   - Mixed at 0.13x subtle background volume underneath commanding 1.45x voiceover
+   - Mixed at 0.07x subtle ambient background groove underneath commanding 1.70x voiceover
 6. Line-by-Line ASS Subtitle Cards with smooth 120ms fade in safe zone (MarginV: 290)
 7. Full SEO Package: Dynamic High-CTR Titles, Timestamps, Fair Use & Specific Music Credits per track
 8. Direct Public Upload to YouTube Channel Gaming World (@gamingworldswaggers)
@@ -706,8 +706,8 @@ def produce_comparative_short(target, output_short_path):
     bot_label = nextgen_spec.get("label", "GTA SIX (2025)")
     generate_line_by_line_ass(ass_path, target["lines"], voice_dur, target.get("hook", ""), top_label, bot_label)
 
-    # 5. Render Split-Screen Comparative Short in FFmpeg: Loud Voice (1.45x), Zero Game Audio, Grooving BGM (0.13x)
-    print("Step 5: Rendering 9:16 Split-Screen, Accent Divider, Subtitles, Loud Voice (1.45x), Zero Game Audio, BGM (0.13x)...")
+    # 5. Render Split-Screen Comparative Short in FFmpeg: Ultra-Loud Voice (1.70x), Zero Game Audio, Ambient BGM (0.07x)
+    print("Step 5: Rendering 9:16 Split-Screen, Accent Divider, Subtitles, Ultra-Loud Voice (1.70x), Zero Game Audio, Ambient BGM (0.07x)...")
 
     # If both distinct clips are present, render split screen
     if os.path.exists(classic_clip) and os.path.exists(nextgen_clip):
@@ -715,8 +715,8 @@ def produce_comparative_short(target, output_short_path):
             f"[0:v]scale=1080:960:force_original_aspect_ratio=increase,crop=1080:960,setsar=1[top];"
             f"[1:v]scale=1080:960:force_original_aspect_ratio=increase,crop=1080:960,setsar=1[bot];"
             f"[top][bot]vstack=inputs=2,drawbox=x=0:y=956:w=1080:h=8:color=0x00E5FF@0.9:t=fill,ass={ass_path}[v];"
-            f"[2:a]volume=1.45[voice];"
-            f"[3:a]volume=0.13,aloop=loop=-1:size=2e+09[bgm];"
+            f"[2:a]volume=1.70[voice];"
+            f"[3:a]volume=0.07,aloop=loop=-1:size=2e+09[bgm];"
             f"[voice][bgm]amix=inputs=2:duration=first:dropout_transition=2[a]"
         )
         input_args = ["-i", classic_clip, "-i", nextgen_clip, "-i", audio_path, "-i", bgm_path]
@@ -725,8 +725,8 @@ def produce_comparative_short(target, output_short_path):
         single_clip = classic_clip if os.path.exists(classic_clip) else nextgen_clip
         filter_str = (
             f"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,ass={ass_path}[v];"
-            f"[1:a]volume=1.45[voice];"
-            f"[2:a]volume=0.13,aloop=loop=-1:size=2e+09[bgm];"
+            f"[1:a]volume=1.70[voice];"
+            f"[2:a]volume=0.07,aloop=loop=-1:size=2e+09[bgm];"
             f"[voice][bgm]amix=inputs=2:duration=first:dropout_transition=2[a]"
         )
         input_args = ["-i", single_clip, "-i", audio_path, "-i", bgm_path]
