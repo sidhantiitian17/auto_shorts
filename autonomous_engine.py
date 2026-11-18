@@ -193,43 +193,48 @@ def generate_line_by_line_ass(ass_path, lines, total_duration, hook_text):
     return ass_path
 
 
-def fetch_baila_lento_bgm(bgm_path, duration_sec):
+def fetch_baila_lento_bgm(bgm_path, cookies_path):
     """
-    Fetches the viral 'Baila Lento' track (sma$her & MC DA$ILVA) for high retention.
-    Falls back to high-energy rhythm track if download is unreachable.
+    Fetches the official viral 'Baila Lento' track (sma$her & MC DA$ILVA) directly from YouTube.
+    Bakes authentic trending Brazilian phonk into every Short for maximum retention.
     """
-    print("Preparing 'Baila Lento' viral BGM...")
-    baila_url = "https://www.youtube.com/watch?v=ST4HEdYs0Tg"
-    cmd = [
-        "yt-dlp",
-        "--js-runtimes", "deno,node",
-        "--download-sections", "*00:00:15-00:00:55",
-        "-x", "--audio-format", "mp3",
-        "-o", bgm_path,
-        "--force-overwrites",
-        baila_url
+    print("Preparing official 'Baila Lento' viral BGM from YouTube...")
+    baila_urls = [
+        "https://www.youtube.com/watch?v=ST4HEdYs0Tg",
+        "https://www.youtube.com/watch?v=mD2PjV9D3Yc",
+        "https://www.youtube.com/watch?v=712_P7iQf40",
+        "https://www.youtube.com/watch?v=TW9d8vYrVFQ"
     ]
-    try:
-        res = subprocess.run(cmd, timeout=40, capture_output=True, text=True)
-        if res.returncode == 0 and os.path.exists(bgm_path) and os.path.getsize(bgm_path) > 10000:
-            print("Successfully extracted official 'Baila Lento' snippet from YouTube!")
-            return bgm_path
-        else:
-            print(f"Baila Lento notice: {res.stderr[:160] if res.stderr else 'incomplete'}")
-    except Exception as e:
-        print(f"Baila Lento exception: {e}")
+    
+    for b_url in baila_urls:
+        for client in ["web_safari,web", "tv_embedded,web", "android,web"]:
+            cmd = [
+                "yt-dlp",
+                "--js-runtimes", "deno,node",
+                "--download-sections", "*15-55",
+                "-f", "ba/b",
+                "--merge-output-format", "mp3",
+                "--extractor-args", f"youtube:player_client={client}",
+                "-o", bgm_path,
+                "--force-overwrites"
+            ]
+            if os.path.exists(cookies_path) and os.path.getsize(cookies_path) > 10:
+                cmd.extend(["--cookies", cookies_path])
+            cmd.extend([
+                "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                b_url
+            ])
+            try:
+                res = subprocess.run(cmd, timeout=45, capture_output=True, text=True)
+                if res.returncode == 0 and os.path.exists(bgm_path) and os.path.getsize(bgm_path) > 30000:
+                    print(f"SUCCESS: Extracted official 'Baila Lento' BGM from {b_url} ({os.path.getsize(bgm_path)} bytes)!")
+                    return bgm_path
+                else:
+                    print(f"Baila Lento attempt notice ({b_url}, {client}): {res.stderr[:120] if res.stderr else 'no output'}")
+            except Exception as e:
+                print(f"Baila Lento exception: {e}")
 
-    # Fallback rhythm beat if YouTube connection is unavailable
-    print("Generating rhythm pulse fallback...")
-    cmd_synth = [
-        "ffmpeg", "-y",
-        "-f", "lavfi",
-        "-i", f"sine=frequency=140:beep_factor=4:r=44100:d={duration_sec}",
-        "-af", "volume=0.20",
-        bgm_path
-    ]
-    subprocess.run(cmd_synth, check=True)
-    return bgm_path
+    raise RuntimeError("Failed to download official Baila Lento BGM from all candidate sources!")
 
 
 def produce_clip(target, output_short_path):
@@ -341,14 +346,14 @@ def produce_clip(target, output_short_path):
 
     # 3. Fetch Viral BGM ("Baila Lento")
     bgm_path = os.path.join(WORK_DIR, "baila_lento.mp3")
-    fetch_baila_lento_bgm(bgm_path, voice_dur)
+    fetch_baila_lento_bgm(bgm_path, cookies_path)
 
     # 4. Generate Line-by-Line Subtitles
     ass_path = os.path.join(WORK_DIR, "subtitles.ass")
     generate_line_by_line_ass(ass_path, target["lines"], voice_dur, target["hook"])
 
-    # 5. Render 9:16 Short: LOUD Voice (1.25x), ZERO Game Voice (0.0x), LOW BGM (0.11x)
-    print("Step 5: Rendering 9:16 layout, line-by-line subtitles, loud voice & subtle BGM...")
+    # 5. Render 9:16 Short: LOUD Voice (1.25x), ZERO Game Voice (0.0x), CLEAR BGM (0.20x)
+    print("Step 5: Rendering 9:16 layout, line-by-line subtitles, loud voice & punchy Baila Lento BGM...")
     render_short_cmd = [
         "ffmpeg", "-y",
         "-i", raw_video,
@@ -357,8 +362,17 @@ def produce_clip(target, output_short_path):
         "-filter_complex",
         f"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,ass={ass_path}[v];"
         f"[1:a]volume=1.25[voice];"
-        f"[2:a]volume=0.11,aloop=loop=-1:size=2e+09[bgm];"
+        f"[2:a]volume=0.20,aloop=loop=-1:size=2e+09[bgm];"
         f"[voice][bgm]amix=inputs=2:duration=first:dropout_transition=2[a]",
+        "-map", "[v]",
+        "-map", "[a]",
+        "-c:v", "libx264",
+        "-preset", "veryfast",
+        "-c:a", "aac",
+        "-b:a", "192k",
+        "-shortest",
+        output_short_path
+    ]
         "-map", "[v]",
         "-map", "[a]",
         "-c:v", "libx264",
@@ -386,6 +400,7 @@ def run_pipeline():
         description=(
             f"{script_text}\n\n"
             "Subscribe to Gaming World (@gamingworldswaggers) for daily GTA Six viral breakdowns, leaks & physics secrets!\n\n"
+            "Music in this Short: Baila Lento - sma$her & MC DA$ILVA (Tribal Trap)\n\n"
             "#GTA6 #GTASix #Gaming #Shorts #GamingWorld #Hinglish"
         ),
         tags=target["tags"],
