@@ -9,6 +9,10 @@ client_secrets.json
 cookies.txt
 *.key
 
+# State & logs
+topic_state.json
+uploaded_history.json
+
 # Temporary media & processing
 work/
 *.mp4
