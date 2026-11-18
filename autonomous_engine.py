@@ -212,8 +212,9 @@ def fetch_baila_lento_bgm(bgm_path, cookies_path):
                 "yt-dlp",
                 "--js-runtimes", "deno,node",
                 "--download-sections", "*15-55",
-                "-f", "ba/b",
-                "--merge-output-format", "mp3",
+                "-f", "bestaudio/best",
+                "-x",
+                "--audio-format", "mp3",
                 "--extractor-args", f"youtube:player_client={client}",
                 "-o", bgm_path,
                 "--force-overwrites"
@@ -226,7 +227,7 @@ def fetch_baila_lento_bgm(bgm_path, cookies_path):
             ])
             try:
                 res = subprocess.run(cmd, timeout=45, capture_output=True, text=True)
-                if res.returncode == 0 and os.path.exists(bgm_path) and os.path.getsize(bgm_path) > 30000:
+                if res.returncode == 0 and os.path.exists(bgm_path) and os.path.getsize(bgm_path) > 20000:
                     print(f"SUCCESS: Extracted official 'Baila Lento' BGM from {b_url} ({os.path.getsize(bgm_path)} bytes)!")
                     return bgm_path
                 else:
@@ -234,7 +235,31 @@ def fetch_baila_lento_bgm(bgm_path, cookies_path):
             except Exception as e:
                 print(f"Baila Lento exception: {e}")
 
-    raise RuntimeError("Failed to download official Baila Lento BGM from all candidate sources!")
+    # Fallback to high-tempo NCS gaming track if primary link has regional geo-restriction
+    print("Primary Baila Lento link blocked; attempting viral NCS gaming track...")
+    backup_urls = [
+        "https://www.youtube.com/watch?v=TW9d8vYrVFQ",
+        "https://www.youtube.com/watch?v=0kxa21q9m7U"
+    ]
+    for bk_url in backup_urls:
+        bk_cmd = [
+            "yt-dlp",
+            "--js-runtimes", "deno,node",
+            "--download-sections", "*15-55",
+            "-f", "bestaudio/best",
+            "-x",
+            "--audio-format", "mp3",
+            "--extractor-args", "youtube:player_client=web_safari,web",
+            "-o", bgm_path,
+            "--force-overwrites",
+            bk_url
+        ]
+        res = subprocess.run(bk_cmd, timeout=45, capture_output=True, text=True)
+        if res.returncode == 0 and os.path.exists(bgm_path) and os.path.getsize(bgm_path) > 20000:
+            print(f"SUCCESS: Downloaded backup viral BGM from {bk_url} ({os.path.getsize(bgm_path)} bytes)!")
+            return bgm_path
+
+    raise RuntimeError("Failed to download BGM from all candidate sources!")
 
 
 def produce_clip(target, output_short_path):
