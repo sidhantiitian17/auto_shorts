@@ -45,6 +45,64 @@ from cartesia_tts import synthesize_prashast_voice
 from youtube_helper import upload_short
 
 # 25 Curated Rotating GTA Evolution & Comparison Series Topics
+NCS_BGM_ROSTER = [
+    {
+        "id": "janji_heroes_tonight",
+        "title": "Heroes Tonight",
+        "artist": "Janji (feat. Johnning)",
+        "genre": "NoCopyrightSounds (NCS) / Melodic EDM",
+        "credit": "Track: Janji - Heroes Tonight (feat. Johnning) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/3nQNiWdeH2Q\nFree Download / Stream: http://ncs.io/ht",
+        "section": "*15-45",
+        "urls": [
+            "https://www.youtube.com/watch?v=3nQNiWdeH2Q"
+        ]
+    },
+    {
+        "id": "elektronomia_sky_high",
+        "title": "Sky High",
+        "artist": "Elektronomia",
+        "genre": "NoCopyrightSounds (NCS) / Progressive House",
+        "credit": "Track: Elektronomia - Sky High [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://www.youtube.com/watch?v=TW9d8vYrVFQ\nFree Download / Stream: http://ncs.io/skyhigh",
+        "section": "*30-60",
+        "urls": [
+            "https://www.youtube.com/watch?v=TW9d8vYrVFQ"
+        ]
+    },
+    {
+        "id": "warriyo_mortals",
+        "title": "Mortals",
+        "artist": "Warriyo (feat. Laura Brehm)",
+        "genre": "NoCopyrightSounds (NCS) / Trap / Future Bass",
+        "credit": "Track: Warriyo - Mortals (feat. Laura Brehm) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/yJg-Y5byMMw\nFree Download / Stream: http://ncs.io/mortals",
+        "section": "*20-50",
+        "urls": [
+            "https://www.youtube.com/watch?v=yJg-Y5byMMw"
+        ]
+    },
+    {
+        "id": "cartoon_on_and_on",
+        "title": "On & On",
+        "artist": "Cartoon (feat. Daniel Levi)",
+        "genre": "NoCopyrightSounds (NCS) / Drum & Bass",
+        "credit": "Track: Cartoon - On & On (feat. Daniel Levi) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/K4DyBUG242c\nFree Download / Stream: http://ncs.io/onandon",
+        "section": "*25-55",
+        "urls": [
+            "https://www.youtube.com/watch?v=K4DyBUG242c"
+        ]
+    },
+    {
+        "id": "lost_sky_fearless",
+        "title": "Fearless pt.II",
+        "artist": "Lost Sky (feat. Chris Linton)",
+        "genre": "NoCopyrightSounds (NCS) / Melodic Bass",
+        "credit": "Track: Lost Sky - Fearless pt.II (feat. Chris Linton) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/9rujBm0azWU\nFree Download / Stream: http://ncs.io/fearless2",
+        "section": "*35-65",
+        "urls": [
+            "https://www.youtube.com/watch?v=9rujBm0azWU"
+        ]
+    }
+]
+
 STREAM_TARGETS = [
     {
         "id": "ocean_wave_physics",
@@ -80,32 +138,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "baila_lento",
-            "title": "Baila Lento",
-            "artist": "sma$her & MC DA$ILVA",
-            "genre": "Official Vocal Chorus / Brazilian Phonk",
-            "credit": "Track: Baila Lento - sma$her & MC DA$ILVA (Official Vocal Chorus / Brazilian Phonk)",
-            "section": "*27-57",
+            "id": "janji_heroes_tonight",
+            "title": "Heroes Tonight",
+            "artist": "Janji (feat. Johnning)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic EDM",
+            "credit": "Track: Janji - Heroes Tonight (feat. Johnning) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/3nQNiWdeH2Q\nFree Download / Stream: http://ncs.io/ht",
+            "section": "*15-45",
             "urls": [
-                "https://www.youtube.com/watch?v=ST4HEdYs0Tg",
-                "https://www.youtube.com/watch?v=mD2PjV9D3Yc",
-                "https://www.youtube.com/watch?v=712_P7iQf40"
+                "https://www.youtube.com/watch?v=3nQNiWdeH2Q"
             ]
         },
         "seo": {
             "summary": "Comparing Ocean Water & Wave Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Ocean Water & Wave Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "GTAViceCity",
-                "WaterPhysics",
                 "RockstarGames",
-                "GamingEvolution",
+                "GTA6Gameplay",
                 "GTA6Trailer",
-                "NextGenGraphics",
-                "Shorts"
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -143,31 +198,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "close_eyes",
-            "title": "Close Eyes",
-            "artist": "DVRST",
-            "genre": "Official Viral Drift Phonk",
-            "credit": "Track: Close Eyes - DVRST (Official Viral Drift Phonk)",
-            "section": "*25-55",
+            "id": "elektronomia_sky_high",
+            "title": "Sky High",
+            "artist": "Elektronomia",
+            "genre": "NoCopyrightSounds (NCS) / Progressive House",
+            "credit": "Track: Elektronomia - Sky High [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://www.youtube.com/watch?v=TW9d8vYrVFQ\nFree Download / Stream: http://ncs.io/skyhigh",
+            "section": "*30-60",
             "urls": [
-                "https://www.youtube.com/watch?v=1-xGerv5FOk",
-                "https://www.youtube.com/watch?v=ao4nRkWCS6c"
+                "https://www.youtube.com/watch?v=TW9d8vYrVFQ"
             ]
         },
         "seo": {
             "summary": "Comparing Everglades Mud & Wetland Terrain from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Everglades Mud & Wetland Terrain\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "Everglades",
-                "MudPhysics",
-                "GamingDetails",
-                "GTA6Trailer",
                 "RockstarGames",
-                "Grassrivers",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -205,31 +258,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "royalty",
-            "title": "Royalty",
-            "artist": "Egzod & Neoni",
-            "genre": "NCS Official Vocal Anthem",
-            "credit": "Track: Royalty - Egzod & Neoni (NCS Official Vocal Anthem)",
-            "section": "*35-65",
+            "id": "warriyo_mortals",
+            "title": "Mortals",
+            "artist": "Warriyo (feat. Laura Brehm)",
+            "genre": "NoCopyrightSounds (NCS) / Trap / Future Bass",
+            "credit": "Track: Warriyo - Mortals (feat. Laura Brehm) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/yJg-Y5byMMw\nFree Download / Stream: http://ncs.io/mortals",
+            "section": "*20-50",
             "urls": [
-                "https://www.youtube.com/watch?v=C5Bm4p1_f1w",
-                "https://www.youtube.com/watch?v=ZmeHj2Hau9A"
+                "https://www.youtube.com/watch?v=yJg-Y5byMMw"
             ]
         },
         "seo": {
             "summary": "Comparing Beach Sand Displacement & Footstep Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Beach Sand Displacement & Footstep Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "GTAViceCity",
-                "BeachPhysics",
-                "GamingEvolution",
                 "RockstarGames",
-                "GTA6Graphics",
-                "NextGen",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -266,31 +317,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "montagem_mysterious",
-            "title": "Montagem Mysterious Game",
-            "artist": "LXNGVX",
-            "genre": "Official Brazilian Phonk",
-            "credit": "Track: Montagem Mysterious Game - LXNGVX (Official Brazilian Phonk)",
-            "section": "*18-48",
+            "id": "cartoon_on_and_on",
+            "title": "On & On",
+            "artist": "Cartoon (feat. Daniel Levi)",
+            "genre": "NoCopyrightSounds (NCS) / Drum & Bass",
+            "credit": "Track: Cartoon - On & On (feat. Daniel Levi) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/K4DyBUG242c\nFree Download / Stream: http://ncs.io/onandon",
+            "section": "*25-55",
             "urls": [
-                "https://www.youtube.com/watch?v=8mG_7g6v-p8",
-                "https://www.youtube.com/watch?v=F0pD2L2C0jI"
+                "https://www.youtube.com/watch?v=K4DyBUG242c"
             ]
         },
         "seo": {
             "summary": "Comparing Wind, Storms & Palm Tree Sway Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Wind, Storms & Palm Tree Sway Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "WeatherPhysics",
-                "Storms",
-                "GTAViceCity",
-                "VolumetricEffects",
                 "RockstarGames",
-                "GamingDetails",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -327,31 +376,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "automotivo_bibi_fogosa",
-            "title": "Automotivo Bibi Fogosa",
-            "artist": "Bibi Babydoll & DJ Brunin XM",
-            "genre": "Official Viral Vocal Phonk",
-            "credit": "Track: Automotivo Bibi Fogosa - Bibi Babydoll & DJ Brunin XM (Official Viral Vocal Phonk)",
-            "section": "*20-50",
+            "id": "lost_sky_fearless",
+            "title": "Fearless pt.II",
+            "artist": "Lost Sky (feat. Chris Linton)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic Bass",
+            "credit": "Track: Lost Sky - Fearless pt.II (feat. Chris Linton) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/9rujBm0azWU\nFree Download / Stream: http://ncs.io/fearless2",
+            "section": "*35-65",
             "urls": [
-                "https://www.youtube.com/watch?v=2H5u8v7qWlg",
-                "https://www.youtube.com/watch?v=vVj441Wp2O8"
+                "https://www.youtube.com/watch?v=9rujBm0azWU"
             ]
         },
         "seo": {
             "summary": "Comparing Alligators & Wildlife Ecosystem from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Alligators & Wildlife Ecosystem\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "WildlifePhysics",
-                "Alligators",
-                "RDR2Engine",
                 "RockstarGames",
-                "GTAViceCity",
-                "GamingEcosystem",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -388,31 +435,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "metamorphosis",
-            "title": "Metamorphosis",
-            "artist": "INTERWORLD",
-            "genre": "Global Hit Phonk Anthem",
-            "credit": "Track: Metamorphosis - INTERWORLD (Global Hit Phonk Anthem)",
-            "section": "*20-50",
+            "id": "janji_heroes_tonight",
+            "title": "Heroes Tonight",
+            "artist": "Janji (feat. Johnning)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic EDM",
+            "credit": "Track: Janji - Heroes Tonight (feat. Johnning) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/3nQNiWdeH2Q\nFree Download / Stream: http://ncs.io/ht",
+            "section": "*15-45",
             "urls": [
-                "https://www.youtube.com/watch?v=w-sQRS-Mun8",
-                "https://www.youtube.com/watch?v=kYJvE61x-i8"
+                "https://www.youtube.com/watch?v=3nQNiWdeH2Q"
             ]
         },
         "seo": {
             "summary": "Comparing Payphones vs In-Game TikTok / Reels Social Media from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Payphones vs In-Game TikTok / Reels Social Media\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "SocialMedia",
-                "TikTokReels",
-                "GamingEvolution",
-                "GTAViceCity",
-                "TommyVercetti",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -449,31 +494,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "override",
-            "title": "Override",
-            "artist": "KSLV Noh",
-            "genre": "Classic Drift Phonk",
-            "credit": "Track: Override - KSLV Noh (Classic Drift Phonk)",
-            "section": "*15-45",
+            "id": "elektronomia_sky_high",
+            "title": "Sky High",
+            "artist": "Elektronomia",
+            "genre": "NoCopyrightSounds (NCS) / Progressive House",
+            "credit": "Track: Elektronomia - Sky High [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://www.youtube.com/watch?v=TW9d8vYrVFQ\nFree Download / Stream: http://ncs.io/skyhigh",
+            "section": "*30-60",
             "urls": [
-                "https://www.youtube.com/watch?v=2YfO7o_qW08",
-                "https://www.youtube.com/watch?v=uT6X4e2y0jE"
+                "https://www.youtube.com/watch?v=TW9d8vYrVFQ"
             ]
         },
         "seo": {
             "summary": "Comparing Character Hair & Strand Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Character Hair & Strand Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "HairPhysics",
-                "Lucia",
-                "NextGenGraphics",
-                "GTAViceCity",
                 "RockstarGames",
-                "CharacterRendering",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -510,30 +553,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "after_dark",
-            "title": "After Dark",
-            "artist": "Mr.Kitty",
-            "genre": "Viral Synthwave Night Drive",
-            "credit": "Track: After Dark - Mr.Kitty (Viral Synthwave Night Drive)",
-            "section": "*30-60",
+            "id": "warriyo_mortals",
+            "title": "Mortals",
+            "artist": "Warriyo (feat. Laura Brehm)",
+            "genre": "NoCopyrightSounds (NCS) / Trap / Future Bass",
+            "credit": "Track: Warriyo - Mortals (feat. Laura Brehm) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/yJg-Y5byMMw\nFree Download / Stream: http://ncs.io/mortals",
+            "section": "*20-50",
             "urls": [
-                "https://www.youtube.com/watch?v=sVx1mJDeUjY",
-                "https://www.youtube.com/watch?v=waAlgFq9Xq8"
+                "https://www.youtube.com/watch?v=yJg-Y5byMMw"
             ]
         },
         "seo": {
             "summary": "Comparing Street Lighting & Volumetric Neon Signs from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Street Lighting & Volumetric Neon Signs\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "NeonLights",
-                "RayTracing",
-                "ViceCityAesthetic",
-                "LightingEvolution",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -570,30 +612,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "murder_in_my_mind",
-            "title": "Murder In My Mind",
-            "artist": "KORDHELL",
-            "genre": "Global #1 Phonk Anthem",
-            "credit": "Track: Murder In My Mind - KORDHELL (Global #1 Phonk Anthem)",
-            "section": "*20-50",
+            "id": "cartoon_on_and_on",
+            "title": "On & On",
+            "artist": "Cartoon (feat. Daniel Levi)",
+            "genre": "NoCopyrightSounds (NCS) / Drum & Bass",
+            "credit": "Track: Cartoon - On & On (feat. Daniel Levi) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/K4DyBUG242c\nFree Download / Stream: http://ncs.io/onandon",
+            "section": "*25-55",
             "urls": [
-                "https://www.youtube.com/watch?v=w-sQRS-Mun8",
-                "https://www.youtube.com/watch?v=hF_k9q3_r1c"
+                "https://www.youtube.com/watch?v=K4DyBUG242c"
             ]
         },
         "seo": {
             "summary": "Comparing Modern Streetwear & Sneaker Fashion from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Modern Streetwear & Sneaker Fashion\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "Fashion",
-                "SneakerCulture",
-                "CharacterCustomization",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -630,31 +671,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "neon_blade",
-            "title": "NEON BLADE",
-            "artist": "MoonDeity",
-            "genre": "Epic Phonk Hook",
-            "credit": "Track: NEON BLADE - MoonDeity (Epic Phonk Hook)",
-            "section": "*25-55",
+            "id": "lost_sky_fearless",
+            "title": "Fearless pt.II",
+            "artist": "Lost Sky (feat. Chris Linton)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic Bass",
+            "credit": "Track: Lost Sky - Fearless pt.II (feat. Chris Linton) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/9rujBm0azWU\nFree Download / Stream: http://ncs.io/fearless2",
+            "section": "*35-65",
             "urls": [
-                "https://www.youtube.com/watch?v=ytQ5CYE1VZw",
-                "https://www.youtube.com/watch?v=7uK3k9X_b2k"
+                "https://www.youtube.com/watch?v=9rujBm0azWU"
             ]
         },
         "seo": {
             "summary": "Comparing Smartphone Selfies & Camera Tech from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Smartphone Selfies & Camera Tech\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "Snapmatic",
-                "iFruit",
-                "GTA5",
-                "GamingDetails",
-                "CameraMechanics",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -691,30 +730,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "heroes_tonight",
+            "id": "janji_heroes_tonight",
             "title": "Heroes Tonight",
-            "artist": "Janji feat. Johnning",
-            "genre": "NCS Global Melodic Anthem",
-            "credit": "Track: Heroes Tonight - Janji feat. Johnning (NCS Global Melodic Anthem)",
-            "section": "*40-70",
+            "artist": "Janji (feat. Johnning)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic EDM",
+            "credit": "Track: Janji - Heroes Tonight (feat. Johnning) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/3nQNiWdeH2Q\nFree Download / Stream: http://ncs.io/ht",
+            "section": "*15-45",
             "urls": [
-                "https://www.youtube.com/watch?v=3nQNiWdeH2Q",
-                "https://www.youtube.com/watch?v=cvaIgq5j2Q8"
+                "https://www.youtube.com/watch?v=3nQNiWdeH2Q"
             ]
         },
         "seo": {
             "summary": "Comparing Helicopter Flight & Rotor Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Helicopter Flight & Rotor Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "HelicopterPhysics",
-                "Aviation",
-                "GTAViceCity",
-                "FlightSimulator",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -751,30 +789,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "mortals",
-            "title": "Mortals",
-            "artist": "Warriyo feat. Laura Brehm",
-            "genre": "NCS Epic Vocal Drop",
-            "credit": "Track: Mortals - Warriyo feat. Laura Brehm (NCS Epic Vocal Drop)",
-            "section": "*35-65",
+            "id": "elektronomia_sky_high",
+            "title": "Sky High",
+            "artist": "Elektronomia",
+            "genre": "NoCopyrightSounds (NCS) / Progressive House",
+            "credit": "Track: Elektronomia - Sky High [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://www.youtube.com/watch?v=TW9d8vYrVFQ\nFree Download / Stream: http://ncs.io/skyhigh",
+            "section": "*30-60",
             "urls": [
-                "https://www.youtube.com/watch?v=yJg-Y5byMMw",
-                "https://www.youtube.com/watch?v=n8X9_MgEdCg"
+                "https://www.youtube.com/watch?v=TW9d8vYrVFQ"
             ]
         },
         "seo": {
             "summary": "Comparing Superbike & PCJ-600 Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Superbike & PCJ-600 Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "PCJ600",
-                "MotorcyclePhysics",
-                "Superbikes",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -811,31 +848,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "baila_lento",
-            "title": "Baila Lento",
-            "artist": "sma$her & MC DA$ILVA",
-            "genre": "Official Vocal Chorus / Brazilian Phonk",
-            "credit": "Track: Baila Lento - sma$her & MC DA$ILVA (Official Vocal Chorus / Brazilian Phonk)",
-            "section": "*27-57",
+            "id": "warriyo_mortals",
+            "title": "Mortals",
+            "artist": "Warriyo (feat. Laura Brehm)",
+            "genre": "NoCopyrightSounds (NCS) / Trap / Future Bass",
+            "credit": "Track: Warriyo - Mortals (feat. Laura Brehm) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/yJg-Y5byMMw\nFree Download / Stream: http://ncs.io/mortals",
+            "section": "*20-50",
             "urls": [
-                "https://www.youtube.com/watch?v=ST4HEdYs0Tg",
-                "https://www.youtube.com/watch?v=mD2PjV9D3Yc",
-                "https://www.youtube.com/watch?v=712_P7iQf40"
+                "https://www.youtube.com/watch?v=yJg-Y5byMMw"
             ]
         },
         "seo": {
             "summary": "Comparing Speedboats & Luxury Yacht Wakes from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Speedboats & Luxury Yacht Wakes\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "Speedboats",
-                "LuxuryYachts",
-                "Hydrodynamics",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -872,30 +907,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "close_eyes",
-            "title": "Close Eyes",
-            "artist": "DVRST",
-            "genre": "Official Viral Drift Phonk",
-            "credit": "Track: Close Eyes - DVRST (Official Viral Drift Phonk)",
+            "id": "cartoon_on_and_on",
+            "title": "On & On",
+            "artist": "Cartoon (feat. Daniel Levi)",
+            "genre": "NoCopyrightSounds (NCS) / Drum & Bass",
+            "credit": "Track: Cartoon - On & On (feat. Daniel Levi) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/K4DyBUG242c\nFree Download / Stream: http://ncs.io/onandon",
             "section": "*25-55",
             "urls": [
-                "https://www.youtube.com/watch?v=1-xGerv5FOk",
-                "https://www.youtube.com/watch?v=ao4nRkWCS6c"
+                "https://www.youtube.com/watch?v=K4DyBUG242c"
             ]
         },
         "seo": {
             "summary": "Comparing Muscle Car Hydraulics & Lowriders from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Muscle Car Hydraulics & Lowriders\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "Lowriders",
-                "CarHydraulics",
-                "MuscleCars",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -932,30 +966,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "royalty",
-            "title": "Royalty",
-            "artist": "Egzod & Neoni",
-            "genre": "NCS Official Vocal Anthem",
-            "credit": "Track: Royalty - Egzod & Neoni (NCS Official Vocal Anthem)",
+            "id": "lost_sky_fearless",
+            "title": "Fearless pt.II",
+            "artist": "Lost Sky (feat. Chris Linton)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic Bass",
+            "credit": "Track: Lost Sky - Fearless pt.II (feat. Chris Linton) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/9rujBm0azWU\nFree Download / Stream: http://ncs.io/fearless2",
             "section": "*35-65",
             "urls": [
-                "https://www.youtube.com/watch?v=C5Bm4p1_f1w",
-                "https://www.youtube.com/watch?v=ZmeHj2Hau9A"
+                "https://www.youtube.com/watch?v=9rujBm0azWU"
             ]
         },
         "seo": {
             "summary": "Comparing Commercial Aircraft & Escobar Airport from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Commercial Aircraft & Escobar Airport\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "EscobarAirport",
-                "Aviation",
-                "AirplaneDetails",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -992,29 +1025,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "montagem_mysterious",
-            "title": "Montagem Mysterious Game",
-            "artist": "LXNGVX",
-            "genre": "Official Brazilian Phonk",
-            "credit": "Track: Montagem Mysterious Game - LXNGVX (Official Brazilian Phonk)",
-            "section": "*18-48",
+            "id": "janji_heroes_tonight",
+            "title": "Heroes Tonight",
+            "artist": "Janji (feat. Johnning)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic EDM",
+            "credit": "Track: Janji - Heroes Tonight (feat. Johnning) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/3nQNiWdeH2Q\nFree Download / Stream: http://ncs.io/ht",
+            "section": "*15-45",
             "urls": [
-                "https://www.youtube.com/watch?v=8mG_7g6v-p8",
-                "https://www.youtube.com/watch?v=F0pD2L2C0jI"
+                "https://www.youtube.com/watch?v=3nQNiWdeH2Q"
             ]
         },
         "seo": {
             "summary": "Comparing Ocean View Hotel (2002 vs 2025) from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Ocean View Hotel (2002 vs 2025)\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "OceanViewHotel",
-                "TommyVercetti",
-                "ViceCityNostalgia",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -1052,30 +1085,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "automotivo_bibi_fogosa",
-            "title": "Automotivo Bibi Fogosa",
-            "artist": "Bibi Babydoll & DJ Brunin XM",
-            "genre": "Official Viral Vocal Phonk",
-            "credit": "Track: Automotivo Bibi Fogosa - Bibi Babydoll & DJ Brunin XM (Official Viral Vocal Phonk)",
-            "section": "*20-50",
+            "id": "elektronomia_sky_high",
+            "title": "Sky High",
+            "artist": "Elektronomia",
+            "genre": "NoCopyrightSounds (NCS) / Progressive House",
+            "credit": "Track: Elektronomia - Sky High [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://www.youtube.com/watch?v=TW9d8vYrVFQ\nFree Download / Stream: http://ncs.io/skyhigh",
+            "section": "*30-60",
             "urls": [
-                "https://www.youtube.com/watch?v=2H5u8v7qWlg",
-                "https://www.youtube.com/watch?v=vVj441Wp2O8"
+                "https://www.youtube.com/watch?v=TW9d8vYrVFQ"
             ]
         },
         "seo": {
             "summary": "Comparing Supermarkets & Convenience Store Interiors from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Supermarkets & Convenience Store Interiors\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "StoreInteriors",
-                "GamingDetails",
-                "RayTracing",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -1112,30 +1144,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "metamorphosis",
-            "title": "Metamorphosis",
-            "artist": "INTERWORLD",
-            "genre": "Global Hit Phonk Anthem",
-            "credit": "Track: Metamorphosis - INTERWORLD (Global Hit Phonk Anthem)",
+            "id": "warriyo_mortals",
+            "title": "Mortals",
+            "artist": "Warriyo (feat. Laura Brehm)",
+            "genre": "NoCopyrightSounds (NCS) / Trap / Future Bass",
+            "credit": "Track: Warriyo - Mortals (feat. Laura Brehm) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/yJg-Y5byMMw\nFree Download / Stream: http://ncs.io/mortals",
             "section": "*20-50",
             "urls": [
-                "https://www.youtube.com/watch?v=w-sQRS-Mun8",
-                "https://www.youtube.com/watch?v=kYJvE61x-i8"
+                "https://www.youtube.com/watch?v=yJg-Y5byMMw"
             ]
         },
         "seo": {
             "summary": "Comparing Luxury Car Showroom Interiors from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Luxury Car Showroom Interiors\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "SunshineAutos",
-                "CarShowrooms",
-                "Supercars",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -1172,31 +1203,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "override",
-            "title": "Override",
-            "artist": "KSLV Noh",
-            "genre": "Classic Drift Phonk",
-            "credit": "Track: Override - KSLV Noh (Classic Drift Phonk)",
-            "section": "*15-45",
+            "id": "cartoon_on_and_on",
+            "title": "On & On",
+            "artist": "Cartoon (feat. Daniel Levi)",
+            "genre": "NoCopyrightSounds (NCS) / Drum & Bass",
+            "credit": "Track: Cartoon - On & On (feat. Daniel Levi) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/K4DyBUG242c\nFree Download / Stream: http://ncs.io/onandon",
+            "section": "*25-55",
             "urls": [
-                "https://www.youtube.com/watch?v=2YfO7o_qW08",
-                "https://www.youtube.com/watch?v=uT6X4e2y0jE"
+                "https://www.youtube.com/watch?v=K4DyBUG242c"
             ]
         },
         "seo": {
             "summary": "Comparing Bridges & Multi-Lane Highway Networks from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Bridges & Multi-Lane Highway Networks\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "Highways",
-                "Bridges",
-                "FloridaKeys",
-                "MapEvolution",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -1233,30 +1262,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "after_dark",
-            "title": "After Dark",
-            "artist": "Mr.Kitty",
-            "genre": "Viral Synthwave Night Drive",
-            "credit": "Track: After Dark - Mr.Kitty (Viral Synthwave Night Drive)",
-            "section": "*30-60",
+            "id": "lost_sky_fearless",
+            "title": "Fearless pt.II",
+            "artist": "Lost Sky (feat. Chris Linton)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic Bass",
+            "credit": "Track: Lost Sky - Fearless pt.II (feat. Chris Linton) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/9rujBm0azWU\nFree Download / Stream: http://ncs.io/fearless2",
+            "section": "*35-65",
             "urls": [
-                "https://www.youtube.com/watch?v=sVx1mJDeUjY",
-                "https://www.youtube.com/watch?v=waAlgFq9Xq8"
+                "https://www.youtube.com/watch?v=9rujBm0azWU"
             ]
         },
         "seo": {
             "summary": "Comparing Gas Stations & Service Stops from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Gas Stations & Service Stops\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "GasStation",
-                "GamingGraphics",
-                "MicroDetails",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -1294,30 +1322,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "murder_in_my_mind",
-            "title": "Murder In My Mind",
-            "artist": "KORDHELL",
-            "genre": "Global #1 Phonk Anthem",
-            "credit": "Track: Murder In My Mind - KORDHELL (Global #1 Phonk Anthem)",
-            "section": "*20-50",
+            "id": "janji_heroes_tonight",
+            "title": "Heroes Tonight",
+            "artist": "Janji (feat. Johnning)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic EDM",
+            "credit": "Track: Janji - Heroes Tonight (feat. Johnning) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/3nQNiWdeH2Q\nFree Download / Stream: http://ncs.io/ht",
+            "section": "*15-45",
             "urls": [
-                "https://www.youtube.com/watch?v=w-sQRS-Mun8",
-                "https://www.youtube.com/watch?v=hF_k9q3_r1c"
+                "https://www.youtube.com/watch?v=3nQNiWdeH2Q"
             ]
         },
         "seo": {
             "summary": "Comparing Police Pursuit Tactics & AI Maneuvers from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Police Pursuit Tactics & AI Maneuvers\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "PoliceAI",
-                "PursuitTactics",
-                "GamingAI",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -1354,30 +1381,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "neon_blade",
-            "title": "NEON BLADE",
-            "artist": "MoonDeity",
-            "genre": "Epic Phonk Hook",
-            "credit": "Track: NEON BLADE - MoonDeity (Epic Phonk Hook)",
-            "section": "*25-55",
+            "id": "elektronomia_sky_high",
+            "title": "Sky High",
+            "artist": "Elektronomia",
+            "genre": "NoCopyrightSounds (NCS) / Progressive House",
+            "credit": "Track: Elektronomia - Sky High [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://www.youtube.com/watch?v=TW9d8vYrVFQ\nFree Download / Stream: http://ncs.io/skyhigh",
+            "section": "*30-60",
             "urls": [
-                "https://www.youtube.com/watch?v=ytQ5CYE1VZw",
-                "https://www.youtube.com/watch?v=7uK3k9X_b2k"
+                "https://www.youtube.com/watch?v=TW9d8vYrVFQ"
             ]
         },
         "seo": {
             "summary": "Comparing NPC Phone Recording & Viral Culture AI from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic NPC Phone Recording & Viral Culture AI\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "NPCAI",
-                "CrowdBehavior",
-                "GamingIntelligence",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -1414,30 +1440,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "heroes_tonight",
-            "title": "Heroes Tonight",
-            "artist": "Janji feat. Johnning",
-            "genre": "NCS Global Melodic Anthem",
-            "credit": "Track: Heroes Tonight - Janji feat. Johnning (NCS Global Melodic Anthem)",
-            "section": "*40-70",
+            "id": "warriyo_mortals",
+            "title": "Mortals",
+            "artist": "Warriyo (feat. Laura Brehm)",
+            "genre": "NoCopyrightSounds (NCS) / Trap / Future Bass",
+            "credit": "Track: Warriyo - Mortals (feat. Laura Brehm) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/yJg-Y5byMMw\nFree Download / Stream: http://ncs.io/mortals",
+            "section": "*20-50",
             "urls": [
-                "https://www.youtube.com/watch?v=3nQNiWdeH2Q",
-                "https://www.youtube.com/watch?v=cvaIgq5j2Q8"
+                "https://www.youtube.com/watch?v=yJg-Y5byMMw"
             ]
         },
         "seo": {
             "summary": "Comparing Beach Crowd Density & Routine Diversity from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Beach Crowd Density & Routine Diversity\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "BeachCrowd",
-                "NPCSimulation",
-                "LivingWorld",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -1474,30 +1499,29 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "mortals",
-            "title": "Mortals",
-            "artist": "Warriyo feat. Laura Brehm",
-            "genre": "NCS Epic Vocal Drop",
-            "credit": "Track: Mortals - Warriyo feat. Laura Brehm (NCS Epic Vocal Drop)",
-            "section": "*35-65",
+            "id": "cartoon_on_and_on",
+            "title": "On & On",
+            "artist": "Cartoon (feat. Daniel Levi)",
+            "genre": "NoCopyrightSounds (NCS) / Drum & Bass",
+            "credit": "Track: Cartoon - On & On (feat. Daniel Levi) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/K4DyBUG242c\nFree Download / Stream: http://ncs.io/onandon",
+            "section": "*25-55",
             "urls": [
-                "https://www.youtube.com/watch?v=yJg-Y5byMMw",
-                "https://www.youtube.com/watch?v=n8X9_MgEdCg"
+                "https://www.youtube.com/watch?v=K4DyBUG242c"
             ]
         },
         "seo": {
             "summary": "Comparing Pedestrian Ambient Conversational AI from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Pedestrian Ambient Conversational AI\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "NPCDialogue",
-                "AudioEngineering",
-                "ContextualAI",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     },
@@ -1535,35 +1559,34 @@ STREAM_TARGETS = [
             "duration": "24"
         },
         "bgm": {
-            "id": "baila_lento",
-            "title": "Baila Lento",
-            "artist": "sma$her & MC DA$ILVA",
-            "genre": "Official Vocal Chorus / Brazilian Phonk",
-            "credit": "Track: Baila Lento - sma$her & MC DA$ILVA (Official Vocal Chorus / Brazilian Phonk)",
-            "section": "*27-57",
+            "id": "lost_sky_fearless",
+            "title": "Fearless pt.II",
+            "artist": "Lost Sky (feat. Chris Linton)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic Bass",
+            "credit": "Track: Lost Sky - Fearless pt.II (feat. Chris Linton) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/9rujBm0azWU\nFree Download / Stream: http://ncs.io/fearless2",
+            "section": "*35-65",
             "urls": [
-                "https://www.youtube.com/watch?v=ST4HEdYs0Tg",
-                "https://www.youtube.com/watch?v=mD2PjV9D3Yc",
-                "https://www.youtube.com/watch?v=712_P7iQf40"
+                "https://www.youtube.com/watch?v=9rujBm0azWU"
             ]
         },
         "seo": {
             "summary": "Comparing Highway Traffic Flow & Gridlock Dynamics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
             "timestamps": "0:00 - Classic Highway Traffic Flow & Gridlock Dynamics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
             "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #GTAViceCity #Gaming #RockstarGames #GamingEvolution #GTAComparison",
+            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
             "tags": [
                 "GTA6",
-                "TrafficAI",
-                "CitySimulation",
-                "GamingEvolution",
-                "GTAViceCity",
                 "RockstarGames",
-                "Shorts"
+                "GTA6Gameplay",
+                "GTA6Trailer",
+                "Gaming",
+                "Shorts",
+                "NextGenGraphics"
             ]
         }
     }
 ]
+
 
 
 
@@ -1716,13 +1739,12 @@ def parse_time_to_seconds(t_str):
     return int(parts[0])
 
 
-def generate_line_by_line_ass(ass_path, lines, total_duration, hook_text, top_label, bot_label):
+def generate_line_by_line_ass(ass_path, lines, total_duration, hook_text, top_label=None, bot_label=None):
     """
-    Renders stylish comparative overlays and line-by-line ASS subtitles:
-    - Top Badge: Classic retro title (e.g. 'GTA VICE CITY (2002)') at y=60
-    - Bottom Badge: Next-Gen gold title (e.g. 'GTA SIX (2025)') at y=1010
-    - Hook Banner: Centered punchy hook for first 3.5 seconds
-    - Cap (Subtitles): Line-by-line spoken subtitles in lower-third safe zone (MarginV: 290)
+    Renders clean, distraction-free ASS subtitles for full-screen 9:16 vertical shorts:
+    - Single Hook Banner: Vibrant centered hook for first 3.5s at top (MarginV: 160)
+    - Cap (Subtitles): Clean, large line-by-line spoken subtitles in lower-third safe zone (MarginV: 300)
+    - Zero overlapping badges or watermarks
     """
     W, H = 1080, 1920
     font = 'Arial'
@@ -1733,7 +1755,7 @@ def generate_line_by_line_ass(ass_path, lines, total_duration, hook_text, top_la
         return f"{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}"
 
     def clean(w):
-        return w.replace('{', '(').replace('}', ')').replace('\\', '')
+        return w.replace('{', '(').replace('}', ')').replace('\\\\', '')
 
     words_per_line = [len(l.split()) for l in lines]
     total_words = max(1, sum(words_per_line))
@@ -1748,22 +1770,15 @@ def generate_line_by_line_ass(ass_path, lines, total_duration, hook_text, top_la
         '',
         '[V4+ Styles]',
         'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding',
-        f'Style: Cap,{font},76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,1,0,1,6,3,2,80,80,290,1',
-        f'Style: Hook,{font},68,&H00000000,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,3,14,0,8,70,70,180,1',
-        f'Style: TopLabel,{font},52,&H00FFFF00,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,2,0,1,6,2,8,60,60,60,1',
-        f'Style: BotLabel,{font},52,&H0000E5FF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,2,0,1,6,2,8,60,60,1020,1',
+        f'Style: Cap,{font},74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,1,0,1,6,3,2,80,80,300,1',
+        f'Style: Hook,{font},62,&H0000FFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,6,3,8,70,70,160,1',
         '',
         '[Events]',
         'Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text',
     ]
 
-    total_time_str = ass_time(total_duration)
-
-    ass_lines.append(f'Dialogue: 2,{ass_time(0)},{total_time_str},TopLabel,,0,0,0,,{{\\fad(100,100)}}{clean(top_label)}')
-    ass_lines.append(f'Dialogue: 2,{ass_time(0)},{total_time_str},BotLabel,,0,0,0,,{{\\fad(100,100)}}{clean(bot_label)}')
-
     if hook_text:
-        ass_lines.append(f'Dialogue: 1,{ass_time(0)},{ass_time(min(3.5, total_duration))},Hook,,0,0,0,,{{\\fad(120,200)}}{clean(hook_text)}')
+        ass_lines.append(f'Dialogue: 1,{ass_time(0)},{ass_time(min(3.5, total_duration))},Hook,,0,0,0,,{{\fad(120,200)}}{clean(hook_text)}')
 
     cur = 0.0
     for i, line in enumerate(lines):
@@ -1771,12 +1786,13 @@ def generate_line_by_line_ass(ass_path, lines, total_duration, hook_text, top_la
         s = cur
         e = cur + dur
         cur = e
-        ass_lines.append(f'Dialogue: 0,{ass_time(s)},{ass_time(min(e, total_duration))},Cap,,0,0,0,,{{\\fad(120,120)}}{clean(line)}')
+        ass_lines.append(f'Dialogue: 0,{ass_time(s)},{ass_time(min(e, total_duration))},Cap,,0,0,0,,{{\fad(120,120)}}{clean(line)}')
 
     with open(ass_path, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(ass_lines) + '\n')
-    print(f"Line-by-line ASS subtitles created: {ass_path}")
+        f.write("\n".join(ass_lines) + "\n")
+    print(f"Full-Screen ASS subtitles created: {ass_path} (MarginV: 300, Zero Badges)")
     return ass_path
+
 
 
 def get_cookies_path():
@@ -1985,15 +2001,15 @@ def fetch_baila_lento_bgm(bgm_path, cookies_path):
 
 def produce_comparative_short(target, output_short_path):
     """
-    Produces complete dual-clip comparative Short:
+    Produces complete full-screen 9:16 vertical Short (1080x1920):
     - Synthesizes Prashast Cloned Voice with Cartesia (Pronounces 'GTA Six')
-    - Extracts classic gameplay (Top) and GTA 6 footage (Bottom)
-    - Renders split-screen 1080x1920 layout with 8px accent divider
-    - Mixes Ultra-Loud Voice (1.70x), ZERO Game Audio, Ambient Viral BGM (0.07x)
-    - Overlays line-by-line ASS subtitles and comparison headers
+    - Extracts 100% full-screen next-gen GTA 6 footage (Zero split-screen, zero vintage b-roll)
+    - Full screen 9:16 vertical layout (1080x1920)
+    - Mixes Ultra-Loud Voice (1.70x), ZERO Game Audio, Ambient NCS BGM (0.07x)
+    - Overlays clean line-by-line ASS subtitles in safe zone (MarginV: 300) and top hook
     """
     print(f"\n==========================================")
-    print(f"PRODUCING COMPARATIVE SHORT: {target['title']}")
+    print(f"PRODUCING FULL-SCREEN 9:16 SHORT: {target['title']}")
     print(f"==========================================")
 
     # 1. Synthesize Cloned Voice
@@ -2036,54 +2052,32 @@ def produce_comparative_short(target, output_short_path):
 
     cookies_path = get_cookies_path()
 
-    # 2. Extract Dual Footage (Classic Top & NextGen Bottom)
-    classic_spec = target.get("classic", {})
-    nextgen_spec = target.get("nextgen", {})
+    # 2. Extract Full-Screen Next-Gen GTA 6 Footage (No Split Screen)
+    gta6_spec = target.get("nextgen", {})
+    gta6_clip = os.path.join(WORK_DIR, "gta6_source.mp4")
 
-    classic_clip = os.path.join(WORK_DIR, "classic_source.mp4")
-    nextgen_clip = os.path.join(WORK_DIR, "nextgen_source.mp4")
+    print(f"Step 2: Fetching Full-Screen Next-Gen GTA 6 Footage ({gta6_spec.get('label', 'GTA 6')})...")
+    download_section_clip(gta6_spec, gta6_clip, cookies_path, duration_needed=voice_dur)
 
-    print(f"Step 2A: Fetching Classic Footage ({classic_spec.get('label', 'Classic')})...")
-    download_section_clip(classic_spec, classic_clip, cookies_path, duration_needed=voice_dur)
-
-    print(f"Step 2B: Fetching Next-Gen Footage ({nextgen_spec.get('label', 'GTA 6')})...")
-    download_section_clip(nextgen_spec, nextgen_clip, cookies_path, duration_needed=voice_dur)
-
-    # 3. Fetch Specific Rotating Viral BGM for this topic
-    bgm_spec = target.get("bgm", STREAM_TARGETS[0]["bgm"])
+    # 3. Fetch Specific 100% Royalty-Free NCS BGM for this topic
+    bgm_spec = target.get("bgm", NCS_BGM_ROSTER[0])
     bgm_path = os.path.join(WORK_DIR, f"bgm_{bgm_spec.get('id', 'track')}.mp3")
     fetch_viral_bgm(bgm_spec, bgm_path, cookies_path)
 
-    # 4. Generate Line-by-Line ASS Subtitles & Badges
+    # 4. Generate Line-by-Line ASS Subtitles in Safe Zone (MarginV: 300, No Badges)
     ass_path = os.path.join(WORK_DIR, "subtitles.ass")
-    top_label = classic_spec.get("label", "GTA VICE CITY (2002)")
-    bot_label = nextgen_spec.get("label", "GTA SIX (2025)")
-    generate_line_by_line_ass(ass_path, target["lines"], voice_dur, target.get("hook", ""), top_label, bot_label)
+    generate_line_by_line_ass(ass_path, target["lines"], voice_dur, target.get("hook", ""))
 
-    # 5. Render Split-Screen Comparative Short in FFmpeg: Ultra-Loud Voice (1.70x), Zero Game Audio, Ambient BGM (0.07x)
-    print("Step 5: Rendering 9:16 Split-Screen, Accent Divider, Subtitles, Ultra-Loud Voice (1.70x), Zero Game Audio, Ambient BGM (0.07x)...")
+    # 5. Render Full-Screen 9:16 Vertical Short in FFmpeg: Ultra-Loud Voice (1.70x), Zero Game Audio, Ambient NCS BGM (0.07x)
+    print("Step 5: Rendering 1080x1920 Full-Screen 9:16 Vertical Short, ASS Subtitles (MarginV: 300), Ultra-Loud Voice (1.70x), Zero Game Audio, Ambient NCS BGM (0.07x)...")
 
-    # If both distinct clips are present, render split screen
-    if os.path.exists(classic_clip) and os.path.exists(nextgen_clip):
-        filter_str = (
-            f"[0:v]scale=1080:960:force_original_aspect_ratio=increase,crop=1080:960,setsar=1[top];"
-            f"[1:v]scale=1080:960:force_original_aspect_ratio=increase,crop=1080:960,setsar=1[bot];"
-            f"[top][bot]vstack=inputs=2,drawbox=x=0:y=956:w=1080:h=8:color=0x00E5FF@0.9:t=fill,ass={ass_path}[v];"
-            f"[2:a]volume=1.70[voice];"
-            f"[3:a]volume=0.07,aloop=loop=-1:size=2e+09[bgm];"
-            f"[voice][bgm]amix=inputs=2:duration=first:dropout_transition=2[a]"
-        )
-        input_args = ["-i", classic_clip, "-i", nextgen_clip, "-i", audio_path, "-i", bgm_path]
-    else:
-        # Fallback to single clip layout if one clip failed to download
-        single_clip = classic_clip if os.path.exists(classic_clip) else nextgen_clip
-        filter_str = (
-            f"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,ass={ass_path}[v];"
-            f"[1:a]volume=1.70[voice];"
-            f"[2:a]volume=0.07,aloop=loop=-1:size=2e+09[bgm];"
-            f"[voice][bgm]amix=inputs=2:duration=first:dropout_transition=2[a]"
-        )
-        input_args = ["-i", single_clip, "-i", audio_path, "-i", bgm_path]
+    filter_str = (
+        f"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,ass={ass_path}[v];"
+        f"[1:a]volume=1.70[voice];"
+        f"[2:a]volume=0.07,aloop=loop=-1:size=2e+09[bgm];"
+        f"[voice][bgm]amix=inputs=2:duration=first:dropout_transition=2[a]"
+    )
+    input_args = ["-i", gta6_clip, "-i", audio_path, "-i", bgm_path]
 
     render_cmd = [
         "ffmpeg", "-y",
@@ -2100,46 +2094,50 @@ def produce_comparative_short(target, output_short_path):
     ]
 
     subprocess.run(render_cmd, check=True)
-    print(f"Split-Screen Comparative Short rendered successfully: {output_short_path} ({os.path.getsize(output_short_path)} bytes)")
+    print(f"Full-Screen 9:16 Vertical Short rendered successfully: {output_short_path} ({os.path.getsize(output_short_path)} bytes)")
     return output_short_path
+
+produce_vertical_short = produce_comparative_short
+
 
 
 def build_rich_seo_description(target: dict, script_text: str) -> str:
-    """Builds comprehensive, compliant, and keyword-rich YouTube description with track-specific credits."""
+    """Builds comprehensive, compliant, and keyword-rich YouTube description with 100% Royalty-Free NCS attribution."""
     seo = target.get("seo", {})
     timestamps = seo.get("timestamps", "")
     summary = seo.get("summary", "")
     fair_use = seo.get("fair_use", (
-        "Fair Use Notice: This video contains transformative comparative commentary, "
+        "Fair Use Notice: This video contains transformative commentary, "
         "critique, and technical analysis under Section 107 of the Copyright Act 1976."
     ))
-    hashtags = seo.get("hashtags", "#Shorts #GTA6 #GTAViceCity #Gaming")
+    hashtags = seo.get("hashtags", "#Shorts #GTA6 #RockstarGames #Gaming")
 
     bgm_spec = target.get("bgm", {})
-    bgm_credit = bgm_spec.get("credit", "Track: Baila Lento - sma$her & MC DA$ILVA (Official Vocal Chorus / Brazilian Phonk)")
+    bgm_credit = bgm_spec.get("credit", "Music: Janji - Heroes Tonight [NCS Release]\nWatch: http://youtu.be/3nQNiWdeH2Q")
 
     desc_sections = [
         script_text,
         "",
-        "⏱️ COMPARISON TIMESTAMPS:",
+        "⏱️ VIDEO TIMESTAMPS:",
         timestamps,
         "",
-        "🎮 ABOUT THIS COMPARISON:",
+        "🎮 ABOUT THIS SHORT:",
         summary,
         "",
         "📢 SUBSCRIBE TO GAMING WORLD:",
-        "Subscribe to Gaming World (@gamingworldswaggers) for daily GTA Six vs Classic GTA comparisons, graphics breakdowns, secret details & leaks!",
+        "Subscribe to Gaming World (@gamingworldswaggers) for daily GTA Six gameplay breakdowns, graphics deep-dives, secret details & leaks!",
         "",
         "⚖️ MONETIZATION & FAIR USE DISCLAIMER:",
         fair_use,
         "",
-        "🎵 MUSIC IN THIS SHORT:",
+        "🎵 MUSIC IN THIS SHORT (100% ROYALTY-FREE NCS):",
         bgm_credit,
-        "Attribution: Used under creator fair-use and promotional gaming showcase guidelines.",
+        "Music provided by NoCopyrightSounds (NCS). Free for commercial YouTube monetization.",
         "",
         hashtags
     ]
     return "\n".join(desc_sections).strip()
+
 
 
 def run_pipeline(slot: int = None, topic_id: str = None):
