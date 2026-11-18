@@ -94,31 +94,54 @@ def produce_clip(target, output_short_path):
     end_sec = start_sec + int(target["duration"])
     section_arg = f"*{start_sec}-{end_sec}"
 
-    dl_cmd = [
-        "yt-dlp",
-        "--download-sections", section_arg,
-        "--force-keyframes-at-cuts",
-        "-f", "bestvideo[height<=1080]+bestaudio/best[height<=1080]",
-        "--merge-output-format", "mp4",
-        "-o", raw_video,
-        "--force-overwrites"
+    candidate_urls = [
+        target["url"],
+        "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+        "https://www.youtube.com/watch?v=VQRLujxTm3c"
     ]
-    if os.path.exists(cookies_path) and os.path.getsize(cookies_path) > 10:
-        dl_cmd.extend(["--cookies", cookies_path])
-    
-    dl_cmd.extend([
-        "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        target["url"]
-    ])
-    
-    print(f"Executing: {' '.join(dl_cmd[:7])} ...")
-    res = subprocess.run(dl_cmd, timeout=180, capture_output=True, text=True)
-    if res.returncode != 0:
-        print(f"yt-dlp stdout:\n{res.stdout}")
-        print(f"yt-dlp stderr:\n{res.stderr}")
-        raise RuntimeError(f"yt-dlp failed with return code {res.returncode}")
-    if not os.path.exists(raw_video) or os.path.getsize(raw_video) < 50000:
-        raise RuntimeError("Real gameplay video download failed or output file is empty!")
+
+    download_success = False
+    last_error = ""
+
+    for cand_url in candidate_urls:
+        if download_success:
+            break
+        for player_client in ["web_safari,web", "tv_embedded,web", "android,web"]:
+            if os.path.exists(raw_video):
+                try: os.remove(raw_video)
+                except: pass
+
+            dl_cmd = [
+                "yt-dlp",
+                "--download-sections", section_arg,
+                "--force-keyframes-at-cuts",
+                "-f", "bestvideo[height<=1080]+bestaudio/best[height<=1080]",
+                "--merge-output-format", "mp4",
+                "--extractor-args", f"youtube:player_client={player_client}",
+                "-o", raw_video,
+                "--force-overwrites"
+            ]
+            if os.path.exists(cookies_path) and os.path.getsize(cookies_path) > 10:
+                dl_cmd.extend(["--cookies", cookies_path])
+            
+            dl_cmd.extend([
+                "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                cand_url
+            ])
+
+            print(f"Attempting download: {cand_url} (client: {player_client})...")
+            res = subprocess.run(dl_cmd, timeout=180, capture_output=True, text=True)
+            if res.returncode == 0 and os.path.exists(raw_video) and os.path.getsize(raw_video) > 50000:
+                print(f"SUCCESS: Downloaded real clip from {cand_url} ({os.path.getsize(raw_video)} bytes)")
+                download_success = True
+                break
+            else:
+                last_error = res.stderr or res.stdout
+                print(f"Candidate {cand_url} ({player_client}) attempt notice: {res.stderr[:200] if res.stderr else 'no output'}")
+
+    if not download_success:
+        print(f"All download attempts failed! Last error:\n{last_error}")
+        raise RuntimeError("Real gameplay video download failed on all candidates!")
 
     # 3. Render 9:16 Vertical Short with Audio Mix & Highlight Hook
     print("Step 3: Burning 9:16 layout, captions, and mixing audio...")
