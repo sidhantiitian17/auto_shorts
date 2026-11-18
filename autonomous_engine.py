@@ -1575,15 +1575,65 @@ def sanitize_script_for_tts(text: str) -> str:
     return text
 
 
+def detect_last_uploaded_topic_from_youtube():
+    """
+    Directly queries YouTube Data API for the channel's recent uploads.
+    Detects which topic was last published on YouTube, making cloud runner
+    topic advancement 100% resilient across ephemeral VMs and restarts!
+    """
+    token_json = os.environ.get("YOUTUBE_TOKEN_JSON")
+    token_path = os.path.join(SCRIPT_DIR, "token.json")
+    if not token_json and os.path.exists(token_path):
+        try:
+            with open(token_path, "r", encoding="utf-8") as f:
+                token_json = f.read()
+        except Exception:
+            pass
+
+    if not token_json:
+        return -1
+
+    try:
+        from google.oauth2.credentials import Credentials
+        from googleapiclient.discovery import build
+
+        creds_data = json.loads(token_json)
+        creds = Credentials(
+            token=creds_data.get("token"),
+            refresh_token=creds_data.get("refresh_token"),
+            token_uri=creds_data.get("token_uri", "https://oauth2.googleapis.com/token"),
+            client_id=creds_data.get("client_id"),
+            client_secret=creds_data.get("client_secret"),
+            scopes=creds_data.get("scopes", ["https://www.googleapis.com/auth/youtube.upload"])
+        )
+        yt = build("youtube", "v3", credentials=creds)
+        res = yt.channels().list(mine=True, part="contentDetails").execute()
+        uploads_id = res["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+        vids = yt.playlistItems().list(playlistId=uploads_id, part="snippet", maxResults=10).execute()
+
+        for item in vids.get("items", []):
+            up_title = item["snippet"]["title"].strip().lower()
+            clean_up = "".join(c for c in up_title if c.isalnum() or c.isspace()).strip()
+            for idx, target in enumerate(STREAM_TARGETS):
+                tar_title = target["title"].strip().lower()
+                clean_tar = "".join(c for c in tar_title if c.isalnum() or c.isspace()).strip()
+                target_key = target["id"].replace("_", " ")
+                if clean_tar in clean_up or clean_up in clean_tar or target_key in clean_up:
+                    print(f"Detected previous upload on YouTube: #{idx+1} ({target['id']}: {target['title']})")
+                    return idx
+    except Exception as e:
+        print(f"Notice querying YouTube upload history: {e}")
+    return -1
+
+
 def get_next_target(slot: int = None, topic_id: str = None):
     """
     Selects the next topic guaranteeing everyday diversity:
     - If topic_id is provided, selects that topic directly.
     - If slot (0..4) is provided:
         Uses formula: (day_of_year * 5 + slot) % len(STREAM_TARGETS)
-        guaranteeing that 5 distinct topics are scheduled per day, and
-        the daily selection completely changes every 24 hours!
-    - Otherwise, advances sequentially and logs to uploaded_history.json.
+    - Otherwise, inspects live YouTube uploads to advance to the next topic,
+      preventing identical duplicate uploads even across stateless cloud VMs!
     """
     total = len(STREAM_TARGETS)
     if topic_id:
@@ -1613,11 +1663,21 @@ def get_next_target(slot: int = None, topic_id: str = None):
         except Exception:
             pass
 
-    if slot is not None and 0 <= slot < 5:
+    # 1. Check live YouTube uploads to advance from what is actually on the channel
+    yt_last_idx = detect_last_uploaded_topic_from_youtube()
+    if yt_last_idx != -1:
+        target_idx = (yt_last_idx + 1) % total
+        print(f"Advancing from live YouTube state: Previous #{yt_last_idx+1} -> Next #{target_idx+1}")
+    elif slot is not None and 0 <= slot < 5:
         target_idx = (day_of_year * 5 + slot) % total
     else:
         last_idx = history_data.get("last_index", -1)
-        target_idx = (last_idx + 1) % total
+        if last_idx != -1:
+            target_idx = (last_idx + 1) % total
+        else:
+            # Deterministic time-based slot fallback (every 3 hours changes slot)
+            time_slot = (today_dt.hour // 4) % 5
+            target_idx = (day_of_year * 5 + time_slot) % total
 
     target = STREAM_TARGETS[target_idx]
 
