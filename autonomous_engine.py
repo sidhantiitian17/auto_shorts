@@ -65,8 +65,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City ocean water surface boat driving gameplay",
-            "start": "00:00:30",
+            "query": "GTA Vice City boat wave physics gameplay",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -75,8 +75,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 official Rockstar Games beach wave water physics",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 official Rockstar Games beach wave water physics speedboats",
+            "start": "00:00:13",
             "duration": "24"
         },
         "bgm": {
@@ -128,8 +128,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City driving on grass and beach sand physics",
-            "start": "00:00:30",
+            "query": "GTA Vice City driving through mainland grass and dirt gameplay",
+            "start": "00:00:25",
             "duration": "24"
         },
         "nextgen": {
@@ -138,8 +138,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 airboat grassrivers everglades scene",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 airboat grassrivers wetlands flamingos everglades scene",
+            "start": "00:00:29",
             "duration": "24"
         },
         "bgm": {
@@ -190,8 +190,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City Ocean Beach walking on sand no footprints",
-            "start": "00:00:30",
+            "query": "GTA Vice City Ocean Beach walking on sand no footprints gameplay",
+            "start": "00:00:15",
             "duration": "24"
         },
         "nextgen": {
@@ -200,8 +200,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 beach scene walking sand footprints details",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 ocean beach drone shot sand footprints crowd details",
+            "start": "00:00:23",
             "duration": "24"
         },
         "bgm": {
@@ -251,7 +251,7 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City thunderstorm rain weather gameplay",
+            "query": "GTA Vice City thunderstorm heavy rain weather gameplay",
             "start": "00:00:30",
             "duration": "24"
         },
@@ -261,8 +261,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 storm wind swaying palm trees weather",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 storm wind swaying palm trees sunset clouds weather",
+            "start": "00:00:09",
             "duration": "24"
         },
         "bgm": {
@@ -313,7 +313,7 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
             "query": "GTA Vice City sharks swimming in ocean retro gameplay",
-            "start": "00:00:30",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -322,8 +322,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 alligator in swimming pool outdoor wildlife",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 alligator in swimming pool outdoor wildlife animal control",
+            "start": "00:00:32",
             "duration": "24"
         },
         "bgm": {
@@ -373,8 +373,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City answering public payphone ringing mission",
-            "start": "00:00:30",
+            "query": "GTA Vice City answering public ringing payphone hit mission gameplay",
+            "start": "00:00:15",
             "duration": "24"
         },
         "nextgen": {
@@ -383,8 +383,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 social media livestream vertical videos reels",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 social media livestream vertical videos phone reels scene",
+            "start": "00:00:51",
             "duration": "24"
         },
         "bgm": {
@@ -434,8 +434,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City Tommy Vercetti character model close up",
-            "start": "00:00:30",
+            "query": "GTA Vice City Tommy Vercetti character model close up driving gameplay",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -444,8 +444,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 Lucia hair physics car riding wind",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 Lucia hair physics convertible car riding wind",
+            "start": "00:00:19",
             "duration": "24"
         },
         "bgm": {
@@ -495,7 +495,7 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City Ocean Drive night neon lights 2002",
+            "query": "GTA Vice City Ocean Drive night neon lights driving gameplay",
             "start": "00:00:30",
             "duration": "24"
         },
@@ -505,8 +505,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 Ocean Drive night neon lighting ray tracing",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 Ocean Drive night neon lighting ray tracing reflections",
+            "start": "00:00:18",
             "duration": "24"
         },
         "bgm": {
@@ -555,8 +555,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City Tommy Vercetti outfits wardrobe clothes change",
-            "start": "00:00:30",
+            "query": "GTA Vice City Tommy Vercetti outfits wardrobe clothes change gameplay",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -565,8 +565,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 characters clothing details streetwear fashion",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 rooftop pool party luxury fashion streetwear jewelry scene",
+            "start": "00:00:36",
             "duration": "24"
         },
         "bgm": {
@@ -615,8 +615,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA 5 Snapmatic selfie camera app mechanics Franklin",
-            "start": "00:00:30",
+            "query": "GTA 5 Snapmatic selfie camera app mechanics Franklin Los Santos gameplay",
+            "start": "00:00:25",
             "duration": "24"
         },
         "nextgen": {
@@ -625,8 +625,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 smartphone recording camera POV footage",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 convenience store robbery bodycam CCTV footage camera",
+            "start": "00:00:56",
             "duration": "24"
         },
         "bgm": {
@@ -676,8 +676,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City Maverick helicopter flying ocean beach",
-            "start": "00:00:30",
+            "query": "GTA Vice City Hunter helicopter flight aerial gameplay",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -686,8 +686,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 helicopter flying over Vice City coastline",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 high altitude aerial skyline coastline helicopter view",
+            "start": "00:00:14",
             "duration": "24"
         },
         "bgm": {
@@ -737,7 +737,7 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
             "query": "GTA Vice City PCJ-600 stunt bike riding gameplay",
-            "start": "00:00:30",
+            "start": "00:00:15",
             "duration": "24"
         },
         "nextgen": {
@@ -746,8 +746,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 dirt bikes ATV street rideout scene",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 dirt bikes ATV street rideout quad city pack",
+            "start": "00:00:42",
             "duration": "24"
         },
         "bgm": {
@@ -797,7 +797,7 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
             "query": "GTA Vice City Squalo speedboat ocean driving gameplay",
-            "start": "00:00:30",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -806,8 +806,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 luxury speedboats container ship ocean port",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 luxury speedboats container ship ocean port bay",
+            "start": "00:00:13",
             "duration": "24"
         },
         "bgm": {
@@ -857,8 +857,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City Voodoo car hydraulics hopping gameplay",
-            "start": "00:00:30",
+            "query": "GTA Vice City Voodoo car hydraulics hopping suspension gameplay",
+            "start": "00:00:15",
             "duration": "24"
         },
         "nextgen": {
@@ -867,8 +867,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 lowrider bouncing Ocean Drive car meet",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 lowrider suspension bounce Ocean Drive car meet scene",
+            "start": "00:00:18",
             "duration": "24"
         },
         "bgm": {
@@ -917,8 +917,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City Escobar International Airport planes runway",
-            "start": "00:00:30",
+            "query": "GTA Vice City Escobar International Airport runway passenger planes gameplay",
+            "start": "00:00:25",
             "duration": "24"
         },
         "nextgen": {
@@ -927,7 +927,7 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 airport airspace passenger planes aerial view",
+            "query": "GTA 6 Trailer 1 passenger airliner climbing over bay airport airspace",
             "start": "00:00:15",
             "duration": "24"
         },
@@ -977,8 +977,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City Ocean View Hotel safehouse interior exterior",
-            "start": "00:00:30",
+            "query": "GTA Vice City Ocean View Hotel exterior safehouse driving gameplay",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -987,8 +987,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 Ocean View Hotel Art Deco buildings night",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 Ocean View Hotel Art Deco buildings night drive",
+            "start": "00:00:18",
             "duration": "24"
         },
         "bgm": {
@@ -1037,8 +1037,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City North Point Mall stores interiors walkaround",
-            "start": "00:00:30",
+            "query": "GTA Vice City North Point Mall store robbery glass interior gameplay",
+            "start": "00:00:25",
             "duration": "24"
         },
         "nextgen": {
@@ -1047,8 +1047,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 convenience store Lucia Jason robbery door open",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 convenience store interior robbery Jason Lucia door open",
+            "start": "00:00:57",
             "duration": "24"
         },
         "bgm": {
@@ -1097,8 +1097,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City Sunshine Autos car showroom garage gameplay",
-            "start": "00:00:30",
+            "query": "GTA Vice City Sunshine Autos car showroom showroom floor gameplay",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -1107,8 +1107,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 luxury sports car dealership showcase",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 luxury sports car paint reflections showcase tuning",
+            "start": "00:00:44",
             "duration": "24"
         },
         "bgm": {
@@ -1157,8 +1157,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City crossing bridges between islands gameplay",
-            "start": "00:00:30",
+            "query": "GTA Vice City crossing bridges between islands causeway driving gameplay",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -1167,8 +1167,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 Keys highway bridge ocean view driving",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 Keys multi lane causeway highway bridge ocean view driving",
+            "start": "00:00:16",
             "duration": "24"
         },
         "bgm": {
@@ -1218,8 +1218,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City gas station refueling pump gameplay",
-            "start": "00:00:30",
+            "query": "GTA Vice City gas station refueling pump explosion gameplay",
+            "start": "00:00:25",
             "duration": "24"
         },
         "nextgen": {
@@ -1228,8 +1228,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 gas station highway convenience stop scene",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 roadside convenience store neon gas station fuel stop",
+            "start": "00:00:56",
             "duration": "24"
         },
         "bgm": {
@@ -1279,7 +1279,7 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City police car chase wanted level ramming",
+            "query": "GTA Vice City police car chase wanted level squad cars ramming gameplay",
             "start": "00:00:30",
             "duration": "24"
         },
@@ -1289,8 +1289,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 police pursuit squad cars tactical response",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 high speed squad car police pursuit tactical cruiser chase",
+            "start": "00:01:03",
             "duration": "24"
         },
         "bgm": {
@@ -1339,8 +1339,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City pedestrians funny reactions panic screaming",
-            "start": "00:00:30",
+            "query": "GTA Vice City pedestrians running panic screaming funny AI reactions gameplay",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -1349,8 +1349,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 crowd recording with phones street reactions",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 crowd recording with smartphones street reactions viral video",
+            "start": "00:00:53",
             "duration": "24"
         },
         "bgm": {
@@ -1399,8 +1399,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City Ocean Beach empty shore walking pedestrians",
-            "start": "00:00:30",
+            "query": "GTA Vice City Ocean Beach empty shore walking pedestrians retro gameplay",
+            "start": "00:00:15",
             "duration": "24"
         },
         "nextgen": {
@@ -1409,8 +1409,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 beach drone shot crowd diversity activities",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 beach drone shot crowd diversity sunbathing jogging umbrella activities",
+            "start": "00:00:24",
             "duration": "24"
         },
         "bgm": {
@@ -1459,8 +1459,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City funny pedestrian quotes audio dialogue",
-            "start": "00:00:30",
+            "query": "GTA Vice City funny pedestrian quotes NPC dialogue audio speech gameplay",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -1469,8 +1469,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 street ambience pedestrian chatter voices",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 club exterior nightlife crowd chatter pedestrian ambience voices",
+            "start": "00:00:48",
             "duration": "24"
         },
         "bgm": {
@@ -1520,8 +1520,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=vszFURwcoaU",
                 "https://www.youtube.com/watch?v=PjVyENqXtAU"
             ],
-            "query": "GTA Vice City despawning cars turning camera back traffic",
-            "start": "00:00:30",
+            "query": "GTA Vice City traffic despawning cars turning camera highway traffic gameplay",
+            "start": "00:00:20",
             "duration": "24"
         },
         "nextgen": {
@@ -1530,8 +1530,8 @@ STREAM_TARGETS = [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
             ],
-            "query": "GTA 6 Trailer 1 highway traffic multi lane bridge rush hour",
-            "start": "00:00:15",
+            "query": "GTA 6 Trailer 1 highway traffic gridlock multi lane bridge rush hour cars",
+            "start": "00:00:16",
             "duration": "24"
         },
         "bgm": {
@@ -1564,6 +1564,7 @@ STREAM_TARGETS = [
         }
     }
 ]
+
 
 
 def sanitize_script_for_tts(text: str) -> str:
@@ -1849,9 +1850,10 @@ def download_section_clip(spec, output_path, cookies_path, duration_needed=24):
     end_sec = start_sec + int(spec.get("duration", duration_needed))
     section_arg = f"*{start_sec}-{end_sec}"
 
-    candidate_sources = list(spec.get("urls", []))
+    candidate_sources = []
     if spec.get("query"):
         candidate_sources.append(f"ytsearch1:{spec['query']}")
+    candidate_sources.extend(spec.get("urls", []))
 
     strategies = [
         {"client": "tv_embedded,web", "use_cookies": True},
@@ -1872,7 +1874,7 @@ def download_section_clip(spec, output_path, cookies_path, duration_needed=24):
 
             dl_cmd = [
                 "yt-dlp",
-                "--js-runtimes", "deno,node",
+                "--js-runtimes", "deno", "--js-runtimes", "node",
                 "--download-sections", section_arg,
                 "--force-keyframes-at-cuts",
                 "-f", "bestvideo[height<=1080]+bestaudio/best[height<=1080]/bestvideo+bestaudio/best",
@@ -1935,7 +1937,7 @@ def fetch_viral_bgm(bgm_spec, bgm_path, cookies_path):
         for client in ["web_safari,web", "tv_embedded,web", "android,web"]:
             cmd = [
                 "yt-dlp",
-                "--js-runtimes", "deno,node",
+                "--js-runtimes", "deno", "--js-runtimes", "node",
                 "--download-sections", section,
                 "-f", "bestaudio/best",
                 "-x",
