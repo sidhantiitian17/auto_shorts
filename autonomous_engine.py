@@ -1656,11 +1656,12 @@ def download_section_clip(spec, output_path, cookies_path, duration_needed=24):
 
             client_arg = strat["client"]
             use_cookies = strat["use_cookies"]
+            cur_sec_arg = f"*5-{5 + int(duration_needed)}" if src.startswith("ytsearch") else section_arg
 
             dl_cmd = [
                 "yt-dlp",
                 "--js-runtimes", "deno", "--js-runtimes", "node",
-                "--download-sections", section_arg,
+                "--download-sections", cur_sec_arg,
                 "--force-keyframes-at-cuts",
                 "-f", "bestvideo[height<=1080]+bestaudio/best[height<=1080]/bestvideo+bestaudio/best",
                 "--merge-output-format", "mp4",
