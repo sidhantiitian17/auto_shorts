@@ -105,37 +105,26 @@ NCS_BGM_ROSTER = [
 
 STREAM_TARGETS = [
     {
-        "id": "ocean_wave_physics",
-        "topic": "Ocean Water & Wave Physics",
-        "title": "GTA Vice City vs GTA 6 Water Physics! 🌊 #Shorts",
-        "hook": "2002 KA FLAT OCEAN VS GTA SIX KE REALISTIC OCEAN WAVES! DEKH KAR DIMAAG HIL JAYEGA!",
+        "id": "npc_greet_provoke_interaction",
+        "topic": "Player NPC Interaction & Reaction Mechanics",
+        "title": "GTA 6 Player Interacting With NPCs is INSANE! 🤯 #Shorts",
+        "hook": "GTA SIX MEIN PLAYER NPC INTERACTION SYSTEM! REAL LIFE SE BHI SMART NPCS?!",
         "lines": [
-            "2002 ke Vice City me ocean water bas ek flat blue texture tha jisme Tommy jump karte hi doob jaata tha!",
-            "Lekin GTA Six me water physics dekho!",
-            "Fluid simulation, real-time wave breaking, white water foam, aur ray-traced underwater reflections!",
-            "Boat chalate waqt dynamic water displacement aur wakes gaming industry me benchmark set karne wale hain!",
-            "Kaunsa water system zyada stunning laga?"
+            "GTA Six me streamers ne player NPC interaction system test kiya aur reactions mind-blowing hain!",
+            "Red Dead Redemption Two jaisa greeting aur dialogue system ab fully dynamic ban chuka hai!",
+            "Aap kisi bhi NPC ko greet ya threaten kar sakte ho, aur har NPC ka unique contextual memory response hota hai!",
+            "Agar aap ladai start karte ho toh bystanders phone nikal kar live stream karne lagte hain!",
+            "Kya aap peaceful explore karoge ya full chaos create karoge?"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City boat wave physics gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay player interacting with NPCs realistic reactions",
+            "start": "00:00:15",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 official Rockstar Games beach wave water physics speedboats",
-            "start": "00:00:13",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "janji_heroes_tonight",
@@ -149,53 +138,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Ocean Water & Wave Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Ocean Water & Wave Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Streamers test hands-on GTA 6 gameplay demonstrating revolutionary player NPC interactions, contextual AI voice memory, and bystander smartphone recording in Vice City!",
+            "timestamps": "0:00 - Player NPC Interaction Test\n0:08 - Dynamic Voice & Contextual Memory\n0:18 - Bystander Smartphone AI",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
                 "GTA6Gameplay",
-                "GTA6Trailer",
+                "GTA6NPC",
+                "NPCInteractions",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames",
+                "GTA6Streamer"
             ]
         }
     },
     {
-        "id": "everglades_terrain_physics",
-        "topic": "Everglades Mud & Wetland Terrain",
-        "title": "Vice City vs GTA 6 Everglades Mud Physics! 🐊 #Shorts",
-        "hook": "GTA SIX KA GRASSRIVERS WETLANDS TERRAIN VICE CITY SE KITNA AAGE HAI? CHECK THIS OUT!",
+        "id": "police_ai_traffic_stop",
+        "topic": "Streamer Testing Police AI & Traffic Stops",
+        "title": "GTA 6 Police AI Traffic Stop Gameplay Test! 🚔 #Shorts",
+        "hook": "GTA SIX MEIN POLICE AI KITNI SMART HAI? STREAMER NE TRAFFIC STOP TEST KIYA!",
         "lines": [
-            "Classic Vice City me city ke bahar wetlands ya swamp areas the hi nahi, bas flat green ground textures the!",
-            "Par GTA Six me Florida Everglades inspired 'Grassrivers' dekho!",
-            "Deformable deep mud, realistic water ripples, airboat physics, aur dense wetland vegetation!",
-            "Vehicle ke tyres mud me deeply sink hote hain with real-time wheel spin physics!",
-            "Ye detail gaming me pehli baar dekhne ko mil rahi hai!"
+            "GTA Six me streamer ne police AI ko live gameplay me test kiya!",
+            "Ab police seedha shooting start nahi karti, pehle traffic stop karke vehicle aur suspect check karti hai!",
+            "Cruisers aapko corner karne ke liye pit maneuvers aur dynamic roadblocks coordinate karti hain!",
+            "Aur agar aap car me hide ho jao, toh bodycam aur searchlights se suspect identify karte hain!",
+            "Rockstar ka police system 100 times smarter ho chuka hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City driving through mainland grass and dirt gameplay",
-            "start": "00:00:25",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer testing police AI search traffic stop",
+            "start": "00:00:20",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 airboat grassrivers wetlands flamingos everglades scene",
-            "start": "00:00:29",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "elektronomia_sky_high",
@@ -209,53 +188,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Everglades Mud & Wetland Terrain from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Everglades Mud & Wetland Terrain\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Live gameplay analysis of GTA 6 advanced police pursuit AI, realistic traffic stop procedures, tactical pit maneuvers, and searchlight suspect identification.",
+            "timestamps": "0:00 - Police Traffic Stop Procedure\n0:09 - Tactical Roadblock Coordination\n0:18 - Searchlight & Bodycam AI",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "GTA6Police",
+                "GTA6AI",
+                "PoliceChase",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "beach_sand_displacement",
-        "topic": "Beach Sand Displacement & Footstep Physics",
-        "title": "Vice City vs GTA 6 Beach Sand Physics! 🏖️ #Shorts",
-        "hook": "VICE CITY KE BEACH SAND SE LEKAR GTA SIX KE GRANULAR PHYSICS TAK! HUGE LEAP!",
+        "id": "store_clerk_interior_mechanics",
+        "topic": "Store Interior & Clerk Interaction Mechanics",
+        "title": "GTA 6 Store Robbery & Clerk AI Gameplay! 🏪 #Shorts",
+        "hook": "GTA SIX STORE CLERK INTERACTION DEKHO! ITNI UNREAL DETAILS KAISE?!",
         "lines": [
-            "Vice City ke Ocean Beach par chalte waqt sand par koi markings ya depth nahi aati thi—bas ek flat yellow texture tha!",
-            "Lekin GTA Six me dynamic granular sand physics dekho!",
-            "NPCs ke chalne se sand deform hoti hai, footstep impressions bante hain, aur vehicle ke tyres detailed ruts chhodte hain!",
-            "Even beach towels sand ke contour ke according bend hoti hain!",
-            "Rockstar ki micro-details unbeatable hain!"
+            "GTA Six gameplay me player jab convenience store enter karta hai toh clerk ka dynamic reaction dekho!",
+            "Agar aap friendly behave karte ho toh clerk normal billing karta hai!",
+            "Lekin suspicious hone par clerk chupke se counter ke niche se panic alarm press karta hai!",
+            "Shelves par physical grocery items pick aur inspect kiye ja sakte hain!",
+            "World interactivity ab next-gen benchmark ban chuki hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Ocean Beach walking on sand no footprints gameplay",
-            "start": "00:00:15",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay player walking into store clerk interaction mechanics",
+            "start": "00:00:15",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 ocean beach drone shot sand footprints crowd details",
-            "start": "00:00:23",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "warriyo_mortals",
@@ -269,52 +238,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Beach Sand Displacement & Footstep Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Beach Sand Displacement & Footstep Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Inspecting GTA 6 fully interactive convenience store interiors, clerk behavioral reactions, panic alarm AI, and physical shelf item inspection.",
+            "timestamps": "0:00 - Entering Store Interior\n0:08 - Dynamic Clerk Reaction\n0:17 - Silent Panic Alarm & Robbery AI",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
                 "GTA6Gameplay",
-                "GTA6Trailer",
+                "StoreInteriors",
+                "GTA6Robbery",
+                "OpenWorldInteractivity",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "wind_storm_palm_physics",
-        "topic": "Wind, Storms & Palm Tree Sway Physics",
-        "title": "GTA Vice City vs GTA 6 Storm & Wind Physics! 🌪️ #Shorts",
-        "hook": "GTA SIX ME AANE WALE HURRICANES AUR STORMS VICE CITY SE KITNE REALISTIC HAIN?",
+        "id": "vehicle_interior_customization",
+        "topic": "Vehicle Physics & Working Dashboard Interior",
+        "title": "GTA 6 Working Car Interior & Physics Test! 🏎️ #Shorts",
+        "hook": "GTA SIX MEIN WORKING CAR DASHBOARD AUR VEHICLE PHYSICS! 100% GAMEPLAY!",
         "lines": [
-            "Purane Vice City me jab storm aata tha, to sky ka color thoda grey hota tha aur 2D rain lines screen par girti thi, jabki palm trees bilkul static rehti thi!",
-            "Par GTA Six me volumetric hurricane winds dekho!",
-            "Palm trees air pressure se naturally bend hoti hain, loose leaves hawa me udti hain, aur ray-traced puddles me dynamic ripples banti hain!",
-            "Florida weather ka ye realism next level hai!"
+            "GTA Six ke live gameplay me streamers ne car interiors aur driving physics test kiye!",
+            "Har car me working digital speedometer, mirror reflections, aur moving steering controls hain!",
+            "Tire friction aur suspension road bumps par 100 percent real-world physics follow karte hain!",
+            "Convertible cars me roof fold hote waqt realistic electrical motor sound aati hai!",
+            "First-person driving ka experience totally cinematic hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City thunderstorm heavy rain weather gameplay",
-            "start": "00:00:30",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer testing vehicle physics interior customization",
+            "start": "00:00:18",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 storm wind swaying palm trees sunset clouds weather",
-            "start": "00:00:09",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "cartoon_on_and_on",
@@ -328,52 +288,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Wind, Storms & Palm Tree Sway Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Wind, Storms & Palm Tree Sway Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Streamers break down GTA 6 first-person vehicle interiors, working digital dashboard gauges, ray-traced mirrors, and suspension physics.",
+            "timestamps": "0:00 - First-Person Dashboard Cockpit\n0:09 - Realistic Suspension & Friction\n0:18 - Convertible Roof Animation",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "GTA6Cars",
+                "VehiclePhysics",
+                "CarCustomization",
                 "GTA6Gameplay",
-                "GTA6Trailer",
-                "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "Gaming",
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "alligator_wildlife_ecosystem",
-        "topic": "Alligators & Wildlife Ecosystem",
-        "title": "Vice City vs GTA 6 Wildlife & Alligators! 🐊 #Shorts",
-        "hook": "VICE CITY ME ZERO ANIMALS THE... PAR GTA SIX KA WILDLIFE ECOSYSTEM MIND-BLOWING HAI!",
+        "id": "ragdoll_crowd_ai_reactions",
+        "topic": "Ragdoll Physics & Crowd Panic AI",
+        "title": "GTA 6 Ragdoll Physics & Crowd AI Gameplay! 😱 #Shorts",
+        "hook": "GTA SIX MEIN RAGDOLL PHYSICS AUR CROWD AI! ITNA REALISTIC KAISE?",
         "lines": [
-            "2002 ke Vice City me water me bas static shark models the aur city me zero animals the!",
-            "Lekin GTA Six me full-fledged Florida wildlife ecosystem dekhne ko mil raha hai!",
-            "Swimming pools me alligators ghuste hue, roads cross karte wild animals, aur wetlands me flying flamingos with natural flock AI!",
-            "Red Dead Redemption 2 ka animal engine ab Vice City ke modern world me adapt ho chuka hai!"
+            "GTA Six me live gameplay streamer breakdown me ragdoll physics aur crowd AI test ki gayi!",
+            "Jab player crowd me sprint karta hai, NPCs naturally stumble hokar balance recover karte hain!",
+            "Panic hone par crowd stampede create nahi karti, balki smart exits aur cover dhundti hai!",
+            "Euphoria ragdoll physics har impact ke weight aur momentum ko accurately calculate karti hai!",
+            "Rockstar ne physics engine ko peak perfection par pahuncha diya hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City sharks swimming in ocean retro gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay ragdoll physics and crowd AI reaction streamer breakdown",
+            "start": "00:00:15",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 alligator in swimming pool outdoor wildlife animal control",
-            "start": "00:00:32",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "lost_sky_fearless",
@@ -387,52 +338,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Alligators & Wildlife Ecosystem from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Alligators & Wildlife Ecosystem\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Analyzing next-gen Euphoria ragdoll physics in GTA 6: how crowd NPCs react to player collisions, stumble recovery, and intelligent emergency pathfinding.",
+            "timestamps": "0:00 - Crowd Collision Stumbling\n0:09 - Intelligent Stampede Pathfinding\n0:18 - Euphoria Ragdoll Momentum",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "RagdollPhysics",
+                "EuphoriaPhysics",
+                "CrowdAI",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "payphones_vs_social_media",
-        "topic": "Payphones vs In-Game TikTok / Reels Social Media",
-        "title": "Payphones to TikTok: GTA Evolution! 📱 #Shorts",
-        "hook": "VICE CITY KE STREET PAYPHONES SE LEKAR GTA SIX KE VIRAL TIKTOK REELS TAK!",
+        "id": "smartphone_camera_social_feed",
+        "topic": "Player In-Game Smartphone & Social Feed App",
+        "title": "GTA 6 In-Game Smartphone & Live Reels App! 📱 #Shorts",
+        "hook": "GTA SIX KA IN-GAME SMARTPHONE SYSTEM DEKHO! REAL INSTA REELS!",
         "lines": [
-            "2002 me Tommy Vercetti ko har secret contact ke liye street ke public payphone par jaakar call attend karni padti thi!",
-            "Lekin GTA Six me Rockstar ne poora fictional in-game social media platform create kiya hai!",
-            "NPCs vertical videos shoot karte hain, viral reels post karte hain, aur live streams chalate hain!",
-            "1980s retro tech se 2025 modern internet culture tak—Rockstar ki detailing bemisaal hai!"
+            "GTA Six gameplay me player apna smartphone nikal kar live photo aur video shoot kar sakta hai!",
+            "Game ke andar vertical social media app hai jisme Leonida ke citizens real-time posts upload karte hain!",
+            "Aapke open world actions in-game viral feed me trend karne lagte hain!",
+            "Front camera me dynamic facial filters aur selfie angles available hain!",
+            "GTA Six ka social media simulation insanely realistic hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City answering public ringing payphone hit mission gameplay",
-            "start": "00:00:15",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay player using smartphone camera social media feed mechanics",
+            "start": "00:00:20",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 social media livestream vertical videos phone reels scene",
-            "start": "00:00:51",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "janji_heroes_tonight",
@@ -446,52 +388,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Payphones vs In-Game TikTok / Reels Social Media from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Payphones vs In-Game TikTok / Reels Social Media\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "First look at GTA 6 in-game smartphone camera app, real-time Leonida social feed parodying TikTok and Reels, and trending player stunts.",
+            "timestamps": "0:00 - Smartphone Camera UI\n0:09 - In-Game Social Media Feed\n0:18 - Trending Stunts & Viral AI",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "InGamePhone",
+                "GTA6SocialMedia",
+                "GTA6TikTok",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "character_hair_physics",
-        "topic": "Character Hair & Strand Physics",
-        "title": "GTA Vice City vs GTA 6 Hair Physics! 💇 #Shorts",
-        "hook": "VICE CITY KE BLOCKY 3D HAIR VS GTA SIX KE INDIVIDUAL HAIR STRAND PHYSICS!",
+        "id": "alligator_wildlife_encounters",
+        "topic": "Streamer Everglades Alligator Encounter Test",
+        "title": "GTA 6 Streamer Alligator Encounter in Swamp! 🐊 #Shorts",
+        "hook": "GTA SIX SWAMP MEIN ALLIGATOR ATTACK! STREAMER LIVE REACTION!",
         "lines": [
-            "Tommy Vercetti ke iconic brown hair poore game me ek solid block polygon jaise fix rehte the, chahe fast speed me bike chalao ya storm aaye!",
-            "Par GTA Six me female protagonist Lucia aur NPCs ke hair dekho!",
-            "Strand-based physics, wind ke direction me flow, moisture ke sath weight change, aur realistic specular highlights!",
-            "Har ek hair strand independent physics follow karta hai!"
+            "GTA Six live gameplay me streamer jab Florida Grassrivers swamp me gaya toh kya hua dekho!",
+            "Water weeds ke andar se 12-foot alligator underwater stalk karke lunge attack karta hai!",
+            "Player quick-time grapple karke alligator ke jabde se escape karne ki koshish kar sakta hai!",
+            "Mud deformation aur water splash physics is encounter ko hyper-realistic banati hain!",
+            "Swamp me airboat chalana high risk adventure ban chuka hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Tommy Vercetti character model close up driving gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer fighting alligator in swamp wildlife mechanics",
+            "start": "00:00:25",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 Lucia hair physics convertible car riding wind",
-            "start": "00:00:19",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "elektronomia_sky_high",
@@ -505,52 +438,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Character Hair & Strand Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Character Hair & Strand Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "A thrilling hands-on gameplay breakdown of wildlife encounters in GTA 6: alligator swamp ambush, underwater stealth attacks, and mud displacement.",
+            "timestamps": "0:00 - Grassrivers Swamp Exploration\n0:09 - Underwater Alligator Lunge\n0:18 - Escape Grapple Mechanics",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "AlligatorEncounter",
+                "GTA6Wildlife",
+                "Everglades",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "street_lighting_neon_glow",
-        "topic": "Street Lighting & Volumetric Neon Signs",
-        "title": "Vice City Neon Glow: 2002 vs GTA 6! 💡✨ #Shorts",
-        "hook": "VICE CITY KI FAMOUS PINK NEON LIGHTS GTA SIX ME KITNI EVOLVE HO CHUKI HAIN?",
+        "id": "hair_cloth_physics_wind",
+        "topic": "Dynamic Hair & Clothing Wind Simulation",
+        "title": "GTA 6 Hair & Clothing Physics Gameplay Test! 💨 #Shorts",
+        "hook": "GTA SIX MEIN STRAND HAIR AUR CLOTHING PHYSICS DEKHO! UNREAL DETAILS!",
         "lines": [
-            "Vice City ka signature neon aesthetic hum sabko yaad hai, jo 2002 me simple 2D glow textures se banaya gaya tha!",
-            "Lekin GTA Six me ray-traced volumetric lighting dekho!",
-            "Neon signs ka light road puddles par, car paint par aur passing pedestrians ke faces par accurately bounce karta hai!",
-            "Foggy nights me neon glow poore atmosphere ko ek real Miami vibe deta hai!"
+            "GTA Six hands-on gameplay me Lucia aur Jason ke strand-based hair physics test kiye gaye!",
+            "Convertible car driving karte waqt 80 mph wind me individual hair strands flutter karte hain!",
+            "Pani me jump karne par kapde wet hokar skin se stick hote hain aur dry hone par wrinkle hote hain!",
+            "Rockstar ne character modeling me unmatched micro-details add kiye hain!",
+            "Gaming history ka sabse advanced character physics system!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Ocean Drive night neon lights driving gameplay",
-            "start": "00:00:30",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay character hair wind physics and clothing simulation test",
+            "start": "00:00:18",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 Ocean Drive night neon lighting ray tracing reflections",
-            "start": "00:00:18",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "warriyo_mortals",
@@ -564,52 +488,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Street Lighting & Volumetric Neon Signs from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Street Lighting & Volumetric Neon Signs\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Detailed technical showcase of strand-based hair rendering, dynamic wind resistance in convertibles, and procedural clothing wetness in GTA 6.",
+            "timestamps": "0:00 - Strand Hair Wind Simulation\n0:09 - 80 MPH Convertible Test\n0:17 - Procedural Clothing Wetness",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "HairPhysics",
+                "ClothSimulation",
+                "NextGenGraphics",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "streetwear_sneaker_fashion",
-        "topic": "Modern Streetwear & Sneaker Fashion",
-        "title": "GTA Vice City vs GTA 6 Character Fashion! 👟 #Shorts",
-        "hook": "TOMMY KI HAWAIIAN SHIRT SE LEKAR GTA SIX KE HYPEBEAST SNEAKERS TAK!",
+        "id": "dynamic_weather_hurricanes",
+        "topic": "Streamer Experiencing Category 5 Hurricane",
+        "title": "GTA 6 Extreme Hurricane Storm Gameplay! 🌪️ #Shorts",
+        "hook": "GTA SIX MEIN REAL FLORIDA HURRICANE! STREAMER KA DIMAAG HIL GAYA!",
         "lines": [
-            "2002 me Tommy Vercetti ki iconic blue Hawaiian floral shirt low-resolution flat textures se banti thi jisme wrinkles bhi painted the!",
-            "Par GTA Six me modern streetwear aur sneaker culture dekho!",
-            "Dynamic cloth folding physics, realistic fabric stitching, sneaker creasing, aur luxury branded outfits!",
-            "Character customization me itni intricate micro-details gaming me pehle kabhi nahi dekhi gayi!"
+            "GTA Six gameplay me dynamic hurricane storm strike hone par streamer ka reaction dekho!",
+            "Extreme volumetric rain, flash floods, aur lightning storms open world ko transform kar dete hain!",
+            "Gale-force wind palm trees ko bend kar deti hai aur road signs udne lagte hain!",
+            "Driving karte waqt car aquaplaning aur hydroplaning physics simulate karti hai!",
+            "Is dynamic weather system ke samne baki sab games pale lagte hain!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Tommy Vercetti outfits wardrobe clothes change gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer experiencing extreme weather storm hurricane mechanics",
+            "start": "00:00:15",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 rooftop pool party luxury fashion streetwear jewelry scene",
-            "start": "00:00:36",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "cartoon_on_and_on",
@@ -623,52 +538,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Modern Streetwear & Sneaker Fashion from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Modern Streetwear & Sneaker Fashion\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Witnessing a dynamic Category 5 hurricane in GTA 6: volumetric clouds, hurricane winds violently swaying palm trees, street flooding, and hydroplaning.",
+            "timestamps": "0:00 - Approaching Hurricane Clouds\n0:09 - Violent Palm Tree Sways\n0:18 - Road Flooding & Hydroplaning",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "GTA6Weather",
+                "HurricaneGameplay",
+                "ExtremeWeather",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "smartphone_camera_tech",
-        "topic": "Smartphone Selfies & Camera Tech",
-        "title": "GTA 5 vs GTA 6 Smartphone Camera Tech! 📸 #Shorts",
-        "hook": "GTA 5 KA IFRUIT PHONE VS GTA SIX KE ULTRA REALISTIC SMARTPHONE MECHANICS!",
+        "id": "weapon_customization_recoil",
+        "topic": "Weapon Modification & Recoil Mechanics",
+        "title": "GTA 6 Weapon Customization & Recoil Gameplay! 💥 #Shorts",
+        "hook": "GTA SIX MEIN WEAPON CUSTOMIZATION AUR RECOIL! HYPER REALISTIC SHOOTING!",
         "lines": [
-            "GTA Five me Snapmatic camera ek basic photo tool tha jisme fixed selfie poses the!",
-            "Lekin GTA Six me camera phone mechanics complete simulation ban chuka hai!",
-            "Wide-angle lenses, realistic camera sensor grain, flash lighting in dark alleys, aur NPCs passing by jo photo lene par pose ya react karte hain!",
-            "Even CCTV cameras aur dashcams in-game world me seamlessly functional hain!"
+            "GTA Six gameplay me weapon mechanics aur customization test ki gayi!",
+            "Har weapon me authentic bolt cycling, barrel smoke, aur realistic muzzle flash physics hain!",
+            "Indoor buildings aur open beach par gunfire sound ka real-time reverb aur acoustic echo badal jata hai!",
+            "Laser sights, dynamic optics, aur suppressors handling stats ko meaningfully alter karte hain!",
+            "Gun mechanics pure tactical feel dete hain!"
         ],
-        "classic": {
-            "label": "GTA 5 (2013)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA 5 Snapmatic selfie camera app mechanics Franklin Los Santos gameplay",
-            "start": "00:00:25",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay weapon recoil customisation and audio echo mechanics test",
+            "start": "00:00:18",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 convenience store robbery bodycam CCTV footage camera",
-            "start": "00:00:56",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "lost_sky_fearless",
@@ -682,52 +588,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Smartphone Selfies & Camera Tech from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Smartphone Selfies & Camera Tech\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Testing hands-on gunplay, dynamic recoil patterns, procedural reload animations, and real-time audio reverb in GTA 6 gunsmith gameplay.",
+            "timestamps": "0:00 - Gunsmith Mod Menu\n0:09 - Procedural Recoil & Muzzle Smoke\n0:18 - Environmental Acoustic Reverb",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "WeaponCustomization",
+                "GunMechanics",
+                "GTA6Shooting",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "helicopter_rotor_physics",
-        "topic": "Helicopter Flight & Rotor Physics",
-        "title": "Vice City vs GTA 6 Helicopter Physics! 🚁 #Shorts",
-        "hook": "VICE CITY KE MAVERICK HELICOPTER SE LEKAR GTA SIX KE AVIATION PHYSICS TAK!",
+        "id": "superbike_stunts_drifting",
+        "topic": "Streamer Testing Superbike Lean Angle & Stunts",
+        "title": "GTA 6 Superbike Wheelie & Lean Angle Physics! 🏍️ #Shorts",
+        "hook": "GTA SIX MEIN BIKE WHEELIE AUR LEAN ANGLE TEST! STREAMER INSANE STUNT!",
         "lines": [
-            "Vice City me helicopter udana kitna tricky tha hum sabko pata hai, especially wo infamous toy chopper mission!",
-            "Controls arcade-like the aur rotor wash ka ground par koi effect nahi hota tha!",
-            "Lekin GTA Six me realistic helicopter aerodynamics dekho!",
-            "Rotor downdraft se palm trees bend hoti hain, water surface par realistic waves banti hain, aur cockpit instrument panels fully animated hain!"
+            "GTA Six live gameplay me streamer ne superbikes ke lean angle aur high-speed stunts test kiye!",
+            "Cornering karte waqt rider ka center-of-mass shift aur knee dragging accurately calculate hota hai!",
+            "Wheelie pull karte waqt throttle feathering aur rear tire traction control feel hota hai!",
+            "Crash hone par realistic slide physics aur gear tear mechanics bante hain!",
+            "Motorcycle mechanics lovers ke liye ye absolute dream gameplay hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Hunter helicopter flight aerial gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer testing motorcycle physics wheelie lean angle stunt",
+            "start": "00:00:20",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 high altitude aerial skyline coastline helicopter view",
-            "start": "00:00:14",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "janji_heroes_tonight",
@@ -741,52 +638,42 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Helicopter Flight & Rotor Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Helicopter Flight & Rotor Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Deep dive into motorcycle handling physics in GTA 6: knee dragging on corners, wheelie weight distribution, and high-speed highway filtering.",
+            "timestamps": "0:00 - Superbike Acceleration\n0:08 - Knee Dragging Corner Physics\n0:18 - High-Speed Wheelie Balance",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "MotorcyclePhysics",
+                "SuperbikeStunts",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "motorcycle_pcj600_physics",
-        "topic": "Superbike & PCJ-600 Physics",
-        "title": "Vice City PCJ-600 vs GTA 6 Superbikes! 🏍️ #Shorts",
-        "hook": "VICE CITY KI LEGENDARY PCJ-600 VS GTA SIX KE MODERN SUPERBIKE MECHANICS!",
+        "id": "lowrider_hydraulics_car_meet",
+        "topic": "Player Tuning Lowrider Hydraulics at Car Meet",
+        "title": "GTA 6 Lowrider Hydraulics Bouncing Gameplay! 🚗 #Shorts",
+        "hook": "GTA SIX MEIN BOUNCING LOWRIDER HYDRAULICS! OCEAN DRIVE CAR MEET!",
         "lines": [
-            "Vice City me PCJ-600 par jump marna aur rooftop stunts karna hum sabka favorite pastime tha, bhale hi bike ka turning radius aur lean physics simple arcade style the!",
-            "Par GTA Six me modern sportbike mechanics dekho!",
-            "Accurate counter-steering, weight shifting, dynamic suspension compression on high speeds, aur realistic tire grip on asphalt!",
-            "Bike lovers ke liye ye dream physics hone wali hai!"
+            "GTA Six gameplay me player jab customized lowrider ko Ocean Drive car meet par le jata hai!",
+            "Individual 4-wheel independent hydraulics controller se car ko rhythm par bounce kar sakte hain!",
+            "Night lighting me metallic paint aur chrome rims par real-time neon ray tracing reflections aate hain!",
+            "Car meet par NPCs car surround karke dance aur phone recording karte hain!",
+            "Miami car culture ko Rockstar ne 100 percent authentically recreate kiya hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City PCJ-600 stunt bike riding gameplay",
-            "start": "00:00:15",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay player bouncing lowrider hydraulics car meet customisation",
+            "start": "00:00:15",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 dirt bikes ATV street rideout quad city pack",
-            "start": "00:00:42",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "elektronomia_sky_high",
@@ -800,52 +687,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Superbike & PCJ-600 Physics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Superbike & PCJ-600 Physics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Showcasing the vibrant Ocean Drive car meet scene in GTA 6: independent 4-wheel hydraulics bouncing, custom audio setups, and cheering crowd AI.",
+            "timestamps": "0:00 - Ocean Drive Car Meet\n0:09 - 4-Wheel Independent Hydraulics\n0:18 - Crowd Cheering & Audio Subwoofer",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "Lowrider",
+                "CarMeet",
+                "Hydraulics",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "speedboats_luxury_yachts",
-        "topic": "Speedboats & Luxury Yacht Wakes",
-        "title": "Vice City vs GTA 6 Speedboats & Yachts! 🚤 #Shorts",
-        "hook": "VICE CITY KE BASIC SPEEDBOATS SE LEKAR GTA SIX KE LUXURY SUPERYACHTS TAK!",
+        "id": "speedboats_wave_jumping",
+        "topic": "Streamer Testing Speedboat Ocean Wakes & Wave Jumping",
+        "title": "GTA 6 Speedboat Ocean Wave Jumping Gameplay! 🛥️ #Shorts",
+        "hook": "GTA SIX OCEAN WAVES PAR SPEEDBOAT JUMP! NEXT-GEN WATER SIMULATION!",
         "lines": [
-            "Vice City me Squalo boat se ocean cross karte waqt simple flat splashes bante the aur boat rigid tarike se bounce karti thi!",
-            "Lekin GTA Six me hydrodynamic water displacement dekho!",
-            "Twin-engine powerboats ka realistic V-wake foam, hull water spray, dynamic buoyancy, aur ultra-luxury yachts ke multi-deck interiors with ambient ocean soundscapes!",
-            "Vice City ke water bodies pehle se 100 guna zyada alive hain!"
+            "GTA Six gameplay me streamer ne offshore powerboat se ocean waves par jump kiya!",
+            "Fluid simulation engines real-time swells generate karte hain jisme boat hull launch ho jata hai!",
+            "Water spray windscreen par droplets generate karta hai aur dynamic wake banti hai!",
+            "Twin propellers jab air me aate hain toh realistic engine RPM surge hota hai!",
+            "Water graphics aur fluid dynamics gaming history ka supreme peak hain!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Squalo speedboat ocean driving gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer testing speedboat jumping ocean waves water simulation",
+            "start": "00:00:15",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 luxury speedboats container ship ocean port bay",
-            "start": "00:00:13",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "warriyo_mortals",
@@ -859,52 +737,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Speedboats & Luxury Yacht Wakes from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Speedboats & Luxury Yacht Wakes\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "High-octane offshore speedboat racing in GTA 6: dynamic wave launches, propeller cavitation out of water, and procedural foam displacement.",
+            "timestamps": "0:00 - Offshore Powerboat Acceleration\n0:09 - Wave Launching Airtime\n0:18 - Twin Propeller RPM Surge",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "SpeedboatGameplay",
+                "WaterPhysics",
+                "WaveJumping",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "muscle_car_hydraulics",
-        "topic": "Muscle Car Hydraulics & Lowriders",
-        "title": "GTA Vice City vs GTA 6 Lowrider Hydraulics! 🚗 #Shorts",
-        "hook": "CLASSIC VOODOO LOWRIDER BOUNCE VS GTA SIX KE ULTRA REALISTIC HYDRAULICS!",
+        "id": "helicopter_city_skyline_flight",
+        "topic": "Player Flying Helicopter Through Vice City Downtown",
+        "title": "GTA 6 Helicopter Flight Through Downtown Vice City! 🚁 #Shorts",
+        "hook": "GTA SIX MEIN DOWNTOWN SKYSCRAPERS KE BEECH HELICOPTER FLIGHT! INSANE VIEW!",
         "lines": [
-            "Vice City me Voodoo aur Cuban Hermes me hydraulics activate karna simple preset animations par based tha!",
-            "Par GTA Six ke Trailer 1 me Ocean Drive par lowriders ka scene dekho!",
-            "True-to-life independent pneumatic suspension, weight momentum shifting, chassis torque twist, aur custom chrome wheel reflections!",
-            "Lowrider car culture ko Rockstar Games ne masterclass precision ke sath recreate kiya hai!"
+            "GTA Six gameplay me downtown Vice City skyscrapers ke beech helicopter flight test ki gayi!",
+            "Rotor downwash ground par trees aur pedestrians ke kapdo ko physical force se push karta hai!",
+            "Draw distance itna uncompromised hai ki poora Vice City aur beach skyline horizon tak dikhta hai!",
+            "Night flight karte waqt building window interiors aur volumetric city haze mind-boggling dikhti hai!",
+            "Flight mechanics completely intuitive aur thrilling hain!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Voodoo car hydraulics hopping suspension gameplay",
-            "start": "00:00:15",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay player flying helicopter downtown skyscrapers flight mechanics",
+            "start": "00:00:15",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 lowrider suspension bounce Ocean Drive car meet scene",
-            "start": "00:00:18",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "cartoon_on_and_on",
@@ -918,52 +787,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Muscle Car Hydraulics & Lowriders from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Muscle Car Hydraulics & Lowriders\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Aerial helicopter tour through downtown Vice City skyscrapers in GTA 6: physical rotor downwash, unlimited draw distance, and dynamic 3D volumetric fog.",
+            "timestamps": "0:00 - Downtown Skyline Approach\n0:08 - Rotor Downwash Wind Effect\n0:18 - Night City Horizon Draw Distance",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "HelicopterFlight",
+                "ViceCitySkyline",
+                "GTA6Graphics",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "airport_commercial_aircraft",
-        "topic": "Commercial Aircraft & Escobar Airport",
-        "title": "Escobar Airport: GTA Vice City vs GTA 6! ✈️ #Shorts",
-        "hook": "VICE CITY KA ESCOBAR INTERNATIONAL AIRPORT VS GTA SIX KA MEGA AIRPORT HUB!",
+        "id": "airport_runway_airliner_mechanics",
+        "topic": "Streamer Infiltrating International Airport Runway",
+        "title": "GTA 6 International Airport Runway Exploration Gameplay! ✈️ #Shorts",
+        "hook": "GTA SIX INTERNATIONAL AIRPORT RUNWAY MEIN JET ENGINE BLAST! DEKHO KYA HUA!",
         "lines": [
-            "2002 me Escobar International Airport par commercial passenger planes bas sky me scripted loop me fly karte the aur runway par static models the!",
-            "Lekin GTA Six me airport infrastructure ka scale dekho!",
-            "Functional jet bridges, taxiing aircrafts, dynamic ground service vehicles, air traffic control towers, aur massive multi-terminal architecture!",
-            "Scale aur detailing me ye real-world Miami International ko match karta hai!"
+            "GTA Six gameplay me streamer jab Escobar International Airport ke live runway par gaya!",
+            "Commercial passenger airliners schedule par take-off aur landing perform karte hain!",
+            "Jet engine turbines ke peeche physical heat exhaust blur aur thrust drag feel hota hai!",
+            "Baggage vehicles, fuel trucks, aur marshals authentic tarmac operations chalate hain!",
+            "Airport ka scale aur living ecosystem kisi flight simulator jaisa detailed hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Escobar International Airport runway passenger planes gameplay",
-            "start": "00:00:25",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer exploring international airport runway passenger planes",
+            "start": "00:00:18",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 passenger airliner climbing over bay airport airspace",
-            "start": "00:00:15",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "lost_sky_fearless",
@@ -977,52 +837,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Commercial Aircraft & Escobar Airport from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Commercial Aircraft & Escobar Airport\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Exploring the massive Escobar International Airport in GTA 6: working air traffic schedules, jet blast physics, and living airport ground crew AI.",
+            "timestamps": "0:00 - Entering Runway Perimeter\n0:09 - Commercial Airliner Touchdown\n0:18 - Jet Engine Heat Exhaust Blur",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "GTA6Airport",
+                "AirlinerTakeoff",
+                "JetBlastPhysics",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "ocean_view_hotel_evolution",
-        "topic": "Ocean View Hotel (2002 vs 2025)",
-        "title": "Ocean View Hotel: Vice City 2002 vs GTA 6! 🏨 #Shorts",
-        "hook": "TOMMY VERCETTI KA PEHLA SAFEHOUSE... GTA SIX ME AB KAISA DIKHTA HAI?",
+        "id": "nightlife_club_interior_dancing",
+        "topic": "Player Entering Luxury Nightclub & Crowd Dancing",
+        "title": "GTA 6 Luxury Nightclub Interior & Dancing Crowd Gameplay! 🪩 #Shorts",
+        "hook": "GTA SIX CLUB MEIN 200+ DANCING NPCS! REAL MIAMI NIGHTLIFE VIBES!",
         "lines": [
-            "Ocean View Hotel hum sabka childhood nostalgia hai—wo pink building, lobby me staircase, aur room table par mission rewards!",
-            "GTA Six me Art Deco district ka modernization dekho!",
-            "Authentic 1930s Miami Beach architecture, ornate balcony railings, warm ambient lobby lighting, aur real-time glass transparency!",
-            "Kya Rockstar hume is hotel ke room me enter karne dega as a legendary tribute? Comments me batao!"
+            "GTA Six gameplay me player jab luxury nightclub ke andar walk karta hai!",
+            "200 se zyada uniquely styled NPCs dance floor par real beat par synchronize dance karte hain!",
+            "Heavy bass se screen par subtle camera shake aur atmospheric smoke laser lights dikhte hain!",
+            "Bartender se customized drinks order kar sakte ho aur VIP lounge access le sakte ho!",
+            "Vice City nightlife ka atmosphere pure perfection hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Ocean View Hotel exterior safehouse driving gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay player walking into nightclub interior dancing crowd music",
+            "start": "00:00:20",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 Ocean View Hotel Art Deco buildings night drive",
-            "start": "00:00:18",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "janji_heroes_tonight",
@@ -1036,53 +887,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Ocean View Hotel (2002 vs 2025) from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Ocean View Hotel (2002 vs 2025)\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Stepping inside a high-end Vice City nightclub in GTA 6: 200+ NPCs dancing with real rhythm, sub-bass camera vibration, and laser lighting.",
+            "timestamps": "0:00 - Entering Nightclub Foyer\n0:08 - Packed Dancefloor AI\n0:18 - Volumetric Laser Show & VIP Lounge",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "GTA6Nightlife",
+                "NightclubInterior",
+                "DancingCrowdAI",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "supermarket_store_interiors",
-        "topic": "Supermarkets & Convenience Store Interiors",
-        "title": "Vice City vs GTA 6 Store Interiors! 🛒 #Shorts",
-        "hook": "VICE CITY KE FLAT SHOP TEXTURES VS GTA SIX KE FULLY STOCKED AISLES!",
+        "id": "convenience_store_interactive_robbery",
+        "topic": "Streamer Testing Dynamic Store Robbery Escape",
+        "title": "GTA 6 Convenience Store Robbery & Cashier AI Gameplay! 💰 #Shorts",
+        "hook": "GTA SIX MEIN STORE ROBBERY DYNAMIC DIALOGUE! CASHIER NE GUN NIKAL LI?!",
         "lines": [
-            "Purane Vice City me North Point Mall ya local convenience stores me shelf par rakhhe items bas low-res flat textures the!",
-            "Par GTA Six ke interior leaks aur trailer me convenience store dekho!",
-            "Har ek soda can, chip packet, and grocery item individually 3D rendered hai with dynamic physics!",
-            "Seamlessly bina loading screen ke store enter karo aur surrounding details admire karo!",
-            "Immersive level 100/100!"
+            "GTA Six gameplay me streamer ne convenience store me dynamic robbery test ki!",
+            "Cashier register kholte waqt nervous hands se cash drop karta hai aur dynamic dialogue bolta hai!",
+            "Agar aap distraction create karte ho toh cashier counter ke peeche se shotgun draw kar leta hai!",
+            "Store ke bahar nikalte hi surrounding traffic sirens sun kar panic mode me pull over karti hai!",
+            "Robbery mechanics me itna tension pehle kisi open world me nahi dekha gaya!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City North Point Mall store robbery glass interior gameplay",
-            "start": "00:00:25",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer testing convenience store robbery cashier dialogue escape",
+            "start": "00:00:20",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 convenience store interior robbery Jason Lucia door open",
-            "start": "00:00:57",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "elektronomia_sky_high",
@@ -1096,52 +937,43 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Supermarkets & Convenience Store Interiors from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Supermarkets & Convenience Store Interiors\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Dynamic convenience store heist in GTA 6: nervous cashier voice acting, cash register dropping bills, silent alarms, and getaway chase.",
+            "timestamps": "0:00 - Initiating Store Heist\n0:09 - Nervous Cashier AI Reactions\n0:18 - Getaway Car Police Encounter",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "GTA6Robbery",
+                "StoreHeist",
+                "HeistGameplay",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "luxury_car_showrooms",
-        "topic": "Luxury Car Showroom Interiors",
-        "title": "Sunshine Autos vs GTA 6 Luxury Showrooms! 🏎️ #Shorts",
-        "hook": "VICE CITY KA SUNSHINE AUTOS VS GTA SIX KE ULTRA MODERN GLASS SHOWROOMS!",
+        "id": "supercar_paint_reflections",
+        "topic": "Player Showcasing Ray-Traced Supercar Paint Reflections",
+        "title": "GTA 6 Supercar Ray Traced Paint Reflections Gameplay! ✨ #Shorts",
+        "hook": "GTA SIX MEIN RAY TRACED CAR PAINT! MIRROR JAISI REFLECTIONS!",
         "lines": [
-            "Vice City me car dealership business run karne ke liye hum Sunshine Autos purchase karte the, jahan 4 garage bays aur ek simple glass showroom tha!",
-            "Lekin GTA Six me modern luxury exotic car showrooms dekho!",
-            "Curved floor-to-ceiling glass architecture, dynamic showroom spotlighting, polished marble floor reflections, aur rotating vehicle display platforms!",
-            "Visual presentation me ye luxury car brands ko rival karta hai!"
+            "GTA Six live gameplay me customized supercar ke ray-traced paint reflections test kiye gaye!",
+            "Full ray tracing se car ke metallic body panels par surrounding neon signs aur buildings reflect hoti hain!",
+            "Carbon fiber textures aur brake callipers par hyper-realistic micro-scratches aur dust accumulate hoti hai!",
+            "Sunset light me car ka pearlescent paint angle ke sath color shift karta hai!",
+            "Visual fidelity benchmark ab hamesha ke liye raise ho chuka hai!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Sunshine Autos car showroom showroom floor gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay player customising supercar paint ray tracing reflections test",
+            "start": "00:00:18",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 luxury sports car paint reflections showcase tuning",
-            "start": "00:00:44",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "warriyo_mortals",
@@ -1155,111 +987,343 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Luxury Car Showroom Interiors from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Luxury Car Showroom Interiors\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Inspecting full path-traced ray reflections on supercars in GTA 6: metallic flake paint, real-time mirror reflections, and dynamic sunset shifts.",
+            "timestamps": "0:00 - Custom Pearlescent Paint\n0:09 - Ray-Traced Neon Street Reflections\n0:18 - Carbon Fiber Texture Inspection",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "RayTracing",
+                "SupercarReflections",
+                "NextGenVisuals",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     },
     {
-        "id": "bridges_highway_infrastructure",
-        "topic": "Bridges & Multi-Lane Highway Networks",
-        "title": "Vice City Bridges vs GTA 6 Mega Highways! 🌉 #Shorts",
-        "hook": "VICE CITY KE SIMPLE BRIDGES SE LEKAR GTA SIX KE MASSIVE HIGHWAY INTERCHANGES TAK!",
+        "id": "keys_highway_causeway_speedrun",
+        "topic": "Streamer High-Speed Run on Florida Keys Causeway Bridge",
+        "title": "GTA 6 200 MPH Highway Causeway Bridge Speedrun! 🏎️💨 #Shorts",
+        "hook": "GTA SIX MEIN 200 MPH HIGHWAY CAUSEWAY SPEEDRUN! GRAPHICS DEKHO!",
         "lines": [
-            "2002 me Vice City ke islands ko connect karne wale simple 4-lane bridges the jo storm ke waqt barricaded rehte the!",
-            "Par GTA Six me Florida Keys Over-Seas Highway aur multi-tier highway flyovers dekho!",
-            "Expansive suspension bridges, realistic road wear textures, concrete barriers, aur realistic GPS signages!",
-            "Long drives aur road trips ka maza GTA Six me unmatchable hone wala hai!"
+            "GTA Six gameplay me streamer ne hypercar se multi-lane Keys highway causeway bridge par 200 mph hit kiya!",
+            "High speed par motion blur, wind audio roar, aur passing traffic horn doppler effects goosebumps dete hain!",
+            "Dono sides par open ocean, jumping fish, aur fishing yachts dynamic background create karte hain!",
+            "Draw distance bina kisi pop-in ke ultra-smooth 60 fps par hold karta hai!",
+            "Sensational driving adrenaline ka benchmark!"
         ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City crossing bridges between islands causeway driving gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
         "nextgen": {
-            "label": "GTA SIX (2025)",
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer driving 200mph on highway bridge causeway test",
+            "start": "00:00:15",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 Keys multi lane causeway highway bridge ocean view driving",
+            ]
+        },
+        "bgm": {
+            "id": "cartoon_on_and_on",
+            "title": "On & On",
+            "artist": "Cartoon (feat. Daniel Levi)",
+            "genre": "NoCopyrightSounds (NCS) / Drum & Bass",
+            "credit": "Track: Cartoon - On & On (feat. Daniel Levi) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/K4DyBUG242c\nFree Download / Stream: http://ncs.io/onandon",
+            "section": "*25-55",
+            "urls": [
+                "https://www.youtube.com/watch?v=K4DyBUG242c"
+            ]
+        },
+        "seo": {
+            "summary": "200 MPH hypercar speedrun across the ocean causeway bridges in GTA 6: motion blur, acoustic wind rush, and flawless 60 FPS streaming.",
+            "timestamps": "0:00 - Causeway Launch Acceleration\n0:08 - Weaving Through Traffic at 200 MPH\n0:18 - Ocean Horizon View at Top Speed",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
+            "tags": [
+                "GTA6",
+                "GTA6Speedrun",
+                "CausewayBridge",
+                "HighwayDriving",
+                "GTA6Gameplay",
+                "Gaming",
+                "Shorts",
+                "RockstarGames"
+            ]
+        }
+    },
+    {
+        "id": "roadside_gas_station_fueling",
+        "topic": "Player Fueling Vehicle at Neon Gas Station",
+        "title": "GTA 6 Interactive Gas Station & Fuel Mechanics Gameplay! ⛽ #Shorts",
+        "hook": "GTA SIX MEIN INTERACTIVE GAS PUMP! CAR REFUELING SYSTEM CONFIRMED?!",
+        "lines": [
+            "GTA Six gameplay me player neon roadside gas station par pump interaction test karta hai!",
+            "Player manually gas nozzle car ke fuel tank me insert karke gallons fuel bhar sakta hai!",
+            "Agar nozzle car me chhod kar drive karte ho toh hose snap hokar fuel spill ignition ban sakta hai!",
+            "Store ke andar functional snack vending machines aur ATM machines available hain!",
+            "Everyday world interactions ko Rockstar ne unmatched depth di hai!"
+        ],
+        "nextgen": {
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay player interacting with gas station pump refueling car mechanics",
+            "start": "00:00:18",
+            "duration": "24",
+            "urls": [
+                "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+                "https://www.youtube.com/watch?v=VQRLujxTm3c"
+            ]
+        },
+        "bgm": {
+            "id": "lost_sky_fearless",
+            "title": "Fearless pt.II",
+            "artist": "Lost Sky (feat. Chris Linton)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic Bass",
+            "credit": "Track: Lost Sky - Fearless pt.II (feat. Chris Linton) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/9rujBm0azWU\nFree Download / Stream: http://ncs.io/fearless2",
+            "section": "*35-65",
+            "urls": [
+                "https://www.youtube.com/watch?v=9rujBm0azWU"
+            ]
+        },
+        "seo": {
+            "summary": "Testing immersive gas station mechanics in GTA 6: interactive fuel nozzles, realistic gas tank filling, hose tension physics, and vending machines.",
+            "timestamps": "0:00 - Pulling Up to Gas Pump\n0:08 - Fuel Nozzle Interaction\n0:18 - Hose Snap & Fuel Spill Physics",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
+            "tags": [
+                "GTA6",
+                "GasStationMechanics",
+                "CarRefueling",
+                "WorldInteractions",
+                "GTA6Gameplay",
+                "Gaming",
+                "Shorts",
+                "RockstarGames"
+            ]
+        }
+    },
+    {
+        "id": "high_speed_police_cruiser_pursuit",
+        "topic": "Streamer Testing 5-Star Police Chase Tactics",
+        "title": "GTA 6 5-Star Police Pursuit Tactical Pit Maneuver! 🚨 #Shorts",
+        "hook": "GTA SIX 5-STAR POLICE PURSUIT! TACTICAL PIT MANEUVER DEKHO!",
+        "lines": [
+            "GTA Six live gameplay me streamer ne 5-star wanted level chase test ki!",
+            "State trooper cruisers multiple angles se box-in maneuvers execute karte hain!",
+            "Helicopter spotlights night fog me beam cast karte hain aur snipers tires target karte hain!",
+            "Spike strips deploy hone par dynamic tire blowout physics aur steering pull realistic hota hai!",
+            "Police chase gameplay tension ko 10 times multiply kar deta hai!"
+        ],
+        "nextgen": {
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer testing 5 star police chase tactical maneuvers pit",
+            "start": "00:00:20",
+            "duration": "24",
+            "urls": [
+                "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+                "https://www.youtube.com/watch?v=VQRLujxTm3c"
+            ]
+        },
+        "bgm": {
+            "id": "janji_heroes_tonight",
+            "title": "Heroes Tonight",
+            "artist": "Janji (feat. Johnning)",
+            "genre": "NoCopyrightSounds (NCS) / Melodic EDM",
+            "credit": "Track: Janji - Heroes Tonight (feat. Johnning) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/3nQNiWdeH2Q\nFree Download / Stream: http://ncs.io/ht",
+            "section": "*15-45",
+            "urls": [
+                "https://www.youtube.com/watch?v=3nQNiWdeH2Q"
+            ]
+        },
+        "seo": {
+            "summary": "Surviving an intense 5-star police chase in GTA 6: coordinated spike strip deployments, tactical pit maneuvers, and police chopper spotlights.",
+            "timestamps": "0:00 - 5-Star Wanted Level Pursuit\n0:09 - Coordinated Cruiser Box-In\n0:18 - Spike Strip Tire Blowout",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
+            "tags": [
+                "GTA6",
+                "5StarWanted",
+                "PoliceChase",
+                "TacticalAI",
+                "GTA6Gameplay",
+                "Gaming",
+                "Shorts",
+                "RockstarGames"
+            ]
+        }
+    },
+    {
+        "id": "npc_smartphone_filming_fights",
+        "topic": "Streamer Provoking Street Fight while NPCs Film with Phones",
+        "title": "GTA 6 NPCs Filming Street Fight on Smartphones! 📱🥊 #Shorts",
+        "hook": "GTA SIX MEIN STREET FIGHT SHURU KARTE HI NPCS PHONE SE SHOOT KARNE LAGE!",
+        "lines": [
+            "GTA Six gameplay me streamer ne beach boulevard par street fight trigger ki!",
+            "Bystanders bhaagne ke bajaye apne smartphones nikal kar horizontal aur vertical video record karne lage!",
+            "Kuch NPCs commentary karte hain aur live streamers chat padhne ka drama karte hain!",
+            "Agar aap phone recorder par sprint karte ho toh wo scream karke phone drop kar dete hain!",
+            "Viral internet culture ki parody Rockstar se behtar koi nahi kar sakta!"
+        ],
+        "nextgen": {
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer starting street fight NPCs recording with smartphones AI",
+            "start": "00:00:15",
+            "duration": "24",
+            "urls": [
+                "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+                "https://www.youtube.com/watch?v=VQRLujxTm3c"
+            ]
+        },
+        "bgm": {
+            "id": "elektronomia_sky_high",
+            "title": "Sky High",
+            "artist": "Elektronomia",
+            "genre": "NoCopyrightSounds (NCS) / Progressive House",
+            "credit": "Track: Elektronomia - Sky High [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://www.youtube.com/watch?v=TW9d8vYrVFQ\nFree Download / Stream: http://ncs.io/skyhigh",
+            "section": "*30-60",
+            "urls": [
+                "https://www.youtube.com/watch?v=TW9d8vYrVFQ"
+            ]
+        },
+        "seo": {
+            "summary": "Provoking street encounters in GTA 6 to test civilian NPC reactions: pulling out smartphones, recording fights, running away when approached.",
+            "timestamps": "0:00 - Street Provocation Test\n0:08 - NPCs Pulling Out Phones\n0:18 - Screaming & Phone Dropping Reactions",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
+            "tags": [
+                "GTA6",
+                "NPCBehavior",
+                "SmartphoneRecording",
+                "CrowdAI",
+                "GTA6Gameplay",
+                "Gaming",
+                "Shorts",
+                "RockstarGames"
+            ]
+        }
+    },
+    {
+        "id": "ocean_beach_npc_diversity_jogging",
+        "topic": "Player Walking Ocean Beach NPC Diversity & Routines",
+        "title": "GTA 6 Crowded Ocean Beach Living World Gameplay! 🏖️ #Shorts",
+        "hook": "GTA SIX OCEAN BEACH PAR 500+ NPCS! LIVING LIVING WORLD AI!",
+        "lines": [
+            "GTA Six gameplay me Ocean Beach par player jab walk karta hai toh living ecosystem dekho!",
+            "Hundreds of NPCs sunbathing, volleyball playing, sunscreen applying, aur pet dogs ko walk kar rahe hain!",
+            "Sand par har footstep aur beach towel realistic physical displacement chhodta hai!",
+            "Lifeguard towers par active lifeguards binoculars se swimmers monitor karte hain!",
+            "Rockstar ka crowd simulation gaming ka naya landmark ban chuka hai!"
+        ],
+        "nextgen": {
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay player walking on crowded beach sunbathing dogs jogging AI",
+            "start": "00:00:15",
+            "duration": "24",
+            "urls": [
+                "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+                "https://www.youtube.com/watch?v=VQRLujxTm3c"
+            ]
+        },
+        "bgm": {
+            "id": "warriyo_mortals",
+            "title": "Mortals",
+            "artist": "Warriyo (feat. Laura Brehm)",
+            "genre": "NoCopyrightSounds (NCS) / Trap / Future Bass",
+            "credit": "Track: Warriyo - Mortals (feat. Laura Brehm) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/yJg-Y5byMMw\nFree Download / Stream: http://ncs.io/mortals",
+            "section": "*20-50",
+            "urls": [
+                "https://www.youtube.com/watch?v=yJg-Y5byMMw"
+            ]
+        },
+        "seo": {
+            "summary": "Walking through the bustling Ocean Beach in GTA 6: over 500 NPCs with unique activities, sunbathers, dogs on leashes, volleyball matches, and active lifeguards.",
+            "timestamps": "0:00 - Crowded Beach Panorama\n0:08 - Unique NPC Daily Routines\n0:18 - Sand Footstep Displacement & Lifeguards",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
+            "tags": [
+                "GTA6",
+                "OceanBeach",
+                "CrowdDiversity",
+                "LivingWorld",
+                "GTA6Gameplay",
+                "Gaming",
+                "Shorts",
+                "RockstarGames"
+            ]
+        }
+    },
+    {
+        "id": "contextual_ambient_pedestrian_conversations",
+        "topic": "Player Eavesdropping on Contextual NPC Conversations",
+        "title": "GTA 6 Eavesdropping on NPC Conversations Gameplay! 🗣️ #Shorts",
+        "hook": "GTA SIX MEIN NPCS KI PRIVATE CONVERSATION SUNI! HAS HAS KE PET DARD HOGA!",
+        "lines": [
+            "GTA Six gameplay me player jab sidewalk par quietly khada hokar NPCs ko eavesdrop karta hai!",
+            "Full voice-acted contextual conversations chal rahi hain Florida politics, crypto scams, aur local drama par!",
+            "Agar player unhe zyada der stare karta hai toh conversation pause karke awkward reaction dete hain!",
+            "Thousands of voice actors ne ambient world ko totally alive aur hilarious bana diya hai!",
+            "Har street corner par ek naya surprise chhipa hai!"
+        ],
+        "nextgen": {
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay player eavesdropping on NPC conversations funny dialogue audio",
+            "start": "00:00:15",
+            "duration": "24",
+            "urls": [
+                "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+                "https://www.youtube.com/watch?v=VQRLujxTm3c"
+            ]
+        },
+        "bgm": {
+            "id": "cartoon_on_and_on",
+            "title": "On & On",
+            "artist": "Cartoon (feat. Daniel Levi)",
+            "genre": "NoCopyrightSounds (NCS) / Drum & Bass",
+            "credit": "Track: Cartoon - On & On (feat. Daniel Levi) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/K4DyBUG242c\nFree Download / Stream: http://ncs.io/onandon",
+            "section": "*25-55",
+            "urls": [
+                "https://www.youtube.com/watch?v=K4DyBUG242c"
+            ]
+        },
+        "seo": {
+            "summary": "Eavesdropping on ambient NPCs in GTA 6: procedural voice dialogue, hilarious Florida satire, and reacting awkwardly when the player stares.",
+            "timestamps": "0:00 - Sidewalk Eavesdropping\n0:08 - Hilarious Contextual Satire\n0:18 - Awkward NPC Stare Reaction",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
+            "tags": [
+                "GTA6",
+                "NPCDialogue",
+                "VoiceActing",
+                "AmbientAudio",
+                "GTA6Gameplay",
+                "Gaming",
+                "Shorts",
+                "RockstarGames"
+            ]
+        }
+    },
+    {
+        "id": "rush_hour_traffic_bridge_gridlock",
+        "topic": "Streamer Navigating Rush Hour Bridge Traffic Jam",
+        "title": "GTA 6 Rush Hour Traffic Jam & Dynamic AI Honking! 🚦 #Shorts",
+        "hook": "GTA SIX MEIN REAL RUSH HOUR TRAFFIC JAM! AI DRIVERS KA GUSSAN DEKHO!",
+        "lines": [
+            "GTA Six gameplay me streamer ne rush hour me downtown bridge par traffic flow test kiya!",
+            "Hundreds of individual vehicles dynamic lane merges, turning signals, aur impatient honking simulate karte hain!",
+            "Kuch aggressive drivers shoulder se overtake karte hain aur window se road rage gestures dete hain!",
+            "Traffic jam me ambulances sirens par cars naturally pull over hokar clear path deti hain!",
+            "Rockstar ka traffic simulation real life se indistinguishable hai!"
+        ],
+        "nextgen": {
+            "label": "GTA 6 GAMEPLAY",
+            "query": "GTA 6 gameplay streamer navigating rush hour traffic jam dynamic honking AI",
             "start": "00:00:16",
-            "duration": "24"
-        },
-        "bgm": {
-            "id": "cartoon_on_and_on",
-            "title": "On & On",
-            "artist": "Cartoon (feat. Daniel Levi)",
-            "genre": "NoCopyrightSounds (NCS) / Drum & Bass",
-            "credit": "Track: Cartoon - On & On (feat. Daniel Levi) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/K4DyBUG242c\nFree Download / Stream: http://ncs.io/onandon",
-            "section": "*25-55",
-            "urls": [
-                "https://www.youtube.com/watch?v=K4DyBUG242c"
-            ]
-        },
-        "seo": {
-            "summary": "Comparing Bridges & Multi-Lane Highway Networks from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Bridges & Multi-Lane Highway Networks\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
-            "tags": [
-                "GTA6",
-                "RockstarGames",
-                "GTA6Gameplay",
-                "GTA6Trailer",
-                "Gaming",
-                "Shorts",
-                "NextGenGraphics"
-            ]
-        }
-    },
-    {
-        "id": "gas_stations_service_stops",
-        "topic": "Gas Stations & Service Stops",
-        "title": "GTA Vice City vs GTA 6 Gas Station Details! ⛽ #Shorts",
-        "hook": "VICE CITY KE LOW-POLY PETROL PUMPS VS GTA SIX KE PHOTOREALISTIC GAS STATIONS!",
-        "lines": [
-            "Vice City me gas stations bas simple box-shaped pumps the jahan gaadi touch hote hi fireworks ki tarah explosion ho jaata tha!",
-            "Lekin GTA Six me modern service plazas aur fuel stops dekho!",
-            "LED digital price signage boards, realistic fuel nozzles, canopy lighting, aur fully functional roadside mart interiors!",
-            "Rockstar Games har ek mundane real-world location ko bhi masterpiece bana deta hai!"
-        ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City gas station refueling pump explosion gameplay",
-            "start": "00:00:25",
-            "duration": "24"
-        },
-        "nextgen": {
-            "label": "GTA SIX (2025)",
+            "duration": "24",
             "urls": [
                 "https://www.youtube.com/watch?v=QdBZY2fkU-0",
                 "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 roadside convenience store neon gas station fuel stop",
-            "start": "00:00:56",
-            "duration": "24"
+            ]
         },
         "bgm": {
             "id": "lost_sky_fearless",
@@ -1273,319 +1337,24 @@ STREAM_TARGETS = [
             ]
         },
         "seo": {
-            "summary": "Comparing Gas Stations & Service Stops from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Gas Stations & Service Stops\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
+            "summary": "Testing rush hour traffic simulation on Vice City causeway bridges in GTA 6: bumper-to-bumper traffic jams, road rage animations, and emergency vehicle yielding.",
+            "timestamps": "0:00 - Causeway Bridge Gridlock\n0:08 - Aggressive AI Lane Merging\n0:18 - Emergency Vehicle Yielding",
+            "fair_use": "Fair Use Notice: This video contains transformative analysis, critique, and technical commentary of gameplay footage under Section 107 of the Copyright Act 1976.",
+            "hashtags": "#Shorts #GTA6 #GTA6Gameplay #RockstarGames #Gaming #ViceCity",
             "tags": [
                 "GTA6",
-                "RockstarGames",
+                "TrafficSimulation",
+                "RushHour",
+                "RoadRageAI",
                 "GTA6Gameplay",
-                "GTA6Trailer",
                 "Gaming",
                 "Shorts",
-                "NextGenGraphics"
-            ]
-        }
-    },
-    {
-        "id": "police_pursuit_tactics",
-        "topic": "Police Pursuit Tactics & AI Maneuvers",
-        "title": "Vice City vs GTA 6 Police Tactics & AI! 🚔 #Shorts",
-        "hook": "VICE CITY KE ARCADE POLICE RAMS VS GTA SIX KE REALISTIC TACTICAL ROADBLOCKS!",
-        "lines": [
-            "Vice City me wanted level aate hi police squad cars bina kisi logic ke sidha aapke vehicle me blind ramming karti thi!",
-            "Lekin GTA Six me realistic law enforcement AI dekho!",
-            "Coordinated PIT maneuvers, strategic roadblocks, tyre spikes deployment, aur tactical encirclement formations!",
-            "AI coordination itna smart hai ki escape karne ke liye proper route planning karni padegi!",
-            "Next-gen AI at its finest!"
-        ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City police car chase wanted level squad cars ramming gameplay",
-            "start": "00:00:30",
-            "duration": "24"
-        },
-        "nextgen": {
-            "label": "GTA SIX (2025)",
-            "urls": [
-                "https://www.youtube.com/watch?v=QdBZY2fkU-0",
-                "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 high speed squad car police pursuit tactical cruiser chase",
-            "start": "00:01:03",
-            "duration": "24"
-        },
-        "bgm": {
-            "id": "janji_heroes_tonight",
-            "title": "Heroes Tonight",
-            "artist": "Janji (feat. Johnning)",
-            "genre": "NoCopyrightSounds (NCS) / Melodic EDM",
-            "credit": "Track: Janji - Heroes Tonight (feat. Johnning) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/3nQNiWdeH2Q\nFree Download / Stream: http://ncs.io/ht",
-            "section": "*15-45",
-            "urls": [
-                "https://www.youtube.com/watch?v=3nQNiWdeH2Q"
-            ]
-        },
-        "seo": {
-            "summary": "Comparing Police Pursuit Tactics & AI Maneuvers from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Police Pursuit Tactics & AI Maneuvers\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
-            "tags": [
-                "GTA6",
-                "RockstarGames",
-                "GTA6Gameplay",
-                "GTA6Trailer",
-                "Gaming",
-                "Shorts",
-                "NextGenGraphics"
-            ]
-        }
-    },
-    {
-        "id": "npc_phone_recording_ai",
-        "topic": "NPC Phone Recording & Viral Culture AI",
-        "title": "GTA Vice City vs GTA 6 NPC Reactions! 📱👥 #Shorts",
-        "hook": "VICE CITY KE LOOPING NPCS VS GTA SIX KE SMARTPHONE RECORDING CROWDS!",
-        "lines": [
-            "2002 ke Vice City me pedestrians bas 2-3 standard voice lines bol kar ek hi straight line me bhag jaate the!",
-            "Par GTA Six me modern crowd psychology dekho!",
-            "Street par koi crazy incident hote hi passing NPCs turnt smartphone nikal kar video record karne lagte hain, group reactions dete hain, aur social media par upload karte hain!",
-            "Ye level of behavioral intelligence gaming history me pehle kabhi nahi dekha gaya!"
-        ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City pedestrians running panic screaming funny AI reactions gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
-        "nextgen": {
-            "label": "GTA SIX (2025)",
-            "urls": [
-                "https://www.youtube.com/watch?v=QdBZY2fkU-0",
-                "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 crowd recording with smartphones street reactions viral video",
-            "start": "00:00:53",
-            "duration": "24"
-        },
-        "bgm": {
-            "id": "elektronomia_sky_high",
-            "title": "Sky High",
-            "artist": "Elektronomia",
-            "genre": "NoCopyrightSounds (NCS) / Progressive House",
-            "credit": "Track: Elektronomia - Sky High [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://www.youtube.com/watch?v=TW9d8vYrVFQ\nFree Download / Stream: http://ncs.io/skyhigh",
-            "section": "*30-60",
-            "urls": [
-                "https://www.youtube.com/watch?v=TW9d8vYrVFQ"
-            ]
-        },
-        "seo": {
-            "summary": "Comparing NPC Phone Recording & Viral Culture AI from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic NPC Phone Recording & Viral Culture AI\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
-            "tags": [
-                "GTA6",
-                "RockstarGames",
-                "GTA6Gameplay",
-                "GTA6Trailer",
-                "Gaming",
-                "Shorts",
-                "NextGenGraphics"
-            ]
-        }
-    },
-    {
-        "id": "beach_crowd_diversity",
-        "topic": "Beach Crowd Density & Routine Diversity",
-        "title": "Vice City vs GTA 6 Beach Crowd AI! 🏖️👥 #Shorts",
-        "hook": "VICE CITY KE EMPTY BEACHES VS GTA SIX KE HYPER REALISTIC BEACH CROWDS!",
-        "lines": [
-            "Vice City ke Ocean Beach par 2002 me mushkil se 4-5 repeated NPC models dikhte the jo robotic loop me stroll karte the!",
-            "Par GTA Six ke Trailer 1 me Ocean Beach ka aerial aur ground shot dekho!",
-            "Hunderds of distinct NPCs—koi sunscreen apply kar raha hai, koi jog kar raha hai, koi dog walk kar raha hai, aur koi beach umbrella ke neeche relax kar raha hai!",
-            "Dunia ka sabse living, breathing open world!"
-        ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City Ocean Beach empty shore walking pedestrians retro gameplay",
-            "start": "00:00:15",
-            "duration": "24"
-        },
-        "nextgen": {
-            "label": "GTA SIX (2025)",
-            "urls": [
-                "https://www.youtube.com/watch?v=QdBZY2fkU-0",
-                "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 beach drone shot crowd diversity sunbathing jogging umbrella activities",
-            "start": "00:00:24",
-            "duration": "24"
-        },
-        "bgm": {
-            "id": "warriyo_mortals",
-            "title": "Mortals",
-            "artist": "Warriyo (feat. Laura Brehm)",
-            "genre": "NoCopyrightSounds (NCS) / Trap / Future Bass",
-            "credit": "Track: Warriyo - Mortals (feat. Laura Brehm) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/yJg-Y5byMMw\nFree Download / Stream: http://ncs.io/mortals",
-            "section": "*20-50",
-            "urls": [
-                "https://www.youtube.com/watch?v=yJg-Y5byMMw"
-            ]
-        },
-        "seo": {
-            "summary": "Comparing Beach Crowd Density & Routine Diversity from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Beach Crowd Density & Routine Diversity\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
-            "tags": [
-                "GTA6",
-                "RockstarGames",
-                "GTA6Gameplay",
-                "GTA6Trailer",
-                "Gaming",
-                "Shorts",
-                "NextGenGraphics"
-            ]
-        }
-    },
-    {
-        "id": "pedestrian_conversational_ai",
-        "topic": "Pedestrian Ambient Conversational AI",
-        "title": "GTA Vice City vs GTA 6 NPC Conversations! 🗣️ #Shorts",
-        "hook": "VICE CITY KE REPETITIVE AUDIO CLIPS VS GTA SIX KE CONTEXTUAL NPC DIALOGUES!",
-        "lines": [
-            "Vice City me pedestrians se pass hone par wahi generic repetitive lines bajti thi!",
-            "Lekin GTA Six me revolutionary contextual audio engine dekhne ko mil raha hai!",
-            "NPCs environment, player appearance, weather condition aur current situation ke according natural bilingual conversations karte hain in English aur Spanish!",
-            "Street par chalti lively gossip sunkar lagta hai aap sach me Miami me khade ho!"
-        ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City funny pedestrian quotes NPC dialogue audio speech gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
-        "nextgen": {
-            "label": "GTA SIX (2025)",
-            "urls": [
-                "https://www.youtube.com/watch?v=QdBZY2fkU-0",
-                "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 club exterior nightlife crowd chatter pedestrian ambience voices",
-            "start": "00:00:48",
-            "duration": "24"
-        },
-        "bgm": {
-            "id": "cartoon_on_and_on",
-            "title": "On & On",
-            "artist": "Cartoon (feat. Daniel Levi)",
-            "genre": "NoCopyrightSounds (NCS) / Drum & Bass",
-            "credit": "Track: Cartoon - On & On (feat. Daniel Levi) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/K4DyBUG242c\nFree Download / Stream: http://ncs.io/onandon",
-            "section": "*25-55",
-            "urls": [
-                "https://www.youtube.com/watch?v=K4DyBUG242c"
-            ]
-        },
-        "seo": {
-            "summary": "Comparing Pedestrian Ambient Conversational AI from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Pedestrian Ambient Conversational AI\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
-            "tags": [
-                "GTA6",
-                "RockstarGames",
-                "GTA6Gameplay",
-                "GTA6Trailer",
-                "Gaming",
-                "Shorts",
-                "NextGenGraphics"
-            ]
-        }
-    },
-    {
-        "id": "highway_traffic_gridlock",
-        "topic": "Highway Traffic Flow & Gridlock Dynamics",
-        "title": "Vice City vs GTA 6 Traffic Simulation! 🚗🚕 #Shorts",
-        "hook": "VICE CITY KE DESPAWNING CARS VS GTA SIX KA PERSISTENT HIGHWAY TRAFFIC!",
-        "lines": [
-            "Purane Vice City me piche mudkar dekhte hi gaadiyan gayab ho jaati thi aur traffic bas 3-4 random cars generate karta tha!",
-            "Par GTA Six me complex traffic flow simulation dekho!",
-            "Rush hour congestion, proper lane switching, turning indicators, delivery trucks, aur emergency vehicle right-of-way AI!",
-            "Traffic despawn nahi hota, balki realistic city road network follow karta hai!",
-            "Engineering brilliance by Rockstar!"
-        ],
-        "classic": {
-            "label": "GTA VICE CITY (2002)",
-            "urls": [
-                "https://www.youtube.com/watch?v=RjZhpjVEIks",
-                "https://www.youtube.com/watch?v=vszFURwcoaU",
-                "https://www.youtube.com/watch?v=PjVyENqXtAU"
-            ],
-            "query": "GTA Vice City traffic despawning cars turning camera highway traffic gameplay",
-            "start": "00:00:20",
-            "duration": "24"
-        },
-        "nextgen": {
-            "label": "GTA SIX (2025)",
-            "urls": [
-                "https://www.youtube.com/watch?v=QdBZY2fkU-0",
-                "https://www.youtube.com/watch?v=VQRLujxTm3c"
-            ],
-            "query": "GTA 6 Trailer 1 highway traffic gridlock multi lane bridge rush hour cars",
-            "start": "00:00:16",
-            "duration": "24"
-        },
-        "bgm": {
-            "id": "lost_sky_fearless",
-            "title": "Fearless pt.II",
-            "artist": "Lost Sky (feat. Chris Linton)",
-            "genre": "NoCopyrightSounds (NCS) / Melodic Bass",
-            "credit": "Track: Lost Sky - Fearless pt.II (feat. Chris Linton) [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: http://youtu.be/9rujBm0azWU\nFree Download / Stream: http://ncs.io/fearless2",
-            "section": "*35-65",
-            "urls": [
-                "https://www.youtube.com/watch?v=9rujBm0azWU"
-            ]
-        },
-        "seo": {
-            "summary": "Comparing Highway Traffic Flow & Gridlock Dynamics from classic GTA to next-gen Vice City in GTA 6! See the massive technical leap in Rockstar's open world.",
-            "timestamps": "0:00 - Classic Highway Traffic Flow & Gridlock Dynamics\n0:12 - GTA 6 Next-Gen Graphics\n0:22 - Comparison Verdict",
-            "fair_use": "Fair Use Notice: This video contains transformative comparative commentary, critique, and technical analysis under Section 107 of the Copyright Act 1976.",
-            "hashtags": "#Shorts #GTA6 #RockstarGames #Gaming #GTA6Trailer",
-            "tags": [
-                "GTA6",
-                "RockstarGames",
-                "GTA6Gameplay",
-                "GTA6Trailer",
-                "Gaming",
-                "Shorts",
-                "NextGenGraphics"
+                "RockstarGames"
             ]
         }
     }
 ]
+
 
 
 
