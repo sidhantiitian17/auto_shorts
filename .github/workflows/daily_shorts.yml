@@ -35,8 +35,12 @@ jobs:
 
       - name: Verify System Dependencies (FFmpeg & Node)
         run: |
-          which ffmpeg || sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
-          which node || sudo apt-get install -y --no-install-recommends nodejs
+          if ! command -v ffmpeg &> /dev/null; then
+            sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
+          fi
+          if ! command -v node &> /dev/null; then
+            sudo apt-get update && sudo apt-get install -y --no-install-recommends nodejs
+          fi
           ffmpeg -version | head -n 1
           node -v
 

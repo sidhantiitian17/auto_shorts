@@ -20,3 +20,8 @@ work/
 *.mp3
 *.png
 *.jpg
+
+# Track curated pre-bundled video and audio assets
+!assets/
+!assets/**
+
